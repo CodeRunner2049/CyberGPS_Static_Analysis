@@ -1,0 +1,23 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Name of Project/Request: Ziosoft Software deployment
+- Description: Configure and build desktop and laptop for Ziosoft Software deployment.
+
+3. Project Summary:
+The project involves configuring and building desktop and laptop systems to facilitate the deployment of Ziosoft Software. It may involve ensuring the security and efficient functioning of the software within the specified systems.
+
+4. Probabilistic Matches:
+- 0.1: 'Detect and analyze threats'

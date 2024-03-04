@@ -1,0 +1,210 @@
+﻿CaregiverId,FullName,ManagerId,IsComunityHead,CommunityName,Title,SquadName,ReportViewerName
+1,"Zeynalov, Vugar",1,1,Cybersecurity,Chief Information Security Officer,NULL,ELT
+4,"Butler, Thomas",1,1,Intelligence,Senior Director IT Center of Excellence,NULL,Community
+5,"Fall, Mangone",1,0,Cybersecurity,Executive Director Cybersecurity,NULL,ELT
+6,"Doan, John",1,1,Advisory,Senior Director IT Center of Excellence,NULL,Community
+7,"Duemling, Keith",5,1,Technology Protection,Senior Director IT Center of Excellence,NULL,Community
+14,"Garayev, Faig",6,0,Advisory,Cybersecurity Architect,NULL,Individual
+16,"Byrne, Brian",46,0,Assurance,Cybersecurity Engineer,Compliance,Individual
+18,"Doepker, Ryan",24,0,Intelligence,Cybersecurity Engineer,Threat Simulation,Individual
+21,"Berberick, Matthew",32,0,Intelligence,Senior Cybersecurity Specialist,Incident Response,Individual
+22,"Diffenbacher, Michael Vernon",32,0,Intelligence,Senior Cybersecurity Specialist,Threat Hunting,Individual
+23,"Migletz, Alexander",32,0,Intelligence,Cybersecurity Specialist,Cyber Monitoring,Individual
+24,"Card, Darius",4,0,Intelligence,Manager Cybersecurity,Vulnerability Management,Squad
+26,"DeFrancesco, Austin",24,0,Intelligence,Cybersecurity Engineer,Threat Simulation,Individual
+27,"Parr, Nathan",24,0,Intelligence,Cybersecurity Engineer,Threat Intelligence,Individual
+28,"Abukhaled, Raied",32,0,Intelligence,Senior Cybersecurity Specialist,Cyber Monitoring,Individual
+29,"Widemann, Reiner",4,0,Intelligence,Cybersecurity Engineer,"Tooling, Automation, Content and Data Science",Individual
+30,"Hernandez, Joe",24,0,Intelligence,Senior Cybersecurity Specialist,Threat Intelligence,Individual
+31,"Penrod, Jared",24,0,Intelligence,Senior Cybersecurity Specialist,Vulnerability Management,Individual
+32,"Gross, Michael",4,0,Intelligence,Manager Cybersecurity,NULL,Squad
+33,"Mccrillis, Brad",4,0,Intelligence,Cybersecurity Engineer,"Tooling, Automation, Content and Data Science",Individual
+34,"Shobeyrifard, Farhat",24,0,Intelligence,Cybersecurity Specialist,Threat Simulation,Individual
+35,"Tambascio, Kevin",5,1,Data and Application Protection,Director Cybersecurity Technology Protection,NULL,Community
+37,"Smith, Zachary",32,0,Intelligence,Cybersecurity Team Lead,Cyber Monitoring,Individual
+38,"Lemon, Robert",4,0,Intelligence,Cybersecurity Engineer,"Tooling, Automation, Content and Data Science",Individual
+39,"Clements, Alan",32,0,Intelligence,Cybersecurity Specialist,Incident Response,Individual
+40,"Bowman, Kenneth",32,0,Intelligence,Senior Cybersecurity Specialist,Threat Hunting,Individual
+41,"Bricco, Ryan",45,0,Assurance,Senior Cybersecurity Analyst,Governance,Individual
+42,"Fittro, Kenneth",46,0,Assurance,Cybersecurity Specialist,Compliance,Individual
+43,"Behl, Michael",6,0,Advisory,Senior Cybersecurity Specialist,NULL,Individual
+44,"Spalding, David",45,0,Assurance,Senior Cybersecurity Specialist,Governance,Individual
+45,"Mareno, Robert",141,0,Assurance,Manager Cybersecurity,Governance,Squad
+46,"Collins, Jason",141,0,Assurance,Manager Cybersecurity,Compliance,Squad
+47,"Beck, Cristina",141,0,Assurance,Manager Cybersecurity,Risk,Squad
+48,"Lewis, Ronald",47,0,Assurance,Cybersecurity Analyst,Risk,Individual
+50,"Wiley, Ryan",45,0,Assurance,Senior Cybersecurity Analyst,Governance,Individual
+51,"Lang, Samantha",47,0,Assurance,Cybersecurity Specialist,Risk,Individual
+52,"Etok, Bassey",46,0,Assurance,Cybersecurity Analyst,Compliance,Individual
+53,"Patel, Gita",45,0,Assurance,Senior Cybersecurity Analyst,Governance,Individual
+54,"Darlington, Scott",45,0,Assurance,Cybersecurity Specialist,Governance,Individual
+55,"Brown, Meredith",45,0,Assurance,Cybersecurity Specialist,Governance,Individual
+56,"Stephens, Patrick",47,0,Assurance,Cybersecurity Specialist,Risk,Individual
+58,"Gabanic, Cheryl",NULL,0,Identity,Cybersecurity Specialist,Identity Design,Individual
+59,"Touma, Tracey",6,0,Advisory,Senior Cybersecurity Specialist,Advisory,Individual
+60,"Kirk, Marsha",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+61,"Schiavone, Russell",90,0,Identity,Senior Cybersecurity Specialist,Identity Engineering,Individual
+62,"Rausch, Allison",97,0,Identity,Senior Cybersecurity Analyst,Identity Provisioning,Individual
+63,"Blackwell, Tami",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+64,"Whapham, David",90,0,Identity,Cybersecurity Engineer,Identity Engineering,Individual
+65,"Wolos, Kimberly",88,0,Identity,Cybersecurity Specialist,Identity Design,Individual
+66,"Fahey, Patrick",88,0,Identity,Cybersecurity Specialist,Identity Design,Individual
+67,"Penna, Joseph",97,0,Identity,Cybersecurity IAM Technician,Identity Provisioning,Individual
+68,"Lewis, Jessica",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+69,"Peavy, Ladonna",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+70,"Fallert, Raymond",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+71,"Dantzler, Veronica",88,0,Identity,Cybersecurity Team Lead,Identity Provisioning,Individual
+72,"Rogers, Jeneen",NULL,0,Identity,Cybersecurity Specialist,Identity Design,Individual
+73,"Petti, Alexander",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+75,"Maltry, Shane",97,0,Identity,Cybersecurity IAM Technician,Identity Provisioning,Individual
+76,"Carroll, David",90,0,Identity,Senior Cybersecurity Specialist,Identity Engineering,Individual
+78,"Atkins Parker, Kim",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+79,"Rylicki, Sherrie",NULL,0,Identity,Senior Cybersecurity Specialist,Identity Design,Individual
+80,"Costantino, Christopher",90,0,Identity,Senior Cybersecurity Analyst,Identity Engineering,Individual
+81,"Hessel, Scott",90,0,Identity,Senior Cybersecurity Specialist,Identity Engineering,Individual
+82,"Greene, Geavona",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+83,"Bobba, Deepthi",90,0,Identity,Enterprise Cybersecurity Engineer,Identity Engineering,Individual
+84,"Neely, Rebbecca",88,0,Identity,Senior Cybersecurity Specialist,Identity Design,Individual
+85,"Dansoko, Salim",97,0,Identity,Cybersecurity IAM Technician,Identity Provisioning,Individual
+86,"Martin, James",90,0,Identity,Cybersecurity Analyst,Identity Provisioning,Individual
+87,"Ajewole, Akingbade",90,0,Identity,Enterprise Cybersecurity Engineer,Identity Engineering,Individual
+88,"George, Kathleen",5,0,Identity,Manager Cybersecurity,Identity Design,Squad
+89,"Stohlman, Sheri",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+90,"Walton, Randall",5,0,Identity,Manager Cybersecurity,Identity Engineering,Squad
+91,"Bowdle, Matthew",90,0,Identity,Cybersecurity Engineer,Identity Engineering,Individual
+92,"Bucceri, John",97,0,Identity,Senior Cybersecurity Analyst,Identity Provisioning,Individual
+93,"Lewis, Dawn",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+94,"Cockram, Kerry",90,0,Identity,Senior Cybersecurity Specialist,Identity Engineering,Individual
+95,"Fennell, Anna",47,0,Assurance,Senior Cybersecurity Analyst,Risk,Individual
+96,"D'Angelo, Patrick",90,0,Identity,Senior Cybersecurity Specialist,Identity Engineering,Individual
+97,"Albano, Thomas",5,0,Identity,Manager Cybersecurity,Identity Provisioning,Squad
+98,"Scheid, David",35,0,Data and Application Protection,Cybersecurity Engineer,Application Protection,Individual
+100,"Topuzlu, Onur",35,0,Data and Application Protection,Cybersecurity Team Lead,Application Protection,Individual
+101,"Rose, Joseph",35,0,Data and Application Protection,Cybersecurity Team Lead,Data Protection,Individual
+102,"Jin, Gang",35,0,Data and Application Protection,Cybersecurity Engineer,Data Protection,Individual
+103,"Ates, Engin",35,0,Data and Application Protection,Cybersecurity Engineer,Application Protection,Individual
+105,"Shatzer, Gary",35,0,Data and Application Protection,Cybersecurity Engineer,Data Protection,Individual
+106,"Jacobs, Kirk",6,0,Advisory,Senior Cybersecurity Architect,Advisory,Individual
+108,"Stransky, Christopher",6,0,Advisory,Senior Cybersecurity Architect,Advisory,Individual
+109,"Cook, Matthew",6,0,Advisory,Cybersecurity Architect,Advisory,Individual
+111,"Dennis, Larry",6,0,Advisory,Cybersecurity Architect,Advisory,Individual
+112,"Malaska, Edward",6,0,Advisory,Senior Cybersecurity Specialist,Advisory,Individual
+114,"Butler, John",6,0,Advisory,Senior Cybersecurity Architect,Advisory,Individual
+115,"Ricker, Shane",6,0,Advisory,Cybersecurity Architect,Advisory,Individual
+116,"Welker, Angie",6,0,Advisory,Enterprise Cybersecurity Engineer,Advisory,Individual
+117,"Boyd, Devon",120,0,Technology Protection,Senior Cybersecurity Specialist,Network Protection,Individual
+119,"Thompson, Jarrod",129,0,Technology Protection,Senior Cybersecurity Specialist,Caregiver & Endpoint Protection,Individual
+120,"Clark, Shawn",7,0,Technology Protection,Manager Cybersecurity,Network Protection,Squad
+121,"Boyea, Michael",6,0,Advisory,Cybersecurity Architect,Advisory,Individual
+122,"Murry, Samson",129,0,Technology Protection,Senior Cybersecurity Specialist,Caregiver & Endpoint Protection,Individual
+124,"Taylor, David",120,0,Technology Protection,Cybersecurity Engineer,Network Protection,Individual
+125,"Brustman, Mitch",120,0,Technology Protection,Cybersecurity Engineer,Network Protection,Individual
+126,"Mague, Hugh",97,0,Identity,Cybersecurity Specialist,Identity Provisioning,Individual
+127,"Ning, Jeff",129,0,Technology Protection,Cybersecurity Specialist,Caregiver & Endpoint Protection,Individual
+128,"Shields, Alex",24,0,Intelligence,Cybersecurity Team Lead,Threat Simulation,Individual
+129,"Aquila, Thomas",7,0,Technology Protection,Manager Cybersecurity,Caregiver & Endpoint Protection,Squad
+131,"Thackshire, David",120,0,Technology Protection,Cybersecurity Engineer,Network Protection,Individual
+132,"Pettit, James",120,0,Technology Protection,Cybersecurity Engineer,Network Protection,Individual
+133,"Anderson, Clay",7,0,Technology Protection,Cybersecurity Specialist,Network Protection,Individual
+134,"Branch, Daryl",6,0,Advisory,Remote Access Contractor,NULL,Individual
+141,"Sharma, Rakesh",1,1,Assurance,Senior Director IT Center of Excellence,NULL,Community
+145,"McMyler, Shaun",24,0,Intelligence,Cybersecurity Analyst,Vulnerability Management,Individual
+148,"Beaver, Connor",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+149,"Kotakonda, Sai Kiran",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+159,"Thornton, Dani",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+161,"Thatoi, Arup Jyoti",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+168,"Nortey, Alan",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+169,"Sahu, Raunak",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+174,"Price, Adam",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+177,"Maddala, S M Divakar",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+178,"Singh, Shruti",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+183,"Priyadarshi, Johnson",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+188,"Narang, Rohit",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+189,"Jain, Rahul",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+191,"D'Mello, Ria",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+198,"Stout, James",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+201,"Agrawal, Apoorve",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+204,"Huang, Hubert",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+208,"Harshitha, Sigaram",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+209,"Smith, Justin",32,0,Intelligence,Cybersecurity Specialist,Cyber Monitoring,Individual
+216,"Kumari, Puja",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+217,"Smith, Alexander",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+226,"Merlo, Jared",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+227,"Chang, Ethan",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+237,"Bernard, Samuel",114,0,Advisory,Remote Access Contractor,NULL,Individual
+242,"Endres, Seth",6,0,Advisory,Contractor,NULL,Individual
+265,"Kushwaha, Ajay",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+295,"Dean, Susan",97,0,Identity,Cybersecurity IAM Technician,Identity Provisioning,Individual
+299,"Madiraju, Manjunath",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+304,"Butkus, Jason",90,0,Identity,Cybersecurity Engineer,Identity Engineering,Individual
+312,"Emrich, Stephen",NULL,0,Identity,Cybersecurity Specialist,Identity Design,Individual
+336,"Greer, Devin",35,0,Data and Application Protection,Cybersecurity Engineer,Data Protection,Individual
+337,"Mirea, Marian",47,0,Assurance,Cybersecurity Specialist,Risk,Individual
+338,"Rohatgi, Divya",47,0,Assurance,Remote Access Contractor,NULL,Individual
+347,"Dorsey, Sharee",32,0,Intelligence,Cybersecurity Team Lead,Cyber Monitoring,Individual
+348,"Parker, Gareth",6,0,Advisory,Enterprise Cybersecurity Engineer,Advisory,Individual
+349,"Kremer, Caleb",24,0,Intelligence,Cybersecurity Associate,Threat Simulation,Individual
+350,"Blunt, Brandyn",47,0,Assurance,Senior Cybersecurity Specialist,Risk,Individual
+351,"Russell, Robert",120,0,Technology Protection,Senior Cybersecurity Specialist,Network Protection,Individual
+352,"Gregory, Lenworth",88,0,Identity,Clinical Systems Analyst II,Identity Provisioning,Individual
+353,"Pease, Traci",88,0,Identity,Cybersecurity Epic Security Analyst,Identity Provisioning,Individual
+354,"Stehlin, Mitchell",35,0,Data and Application Protection,Cybersecurity Engineer,Cloud Protection,Individual
+357,"Wagner, Michael",97,0,Identity,Cybersecurity IAM Technician,Identity Provisioning,Individual
+732,"Adu-Boateng, Richmond",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+733,"Agrawal, Vishal",90,0,Identity,Remote Access Contractor,NULL,Individual
+739,"Arora, Vanshika",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+742,"Bali, Aakash",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+744,"Bellew, Keren Lynne",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+745,"Benson, Dale",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+749,"Brown, Nathan",24,0,Intelligence,Cybersecurity Analyst,Threat Intelligence,Individual
+753,"Chacko, Anoop",35,0,Data and Application Protection,Remote Access Contractor,NULL,Individual
+760,"Deori, Ankur Bikash",35,0,Data and Application Protection,Remote Access Contractor,NULL,Individual
+761,"Dixit, Arunesh",90,0,Identity,Remote Access Contractor,NULL,Individual
+766,"Gampala, Bharath",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+767,"Gangwar, Utkarsh",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+768,"Garg, Ridhi",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+769,"G, Harish",90,0,Identity,Remote Access Contractor,NULL,Individual
+770,"Giaquinto, Paul",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+774,"GUPTA, MIMANSHA",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+777,"Gutierrez, Faubricio",114,0,Advisory,Remote Access Contractor,NULL,Individual
+779,"Hall, Mark",46,0,Assurance,Cybersecurity Analyst,Compliance,Individual
+784,"Hefler, Andrew",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+786,"Horton, Haileigh",114,0,Advisory,Remote Access Contractor,NULL,Individual
+789,"Jain, Kewal",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+796,"Kota, Anil",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+798,"Krupka, Michael",46,0,Assurance,Senior Cybersecurity Analyst,Compliance,Individual
+815,"Miller, Tracy",45,0,Assurance,Remote Access Contractor,NULL,Individual
+818,"Mrinal, Kumar",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+819,"M, Selvamoorthy",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+821,"Nagariya, Vaibhav",35,0,Data and Application Protection,Remote Access Contractor,NULL,Individual
+824,"Or, Saranya",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+825,"Palanki, Amruta",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+831,"Postma, Richard",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+832,"Pszonowsky, Jacob",90,0,Identity,Account Manager,NULL,Individual
+833,"Rastogi, Sahil",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+835,"Ravulakolu, Kiranbabu",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+840,"Roth, William",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+848,"Satija, Shivangi",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+857,"Sowanick, Isaac",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+858,"S, Subhiksha",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+862,"Thakur, Bhavuk",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+864,"Updegraff, Ryan",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+865,"Vandana, Basva",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+866,"Veeru, Soni",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+874,"Yashwanth, S",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+880,"Adams, Jason",24,0,Intelligence,Senior Cybersecurity Analyst,Vulnerability Management,Individual
+881,"Bhargav, Chintala",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+882,"Bhushan, Shivam",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+883,"Bing, Daniel",120,0,Technology Protection,Cybersecurity Specialist,Network Protection,Individual
+884,"Bose, Arumita",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+885,"Landolph, Richard",129,0,Technology Protection,Cybersecurity Specialist,Caregiver & Endpoint Protection,Individual
+886,"Miller, Andre",46,0,Assurance,Cybersecurity Analyst,Compliance,Individual
+887,"Saraogi, Ayushi",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+889,"Kadali, Narendra",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+902,"Cieplowski, Adam",120,0,Technology Protection,Senior Cybersecurity Analyst,Network Protection,Individual
+904,"Campbell, Timothy",120,0,Technology Protection,Cybersecurity Analyst,Network Protection,Individual
+905,"Szewczyk, Robert",32,0,Intelligence,Remote Access Contractor,NULL,Individual
+906,"Gubba, Nagamani",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+907,"Jadhav, Pravin",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+908,"Borse, Harshad",90,0,Identity,Cybersecurity Engineer,NULL,Individual
+913,"Prasanna, Rallapalli",90,0,Identity,Cybersecurity Engineer,NULL,Individual

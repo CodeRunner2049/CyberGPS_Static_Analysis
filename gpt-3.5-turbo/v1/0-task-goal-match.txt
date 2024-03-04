@@ -1,0 +1,14 @@
+**Step 1: Project Goal descriptions:**
+- The project goals include various aspects related to cybersecurity measures, protection of critical systems, data protection, compliance with regulations like HIPAA and PCI, managing risks, and industry maturity based on NIST guidelines.
+
+**Step 2: Project Task keywords:**
+- Keywords: Cybersecurity, research requests, criteria/requirements, GRC (Governance, Risk, and Compliance), Service Delivery Team, compliance, SLA (Service Level Agreement), OT assessment, Technical Risks, Regulatory Risks, STakeholders, Roles, Data Classification, Data Storage, Security Controls.
+
+**Step 3: Project Summary:**
+The project involves conducting research to develop criteria and requirements for engaging cybersecurity services, particularly focusing on ensuring compliance, engaging the Service Delivery Team, reviewing research studies, establishing SLAs, handling research device connections, and addressing technical and regulatory risks related to data protection and security controls.
+
+**Step 4: Probability Matches:**
+1. Criteria/Requirements Development for Cybersecurity Services: Data Protection - PHI/PII [0.7]
+2. Service Delivery Review SLAs: Cybersecurity services completed within SLA [0.6]
+3. Research Study Compliance Review: Healthcare Cyber Compliance (HIPAA) [0.5]
+4. Data Protection and Storage Assessment: Structured data protected [0.4]

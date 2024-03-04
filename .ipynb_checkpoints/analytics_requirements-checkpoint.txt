@@ -1,0 +1,33 @@
+
+#Decision Options.
+
+1. Buy - allocate more unallocated funds and accelerate.
+2. Borrow - Steal resources from something else and take the resources and allocate to this project
+3. Delay - Change the end date on the project
+4. Remove Roadblocks - Find reason this is not moving forward (least clear)
+5. Escalate - May depend on someone's else's resources, escalate to them (similiar to borrow)
+6. Supress - Stay course
+
+#What information is necessary
+
+First step - limiting number of options
+First step of analytics is presenting the meaningful decisions
+- With each option, there might be some resoning. If you borrow it, you show what you are going to borrow it from
+- If you are preseting a buy decision, showing how much unallocated funds you have
+- You will know how many resources you have, how many you need, and how much internal/externally this costs
+
+For each decision we need to decide some boundary conditions, upon meeting which will not allow the decision to occur
+- For each decision type, for each that is available, deselect the possible decisions
+- Determine boundary conditions upon which the option will no longer be available
+- e.g. can suppress, but that may not be an option if you are 95% to the deadline. Options will shrink over time
+
+Now define what datapoints you need to make that decision
+- e.g. for borrow you need to know what resource group is assigned to this work and what other work that group is working on, the priority of that work and the timelines that work is being done
+- What you will say in opions you will say what work you can borrow from, when you borrow from another piece of work that one will go into the decision view and you can decide to delay, buy etc.
+- For each type of option, there should be a matrix of each type of work and the options that exist and for each type you need to decide what types of work exists, what type of option, and what type of data you need.
+- Crosscorrelate what data you need, determine how you get those datapoints
+
+Phases:
+1. Rules and conditions based framework, set of 6 decisions with requirements and affects - purely static
+2. Analytics on recommended decisions, optimal decision support
+3. Optimal timeline algorithm, machine learning optimization on future decisions

@@ -1,0 +1,4 @@
+Ignore all objectives where parent is null and level < 2
+Use the K column, remove duplicates
+Concatenate the project name to the activity name (A to B)
+Split the prompts into blocks of max token length and then summarize with ChatGPT

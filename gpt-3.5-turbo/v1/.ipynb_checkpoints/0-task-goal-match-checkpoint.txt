@@ -1,0 +1,19 @@
+### Step 1: Extracted Project Goals:
+- 'Critical cloud tenet protected' 
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated' 
+- 'Technical controls tested' 
+- 'Technical control gap reccomendations implemented'
+
+### Step 2: Extracted Project Task:
+The project involves conducting research requests within the cybersecurity service delivery team to identify criteria and requirements for engagement in cybersecurity activities. The task includes developing research criteria/requirements, understanding engagement of the service delivery team, reviewing the process of research study by GRC, defining requirements for cyber compliance, SLA's development for service delivery review, handling research device connections, and addressing various cybersecurity requirements and risks.
+
+### Step 3: Project Summary:
+The project aims to create a structured framework for engaging with the cybersecurity service delivery team regarding research requests. It involves defining criteria and requirements, ensuring cyber compliance, developing SLA's for service delivery reviews, and addressing various cybersecurity concerns such as data encryption, permissions, compliance requirements, risk assessment, and approval workflows.
+
+### Step 4: Probability Estimation:
+1:Data Protection - Proprietary & Research [0.70]
+2:Data Protection - PHI/PII [0.60]
+3:Detect and analyze threats [0.50]
+4:Structured data protected [0.40]
+5:Threat intelligence briefings [0.30]

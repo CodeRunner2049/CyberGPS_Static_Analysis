@@ -1,0 +1,22 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Integrating ServiceNow with AppviewX for SSL certificate management, renewal, and ticket creation to address certificate expiration issues.
+
+3. Project Summary:
+The project aims to integrate ServiceNow with AppviewX to streamline SSL certificate management by automating certificate request, renewal, and ticket creation processes to address and manage certificate expiration issues efficiently. This integration will facilitate automatic ticket generation for devices with expiring certificates and streamline the workflow for certificate management within the organization.
+
+4. Probabilistic Matches:
+- 0.2: 'Detect and analyze threats'

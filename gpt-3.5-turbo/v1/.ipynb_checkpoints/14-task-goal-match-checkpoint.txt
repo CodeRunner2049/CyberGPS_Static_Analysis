@@ -1,0 +1,23 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Protenus Software deployment involving Healthcare Analytics Platform implementation and data extraction from various sources.
+
+3. Project Summary:
+This project entails the implementation of the Protenus Healthcare Analytics Platform for data extraction from systems like Epic, Workday, and Kronos, along with setting up secure file transfers via SFTP to Protenus (AWS) platform.
+
+4. Probabilistic Matches:
+- 0.3: 'Detect and analyze threats'
+- 0.2: 'Log sources ingested into SIEM per plan'

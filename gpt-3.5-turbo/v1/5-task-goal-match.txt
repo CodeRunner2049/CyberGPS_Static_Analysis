@@ -1,0 +1,24 @@
+1. Project Goals:
+['Critical cloud tenet protected' 'Cloud tenets scanned'
+ 'Cloud vulnerabilities remediated' 'Technical controls tested'
+ 'Technical control gap recommendations implemented'
+ 'Case processing within SLA' 'IR Tabletop exercises'
+ 'Contain and eradicate threats'
+ 'User groups subscribed to Insider Threat program per plan'
+ 'Insider Threat Investigations within SLA'
+ 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
+ 'Planned threat hunts' 'Threat intelligence briefings'
+ 'IOCs processed within SLA' 'Threat simulation exercises'
+ 'Threat simulation gap recommendations implemented' 'Continuity plans'
+ 'Critical systems recovery' 'Network devices protected'
+ 'Production network protected' 'DMZ protected' 'Perimeter protected'
+...]
+
+2. Project Task:
+The project involves facilitating the transfer of audio and video files from the Music Therapy department to patients and their families securely, bypassing email constraints. The options considered are utilizing OneDrive or the SFTP request process in Service Now.
+
+3. Project Summary:
+The project aims to find a secure method to share large audio and video files from the Music Therapy department with patients and families. Options under consideration are leveraging OneDrive or the SFTP request process in Service Now to enable efficient and secure file transfers.
+
+4. Probability Matching:
+[Unstructured data protected]

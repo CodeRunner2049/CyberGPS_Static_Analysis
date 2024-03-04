@@ -1,0 +1,92 @@
+,Number,Name,Description,Portfolio
+0,DMND0005027,"TVI - Protection, Threat Triage & Containment (P2)","IT Ask: Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Ensure vulnerability scans are performed on all applications throughout the environment, with manual WASAs performed against high risk applications on a defined cadence.
+Track effectiveness of vulnerability remediation process and update as appropriate
+Ensure that results of application vulnerability assessments are received by application owners, and that gaps identified during the assessment are remediated according to policy
+Enumerate and document all implemented application controls, and ensure relevant information security and management groups have input on current state controls
+Define and report on KPI/Metrics related to application vulnerability identification and remediation throughout different phases of the SDLC",Cybersecurity
+1,DMND0005029,DP - Data Lifecycle (P2),"IT Ask: Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Define data types in Varonis using the updated data classification system
+Utilize Varonis to perform automated data tagging
+Review Varonis data tags for accuracy 
+Continue to scale the Veronis implementation where applicable/throughout the environment",Cybersecurity
+2,DMND0005685,IDP - Access for Critical Apps P2,"Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Integrate physical access control systems (PACS) with IAM solution for centralized provisioning of physical and logicial accessIdentify external user personasDocument current pain points, business drivers for patients and other external identitiiesCentralize external user directoryTool rationalization/ procurement for external identities as neededDefine/ enhance target external identity architecture and governance modelDefine, prioritize and implement user journeysContinous improvement and rollout to other business unitsImplement and automate access recertification initiation and revocations in IIQ for employees as well as contractorsAssess and revise existing process for access recertifications - automate certifications for all identified use-cases and applications (including disconnected applications); use-cases should include periodic reviews for Define metrics for tracking and reporting on access recertification campaignsProvide role specific training to application administrators on the use of PAM and expectationsPriortize applications for SSO based on risk, feasibility, and impact on the end user (e.g., user type, user population, etc.)Deploy enterprise credential wallet to non-clinical areasImplement risk based authentication with O365/Azure conditional access and deploy to a pilot groupIncorproate feedback from pilot group and expand to broader CCF communityDetermine circumstances for users to reset passwords on their own, including their physical locationImplement solution to support self service password resets, security questions and MFA factorProvide users training and awareness materials on how to use the new systemIngest physical security logs into SIEM for automated correlation against logical access logsDefine policy, standard, and procedures for assigning access approvers to patient dataIdentify and define RBAC roles with granular access to patient dataDetermine attributes needed to assign rolesCreate roles in IAM solution, remove redundant / unnecessary entitlementsAssign newly matched roles to users from the M&amp;A as the are added to the environmentDesign and implement Epic templates for more granular access controlDevelop (or enhance) M&amp;A integration playbook for deployment of PAM, utilizing lessons learned",Cybersecurity
+3,DMND0004991,IDP - Patient Identity,"Define policy, standard, and procedures for assigning access approvers to patient data
+Identify and define RBAC roles with granular access to patient data
+Determine attributes needed to assign roles
+Create roles in IAM solution, remove redundant / unnecessary entitlements
+Develop an M&amp;A process that matches roles from the newly acquired business to current environment roles
+Assign newly matched roles to users from the M&amp;A as the are added to the environment
+Define roles within Epic for access based on available data e.g., Institute, job title, location, etc.
+Design and implement Epic templates for more granular access control
+Analyze, identify and remediate existing gaps/challenges in access management processes like birthright provisioning, termination and provisioning for employees and contractors
+Develop entitlement catalog and populate metadata for entitlements
+Implement enhancements and automation to lifecycle event management processes (joiner/ mover/ leaver)
+Develop application onboarding framework for connected and disconnected applications
+Onboard applications to SailPoint IIQ for central provisioning and process standardization based on risk and feasibility, starting with the existing 137 critical applications
+Develop separation of duties matrices for applications all critical applications
+Develop / refine access audit reports and establish frequency of execution
+Disable local accounts
+Establish RBAC methodology and governance process
+Perform role and entitlements cleanup against all existing access
+Perform role mining such that it: - enumerates necessary roles based on operational use, compliance, and other requirements - maps roles to appropriate entitlements (separation of duties) - maps roles to 
+Enforce application access permissions based on access &#34;needs&#34; of the roles(i.e., least privilege)
+Identify roles to be assigned to users at account creation (birthright entitlements) in order to minimize # of submitted access requests
+Implement the roles in IIQ, and remove redundant individual entitlements to prevent entitlement creep",Cybersecurity
+4,DMND0005025,CLP - Cloud Protection,"IT Ask: Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Procure enterprise licenses for planned toolset and coverage (Dome9, Stackrox)
+Expand deployments of existing tooling to cover all cloud environments
+Secure Infrastructure-as-Code (IaC) template configuration 
+Enable pre-deployment configuration checking (could be a done with Hashicorp Sentinel to validate Terraform IaC security configs)
+Integrate cloud management tools with ServiceNow to establish a single, centralized, asset management repository
+Establish log pipeline from all cloud environments to enterprise SIEM
+Select and implement CASB solution that best fits CCF future-state needs
+Onboard SaaS applications into CASB
+Integrate CASB with existing CCF DLP tooling
+Integrate CASB with existing CCF SIEM",Cybersecurity
+5,DMND0005028,AP - Application Security (P2),"IT Ask: Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Finalize secure coding &amp; application security standards
+Develop procedures to drive efficient and consistent use of secure development tools and methods
+Develop and socialize guidance for developers on topics such as code style guides to maintain code quality
+Establish mandatory secure coding training and integrate with enterprise LMS for tracking completion by all developers
+Expand integrations of Checkmarx into all developer IDEs
+Implement automated repository scans for Enterprise Code Repository
+Implement newly procured Burp Suite Enterprise, and integrate with SDLC pipeline
+Integrate Checkmarx with ServiceNow Vulnerability Management Module
+Build and maintain inventory of libraries and third party code used development (via Checkmarx Software Compisition Ananlysis), and track vulnerability disclosures related to relevant third party code
+Update inventory of exposed web apps and APIs (and what external systems/services are utilizing the APIs)
+Update application development and deployment processes to include the centralized documenting of exposed web applications and APIs, and the inclusion of appropriate protections before deployment in production
+Ensure external facing applications require authentication and authorization that meet industry standards / leading practices
+Implement web application firewall in front of all external applications, and ensure effective policies are in place
+Forward security related application logs e.g., authentication logs to the SIEM for correlation and alerting
+Identify and implement a WAF with API and Bot security capabilities, first evaluating if existing tools e.g., Cloudflare meet organizational needs
+Identify and implement an API management solution to securely manage APIs being created in by CCF.  First evaluating existing tools in the environment, such as Apogee, for the ability to scale
+Configure API security and management solution to forward logs to the SIEM",Cybersecurity
+6,DMND0005267,IDP - PAM Expansion,"Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Extend access recertification process to application administrators
+Enforce session / command recording of privileged sessions
+Develop (or enhance) M&amp;A integration playbook for deployment of PAM, utilizing lessons learned
+Extend access recertification process to application administrators
+Enforce session / command recording for priv sessions
+Identify and document all non-human accounts, including if they are priveleged or standard accounts
+Assign owernship of non-human accounts by team w/ point of contact
+Disable orphaned non-human accounts over a phased period of time
+Communicate expansion of access recertification policy to include non-human accounts
+Incorproate non-human account access recertification into existing recertification process and cadence
+Create application specific priveleged access training, focusing on relevant risks, procedures, policies, etc.
+Require the training to be taken before priveleged access is granted, and on an annual basis there after, enforced by removal of access
+Track and report on metrics",Cybersecurity
+7,DMND0004990,IP - Network and Device Protection (P2),"Identify highest risk external facing assets/services
+Select and implement an automated DDoS protection solution (e.g., Cloudflare) for identified assets
+Integrate solution with SIEM for centralized monitoring and alerting
+Track DDoS protection solution metrics against SLAs and resilience requirements
+Rationalize existing remote access solutions and identify areas for consolidation to reduce costs, operational burden, and increase efficiency
+Identify remote access use cases that utilize non-standard mechanisms (e.g., Third parties, Medical Device, OT, Building Automation and document them and associated controls)
+Identify high-risk remote access use cases that require additional layers of protection or monitoring; design and implement this supplemental control-set",Cybersecurity
+8,DMND0005024,IP - Zero Trust,"IT Ask: Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+Conduct a network architecture assessment
+Develop a target state zero trust architecture suitable for CCF, ensuring it provides adequate attack surface reduction, resiliency, data protection, and ability to deploy 
+Develop a strategy to migrate to a zero trust architecture
+Implement zero trust architecture network design
+Deploy network access control to automate the assignment of vlans to newly connected devices and prevent unauthorized devices from connecting to the network",Cybersecurity

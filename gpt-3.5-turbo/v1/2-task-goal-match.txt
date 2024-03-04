@@ -1,0 +1,19 @@
+### Step 1: Extracted Project Goals:
+- 'Healthcare Cyber Compliance (HIPAA)'
+- 'Healthcare Cyber Compliance (GDPR)'
+- 'Data Protection - Proprietary & Research'
+- 'Technical controls tested'
+- 'Policies kept up to date per plan'
+
+### Step 2: Extracted Project Task:
+The project involves reviewing and implementing a new eVisit software platform for the ESI Virtual Emergency Department program. The goal is to replace the existing platform with eVisit for telehealth calls, ensuring compliance with healthcare cyber regulations like HIPAA and GDPR, protecting proprietary research data, testing technical controls for the new platform, and ensuring adherence to updated policies.
+
+### Step 3: Project Summary:
+The project aims to assess and deploy the eVisit software platform for the ESI Virtual Emergency Department program. It focuses on transitioning to eVisit for telehealth operations, ensuring compliance with healthcare data protection regulations (HIPAA, GDPR), testing technical controls, and updating policies in line with the implementation of the new platform.
+
+### Step 4: Probability Estimation:
+1:Healthcare Cyber Compliance (HIPAA) [0.90]
+2:Healthcare Cyber Compliance (GDPR) [0.80]
+3:Data Protection - Proprietary & Research [0.70]
+4:Technical controls tested [0.60]
+5:Policies kept up to date per plan [0.50]

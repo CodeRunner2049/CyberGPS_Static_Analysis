@@ -1,0 +1,25 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Name of Project/Request: Cheeky Scientist
+- Description: Expert cytometry class
+- Institutional License fee - Cybersecurity Domain Epic
+
+3. Project Summary:
+The project involves requesting an institutional license fee for an expert cytometry class related to Cheeky Scientist within the cybersecurity domain. It could also involve activities related to the implementation and management of technical controls, threat detection, and analysis within the cybersecurity framework.
+
+4. Probabilistic Matches:
+- 0.2: 'Technical controls tested'
+- 0.1: 'Detect and analyze threats'

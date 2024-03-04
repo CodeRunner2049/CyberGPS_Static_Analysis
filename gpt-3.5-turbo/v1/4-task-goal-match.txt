@@ -1,0 +1,24 @@
+1. Project Goals:
+['Critical cloud tenet protected' 'Cloud tenets scanned'
+ 'Cloud vulnerabilities remediated' 'Technical controls tested'
+ 'Technical control gap recommendations implemented'
+ 'Case processing within SLA' 'IR Tabletop exercises'
+ 'Contain and eradicate threats'
+ 'User groups subscribed to Insider Threat program per plan'
+ 'Insider Threat Investigations within SLA'
+ 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
+ 'Planned threat hunts' 'Threat intelligence briefings'
+ 'IOCs processed within SLA' 'Threat simulation exercises'
+ 'Threat simulation gap recommendations implemented' 'Continuity plans'
+ 'Critical systems recovery' 'Network devices protected'
+ 'Production network protected' 'DMZ protected' 'Perimeter protected'
+...]
+
+2. Project Task:
+The project involves conducting OT (Operational Technology) and TPRA (Third-Party Risk Assessment) assessments for a handheld computer diary related to a specific medical research project. It also includes ensuring data de-identification, complying with password policies, and engaging in risk assessment activities.
+
+3. Project Summary:
+The project aims to assess and secure a handheld computer diary used in medical research by conducting assessments related to Operational Technology and Third-Party Risks. It involves verifying data de-identification, aligning with password policies, and engaging in risk assessment processes.
+
+4. Probability Matching:
+[Gaps remediated within SLA]

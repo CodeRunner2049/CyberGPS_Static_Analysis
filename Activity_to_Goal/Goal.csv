@@ -1,0 +1,179 @@
+﻿ParentObjective,Objective,KeyResultOwner,KeyResultOwnerCommunity,Operand,Unit,Level,CornerStoneOfCareName,StrategicGoalName,Original,DisplayName
+NULL,Caregiver experience,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Caregivers,Experience,1,Caregiver experience
+NULL,Workforce excellence,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Caregivers,Excellence,1,Workforce excellence
+NULL,Cyber research and education,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Community,Advance Health,1,Cyber research and education
+NULL,Operational excellence,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Organization,Excellence,1,Operational excellence
+NULL,Relationship trust,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Organization,Reduce Risk,1,Relationship trust
+NULL,Data privacy & protection,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Patients,Reduce Risk,1,Data privacy & protection
+NULL,Technology safety & reliability,"Zeynalov, Vugar",Cybersecurity,NULL,NULL,Objective,Patients,Reduce Risk,1,Technology safety & reliability
+Technology safety & reliability,Application protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Application protection
+Technology safety & reliability,Infrastructure Protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Infrastructure Protection
+Technology safety & reliability,Network protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Network protection
+Technology safety & reliability,Business Resilience,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Business Resilience
+Technology safety & reliability,Respond to threats,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Respond to threats
+Technology safety & reliability,Cloud protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Cloud protection
+Cloud protection,Critical cloud tenet protected,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Critical cloud tenet protected
+Cloud protection,Cloud tenets scanned,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Cloud tenets scanned
+Cloud protection,Cloud vulnerabilities remediated,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Cloud vulnerabilities remediated
+Respond to threats,Technical controls tested,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Technical controls tested
+Respond to threats,Technical control gap reccomendations implemented,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Technical control gap reccomendations implemented
+Respond to threats,Case processing within SLA,"Sharma, Rakesh",Assurance,>=,%,2. Community,Patients,Reduce Risk,1,Case processing within SLA
+Respond to threats,IR Tabletop exercises,"Butler, Thomas",Intelligence,>=,unit,2. Community,Patients,Reduce Risk,1,IR Tabletop exercises
+Respond to threats,Contain and eradicate threats,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Contain and eradicate threats
+Respond to threats,User groups subscirbed to Insider Threat program per plan,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,User groups subscirbed to Insider Threat program per plan
+Respond to threats,Insider Threat Investigations within SLA,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Insider Threat Investigations within SLA
+Respond to threats,Log sources ingested into SIEM per plan,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Log sources ingested into SIEM per plan
+Respond to threats,Detect and analyze threats,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Detect and analyze threats
+Respond to threats,Planned threat hunts,"Butler, Thomas",Intelligence,>=,unit,2. Community,Patients,Reduce Risk,1,Planned threat hunts
+Respond to threats,Threat intelligence briefings,"Butler, Thomas",Intelligence,>=,unit,2. Community,Patients,Reduce Risk,1,Threat intelligence briefings
+Respond to threats,IOCs processed within SLA,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,IOCs processed within SLA
+Respond to threats,Threat simulation exercises,"Butler, Thomas",Intelligence,>=,unit,2. Community,Patients,Reduce Risk,1,Threat simulation exercises
+Respond to threats,Threat simulation gap reccomendations implemented,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Threat simulation gap reccomendations implemented
+Business Resilience,Continuity plans,"Sharma, Rakesh",Assurance,>=,%,2. Community,Patients,Reduce Risk,1,Continuity plans
+Business Resilience,Critical systems recovery,"Sharma, Rakesh",Assurance,<,hour,2. Community,Patients,Reduce Risk,1,Critical systems recovery
+Network protection,Network devices protected,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Network devices protected
+Network protection,Production network protected,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Production network protected
+Network protection,DMZ protected,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,DMZ protected
+Network protection,Perimeter protected,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Perimeter protected
+Network protection,Gaps remediated within SLA,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Gaps remediated within SLA
+Infrastructure Protection,Computers protected,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Computers protected
+Infrastructure Protection,Infrastructure Protection - Operational Technology Devices,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Operational Technology Devices
+Infrastructure Protection,Infrastructure Protection - Laptops/Tablets,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Laptops/Tablets
+Infrastructure Protection,Infrastructure Protection - Network Devices,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Network Devices
+Infrastructure Protection,Infrastructure Protection - Office Devices,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Office Devices
+Infrastructure Protection,Infrastructure Protection - Desktops,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Desktops
+Infrastructure Protection,Infrastructure Protection - IoT Devices,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - IoT Devices
+Infrastructure Protection,Infrastructure Protection - Phones,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Phones
+Infrastructure Protection,Infrastructure Protection - Servers,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Servers
+Infrastructure Protection,Infrastructure Protection - Medical Devices,"Duemling, Keith",Technology Protection,>=,%,2. Community,Patients,Reduce Risk,1,Infrastructure Protection - Medical Devices
+Application protection,Role-based access for applications,NULL,NULL,>=,%,2. Community,Patients,Reduce Risk,1,Role-based access for applications
+Application protection,Custom-build application protection,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Custom-build application protection
+Application protection,Privileged access for applications,NULL,NULL,>=,%,2. Community,Patients,Reduce Risk,1,Privileged access for applications
+Application protection,Applications scanned,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Applications scanned
+Application protection,Application vulnerabilities remediated,"Butler, Thomas",Intelligence,>=,%,2. Community,Patients,Reduce Risk,1,Application vulnerabilities remediated
+Application protection,COTS application protection,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,COTS application protection
+Data privacy & protection,Data Protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Patients,Reduce Risk,1,Data Protection
+Data Protection,Unstructured data protected,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Unstructured data protected
+Data Protection,Data transactions protected,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Data transactions protected
+Data Protection,Structured data protected,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Structured data protected
+Data Protection,Data Protection - PHI/PII,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Data Protection - PHI/PII
+Data Protection,Data Protection - PCI,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Data Protection - PCI
+Data Protection,Data Protection - Proprietary & Research,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Data Protection - Proprietary & Research
+Data Protection,Data Protection - Business Confidential,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Patients,Reduce Risk,1,Data Protection - Business Confidential
+Relationship trust,Regulatory obligations,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Organization,Reduce Risk,1,Regulatory obligations
+Relationship trust,Partner Protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Organization,Reduce Risk,1,Partner Protection
+Partner Protection,High-risk third parties reviewed,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,High-risk third parties reviewed
+Partner Protection,Third-parties meeting clean bill of health after an incident,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Third-parties meeting clean bill of health after an incident
+Partner Protection,Partner Protection - Partners,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Partner Protection - Partners
+Partner Protection,Partner Protection - Community Sites,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Partner Protection - Community Sites
+Partner Protection,Partner Protection - Digital Partners,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Partner Protection - Digital Partners
+Partner Protection,Partner Protection - M&A Sites,"Doan, John",Advisory,>=,%,2. Community,Organization,Reduce Risk,1,Partner Protection - M&A Sites
+Regulatory obligations,Audit findings remediated within due date,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Audit findings remediated within due date
+Regulatory obligations,Credit Card Compliance (PCI),"Sharma, Rakesh",Assurance,=,Yes/No,2. Community,Organization,Reduce Risk,1,Credit Card Compliance (PCI)
+Regulatory obligations,Healthcare Cyber Compliance (HIPAA),"Sharma, Rakesh",Assurance,=,Yes/No,2. Community,Organization,Reduce Risk,1,Healthcare Cyber Compliance (HIPAA)
+Regulatory obligations,Healthcare Cyber Compliance (GDPR),"Sharma, Rakesh",Assurance,=,Yes/No,2. Community,Organization,Reduce Risk,1,Healthcare Cyber Compliance (GDPR)
+Regulatory obligations,HITRUST for EPIC,"Sharma, Rakesh",Assurance,=,Yes/No,2. Community,Organization,Reduce Risk,1,HITRUST for EPIC
+Regulatory obligations,HITRUST For virtual visits,"Sharma, Rakesh",Assurance,=,Yes/No,2. Community,Organization,Reduce Risk,1,HITRUST For virtual visits
+Regulatory obligations,HITRUST For remote patient monitoring,"Sharma, Rakesh",Assurance,=,Yes/No,2. Community,Organization,Reduce Risk,1,HITRUST For remote patient monitoring
+Regulatory obligations,Policies kept up to date per plan,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Policies kept up to date per plan
+Regulatory obligations,Policy exceptions managed within SLA,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Policy exceptions managed within SLA
+Regulatory obligations,Risks in register with appropriate controls,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Reduce Risk,1,Risks in register with appropriate controls
+Regulatory obligations,Risks reduced to acceptable level,"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Reduce Risk,1,Risks reduced to acceptable level
+Operational excellence,Industry Maturity (NIST),"Zeynalov, Vugar",Cybersecurity,>=,rate,1. Cybersecurity,Organization,Excellence,1,Industry Maturity (NIST)
+Operational excellence,Budget Efficiency,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Organization,Excellence,1,Budget Efficiency
+Operational excellence,Target Operating Model,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Organization,Excellence,1,Target Operating Model
+Target Operating Model,M&A core protection,"Doan, John",Advisory,<,month,2. Community,Organization,Excellence,1,M&A core protection
+Target Operating Model,Projects assessed,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Projects assessed
+Target Operating Model,Business units engaged per plan,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Business units engaged per plan
+Target Operating Model,Customer satisfaction,"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Customer satisfaction
+Target Operating Model,Capabilities with measures,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Capabilities with measures
+Target Operating Model,Strategic governance reviews,"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Strategic governance reviews
+Target Operating Model,Reference architectures for capabilities,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Reference architectures for capabilities
+Target Operating Model,Cybersecurity services in catalog,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Cybersecurity services in catalog
+Target Operating Model,Cybersecurity services completed within SLA,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Cybersecurity services completed within SLA
+Budget Efficiency,Budget Efficiency,"Doan, John",Advisory,>=,%,2. Community,Organization,Excellence,1,Budget Efficiency
+Budget Efficiency,Budget Efficiency,NULL,NULL,>=,%,2. Community,Organization,Excellence,1,Budget Efficiency
+Budget Efficiency,Budget Efficiency,"Butler, Thomas",Intelligence,>=,%,2. Community,Organization,Excellence,1,Budget Efficiency
+Budget Efficiency,Budget Efficiency,"Duemling, Keith",Technology Protection,>=,%,2. Community,Organization,Excellence,1,Budget Efficiency
+Budget Efficiency,Budget Efficiency,"Sharma, Rakesh",Assurance,>=,%,2. Community,Organization,Excellence,1,Budget Efficiency
+Budget Efficiency,Budget Efficiency,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Organization,Excellence,1,Budget Efficiency
+Industry Maturity (NIST),Industry Maturity (NIST),"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Architecture
+Industry Maturity (NIST),Industry Maturity (NIST),NULL,NULL,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Access Design
+Industry Maturity (NIST),Industry Maturity (NIST),"Tambascio, Kevin",Data and Application Protection,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Application Protection
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Awareness & Training
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Audit Support
+Industry Maturity (NIST),Industry Maturity (NIST),"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Cybersecurity Business Liaison
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Business Resilience
+Industry Maturity (NIST),Industry Maturity (NIST),"Duemling, Keith",Technology Protection,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Computer Protection
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Compliance
+Industry Maturity (NIST),Industry Maturity (NIST),"Tambascio, Kevin",Data and Application Protection,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Cloud Protection
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Control Testing
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Digital Forensics
+Industry Maturity (NIST),Industry Maturity (NIST),"Tambascio, Kevin",Data and Application Protection,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Data Protection
+Industry Maturity (NIST),Industry Maturity (NIST),NULL,NULL,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Identity Protection
+Industry Maturity (NIST),Industry Maturity (NIST),NULL,NULL,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Identity Lifecycle Management
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Incident Response
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Insider Threat
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Monitoring
+Industry Maturity (NIST),Industry Maturity (NIST),"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Metrics & Analysis
+Industry Maturity (NIST),Industry Maturity (NIST),"Duemling, Keith",Technology Protection,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Network Protection
+Industry Maturity (NIST),Industry Maturity (NIST),"Duemling, Keith",Technology Protection,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Operational Technology Protection
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Policy and Governance
+Industry Maturity (NIST),Industry Maturity (NIST),NULL,NULL,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Privileged User Management
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Risk Management
+Industry Maturity (NIST),Industry Maturity (NIST),"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Cybersecurity Strategy
+Industry Maturity (NIST),Industry Maturity (NIST),"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Secure Standards
+Industry Maturity (NIST),Industry Maturity (NIST),"Doan, John",Advisory,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Security Service Delivery
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Threat Hunting
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Threat Intelligence
+Industry Maturity (NIST),Industry Maturity (NIST),"Sharma, Rakesh",Assurance,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Third Party Risk Management
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Threat Simulation
+Industry Maturity (NIST),Industry Maturity (NIST),"Butler, Thomas",Intelligence,>=,unit,2. Community,Organization,Excellence,1,Industry Maturity (NIST) - Vulnerability Management
+Cyber research and education,Cyber publications,"Zeynalov, Vugar",Cybersecurity,>=,unit,1. Cybersecurity,Community,Advance Health,1,Cyber publications
+Cyber research and education,Cyber caregiver volunteering,"Zeynalov, Vugar",Cybersecurity,>=,unit,1. Cybersecurity,Community,Advance Health,1,Cyber caregiver volunteering
+Cyber research and education,Classes/workshops offered,"Zeynalov, Vugar",Cybersecurity,>=,unit,1. Cybersecurity,Community,Advance Health,1,Classes/workshops offered
+Classes/workshops offered,Classes/workshops offered,"Butler, Thomas",Intelligence,NULL,NULL,2. Community,Community,Advance Health,1,Classes/workshops offered
+Classes/workshops offered,Classes/workshops offered,"Sharma, Rakesh",Assurance,NULL,NULL,2. Community,Community,Advance Health,1,Classes/workshops offered
+Classes/workshops offered,Classes/workshops offered,NULL,NULL,NULL,NULL,2. Community,Community,Advance Health,1,Classes/workshops offered
+Classes/workshops offered,Classes/workshops offered,"Tambascio, Kevin",Data and Application Protection,NULL,NULL,2. Community,Community,Advance Health,1,Classes/workshops offered
+Classes/workshops offered,Classes/workshops offered,"Doan, John",Advisory,NULL,NULL,2. Community,Community,Advance Health,1,Classes/workshops offered
+Classes/workshops offered,Classes/workshops offered,"Duemling, Keith",Technology Protection,NULL,NULL,2. Community,Community,Advance Health,1,Classes/workshops offered
+Cyber caregiver volunteering,Cyber caregiver volunteer participation,"Butler, Thomas",Intelligence,>=,%,2. Community,Community,Advance Health,1,Cyber caregiver volunteer participation
+Cyber caregiver volunteering,Cyber caregiver volunteer participation,"Sharma, Rakesh",Assurance,>=,%,2. Community,Community,Advance Health,1,Cyber caregiver volunteer participation
+Cyber caregiver volunteering,Cyber caregiver volunteer participation,NULL,NULL,>=,%,2. Community,Community,Advance Health,1,Cyber caregiver volunteer participation
+Cyber caregiver volunteering,Cyber caregiver volunteer participation,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Community,Advance Health,1,Cyber caregiver volunteer participation
+Cyber caregiver volunteering,Cyber caregiver volunteer participation,"Doan, John",Advisory,>=,%,2. Community,Community,Advance Health,1,Cyber caregiver volunteer participation
+Cyber caregiver volunteering,Cyber caregiver volunteer participation,"Duemling, Keith",Technology Protection,>=,%,2. Community,Community,Advance Health,1,Cyber caregiver volunteer participation
+Cyber publications,Cyber research lab built,"Butler, Thomas",Intelligence,NULL,NULL,2. Community,Community,Advance Health,1,Cyber research lab built
+Cyber publications,Cyber research lab built,"Sharma, Rakesh",Assurance,NULL,NULL,2. Community,Community,Advance Health,1,Cyber research lab built
+Cyber publications,Cyber research lab built,NULL,NULL,NULL,NULL,2. Community,Community,Advance Health,1,Cyber research lab built
+Cyber publications,Cyber research lab built,"Tambascio, Kevin",Data and Application Protection,NULL,NULL,2. Community,Community,Advance Health,1,Cyber research lab built
+Cyber publications,Cyber research lab built,"Doan, John",Advisory,NULL,NULL,2. Community,Community,Advance Health,1,Cyber research lab built
+Cyber publications,Cyber research lab built,"Duemling, Keith",Technology Protection,NULL,NULL,2. Community,Community,Advance Health,1,Cyber research lab built
+Cyber publications,Publications,"Butler, Thomas",Intelligence,NULL,NULL,2. Community,Community,Advance Health,1,Publications
+Cyber publications,Publications,"Sharma, Rakesh",Assurance,NULL,NULL,2. Community,Community,Advance Health,1,Publications
+Cyber publications,Publications,NULL,NULL,NULL,NULL,2. Community,Community,Advance Health,1,Publications
+Cyber publications,Publications,"Tambascio, Kevin",Data and Application Protection,NULL,NULL,2. Community,Community,Advance Health,1,Publications
+Cyber publications,Publications,"Doan, John",Advisory,NULL,NULL,2. Community,Community,Advance Health,1,Publications
+Cyber publications,Publications,"Duemling, Keith",Technology Protection,NULL,NULL,2. Community,Community,Advance Health,1,Publications
+Workforce excellence,Would recommend as place to work,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Caregivers,Excellence,1,Would recommend as place to work
+Would recommend as place to work,Would recommend as place to work,"Butler, Thomas",Intelligence,>=,%,2. Community,Caregivers,Excellence,1,Would recommend as place to work
+Would recommend as place to work,Would recommend as place to work,"Sharma, Rakesh",Assurance,>=,%,2. Community,Caregivers,Excellence,1,Would recommend as place to work
+Would recommend as place to work,Would recommend as place to work,NULL,NULL,>=,%,2. Community,Caregivers,Excellence,1,Would recommend as place to work
+Would recommend as place to work,Would recommend as place to work,"Tambascio, Kevin",Data and Application Protection,>=,%,2. Community,Caregivers,Excellence,1,Would recommend as place to work
+Would recommend as place to work,Would recommend as place to work,"Doan, John",Advisory,>=,%,2. Community,Caregivers,Excellence,1,Would recommend as place to work
+Would recommend as place to work,Would recommend as place to work,"Duemling, Keith",Technology Protection,>=,%,2. Community,Caregivers,Excellence,1,Would recommend as place to work
+Caregiver experience,People Protection,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Caregivers,Experience,1,People Protection
+Caregiver experience,Frictionless access,"Zeynalov, Vugar",Cybersecurity,>=,%,1. Cybersecurity,Caregivers,Experience,1,Frictionless access
+Frictionless access,One password for critical clinical apps,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,One password for critical clinical apps
+Frictionless access,Passwordless for high use clinical apps,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,Passwordless for high use clinical apps
+Frictionless access,Reduction in password reset requests,NULL,NULL,<,%,2. Community,Caregivers,Experience,1,Reduction in password reset requests
+Frictionless access,AD accounts centrally managed,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,AD accounts centrally managed
+Frictionless access,Time to provision new caregiver,NULL,NULL,<,hours,2. Community,Caregivers,Experience,1,Time to provision new caregiver
+People Protection,Role-based training,"Sharma, Rakesh",Assurance,>=,%,2. Community,Caregivers,Experience,1,Role-based training
+People Protection,Phishing click-rate,"Sharma, Rakesh",Assurance,<,rate,2. Community,Caregivers,Experience,1,Phishing click-rate
+People Protection,Caregiver Protection - Caregivers,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,Caregiver Protection - Caregivers
+People Protection,Caregiver Protection - Non-employees,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,Caregiver Protection - Non-employees
+People Protection,People Protection - Patients,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,People Protection - Patients
+People Protection,People Protection - Non-employees,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,People Protection - Non-employees
+People Protection,People Protection - Employees,NULL,NULL,>=,%,2. Community,Caregivers,Experience,1,People Protection - Employees

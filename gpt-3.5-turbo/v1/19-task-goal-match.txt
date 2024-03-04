@@ -1,0 +1,23 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Security Assessment for a third-party system in preparation for sharing PPI data from Oracle ERP. Integration of ServiceNow with AppviewX for SSL certificate management and automating certificate request, renewal, and ticket creation for certificate expiration monitoring. 
+
+3. Project Summary:
+The project involves conducting a security assessment for a third-party system to prepare for sharing PPI data from Oracle ERP. Additionally, the project aims to integrate ServiceNow with AppviewX to automate SSL certificate request, renewal, and ticket creation processes for certificate expiration management.
+
+4. Probabilistic Matches:
+- 0.1: 'Log sources ingested into SIEM per plan'
+- 0.1: 'Detect and analyze threats'

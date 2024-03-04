@@ -1,0 +1,594 @@
+,Number,Project Name,Project manager,Business case,Description
+0,PRJ0012392,IP - Next Generation Firewall,Keith Duemling,,Implement a next generation firewall solution to replace legacy tools and provide additional security to our network infrastructure.
+1,PRJ0023607,TVI - Bug Bounty,Thomas Butler,"<p>Define bug bounty program requirements, including SLAs, expected outcomes, metrics, etc</p>
+<p>Define and document processes for ingesting and triaging vulnerabilities from the bug bounty program</p>
+<p>Select and contract a bug bounty service provider</p>
+<p>Regularly measure and report on the performance of the program</p>","Define bug bounty program requirements, including SLAs, expected outcomes, metrics, etc
+
+Define and document processes for ingesting and triaging vulnerabilities from the bug bounty program
+
+Select and contract a bug bounty service provider
+
+Regularly measure and report on the performance of the program"
+2,PRJ0025158,IDP - Access for Critical Apps,David Blankenship,"<table style=""width: 583pt; height: 432px;"" border=""0"" cellspacing=""0"" cellpadding=""0""><colgroup><col style=""width: 583pt;"" /></colgroup><tbody><tr style=""height: 14.4pt;""><td style=""width: 773.333px; height: 17px;"">Define policy, standard, and procedures for assigning access approvers to patient data</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Identify and define RBAC roles with granular access to patient data</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Determine attributes needed to assign roles</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Create roles in IAM solution, remove redundant / unnecessary entitlements</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Develop an M&amp;A process that matches roles from the newly acquired business to current environment roles</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Assign newly matched roles to users from the M&amp;A as the are added to the environment</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Define roles within Epic for access based on available data e.g., Insitute, job title, location, etc.</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Design and implement Epic templates for more granular access control</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Integrate physical access control systems (PACS) with IAM solution for centralized provisioning of physical and logicial access</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Ingest physical security logs into SIEM for automated correlation against logical access logs</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Standardize application onboarding process for SSO</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Priortize applications for SSO based on risk, feasibility, and impact on the end user (e.g., user type, user population, etc.)</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Deploy enterprise credential wallet to non-clinical areas</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Implement risk based authentication with O365/Azure conditional access and deploy to a pilot group</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Incorproate feedback from pilot group and expand to broader CCF community</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Determine circumstances for users to reset passwords on their own, including their physical location</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Implement solution to support self service password resets, security questions and MFA factor</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Provide users training and awareness materials on how to use the new system</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Implement and automate access recertification initiation and revocations in IIQ for employees as well as contractors</td></tr><tr style=""height: 14.4pt;""><td style=""height: 40px; width: 773.333px;"">Assess and revise existing process for access recertifications - automate certifications for all identified use-cases and applications (including disconnected applications); use-cases should include periodic reviews for privileged and non-priviliged access by resource owners and managers, job transfer reviews.</td></tr><tr style=""height: 14.4pt;""><td style=""height: 17px; width: 773.333px;"">Define metrics for tracking and reporting on access recertification campaigns</td></tr><tr style=""height: 14.4pt;""><td style=""height: 26px; width: 773.333px;"">Enhance integration of Silkroad and Sailpoint Identity IQ (IIQ) to enable automation of identity creation of employees and non-employees within IIQ</td></tr><tr style=""height: 14.4pt;""><td style=""height: 26px; width: 773.333px;"">Identify key HR attributes for automated provisioning/ de-provisioning of entitlements/ roles for Attribute Based Access Control (ABAC) and Role Based Access Control (RBAC)</td></tr></tbody></table>","Define policy, standard, and procedures for assigning access approvers to patient dataIdentify and define RBAC roles with granular access to patient dataDetermine attributes needed to assign rolesCreate roles in IAM solution, remove redundant / unnecessary entitlementsDevelop an M&A process that matches roles from the newly acquired business to current environment rolesAssign newly matched roles to users from the M&A as the are added to the environmentDefine roles within Epic for access based on available data e.g., Insitute, job title, location, etc.Design and implement Epic templates for more granular access controlIntegrate physical access control systems (PACS) with IAM solution for centralized provisioning of physical and logicial accessIngest physical security logs into SIEM for automated correlation against logical access logsStandardize application onboarding process for SSOPriortize applications for SSO based on risk, feasibility, and impact on the end user (e.g., user type, user population, etc.)Deploy enterprise credential wallet to non-clinical areasImplement risk based authentication with O365/Azure conditional access and deploy to a pilot groupIncorproate feedback from pilot group and expand to broader CCF communityDetermine circumstances for users to reset passwords on their own, including their physical locationImplement solution to support self service password resets, security questions and MFA factorProvide users training and awareness materials on how to use the new systemImplement and automate access recertification initiation and revocations in IIQ for employees as well as contractorsAssess and revise existing process for access recertifications - automate certifications for all identified use-cases and applications (including disconnected applications); use-cases should include periodic reviews for privileged and non-priviliged access by resource owners and managers, job transfer reviews.Define metrics for tracking and reporting on access recertification campaignsEnhance integration of Silkroad and Sailpoint Identity IQ (IIQ) to enable automation of identity creation of employees and non-employees within IIQIdentify key HR attributes for automated provisioning/ de-provisioning of entitlements/ roles for Attribute Based Access Control (ABAC) and Role Based Access Control (RBAC)
+
+"
+3,PRJ0022923,GRC - Operational Enhancements,Gareth Parker,"<p>Perform internal phishing tests on all caregivers/employees at irregular intervals</p>
+<p>Collect metrics on phishing susceptibility and report on them</p>
+<p>Utilize phishing metrics to identify demographics e.g., roles, departments, locations, etc that require additional training</p>
+<p>Develop and deliver additional training as needed</p>
+<p>Expand change control process to include all systems within CCF including at M&amp;A sites and medical device OT</p>
+<p>Perform audits of changes to ensure change management processes are being followed</p>
+<p>Define metrics for tracking and reporting on success of change control processes</p>
+<p>Define and document pre-deal and day 1 M&amp;A security integration activities  and the associated objectives/metrics</p>
+<p>Document steps and guidelines for integrating key security capabilities post-deal (e.g., IR, monitoring, IAM, Network connectivity, endpoint security stack deployment)</p>
+<p>Establish metrics set for monitoring as well as reporting cadence and method.</p>
+<p>Document and standardize the current process, policy, and procedure regarding IT Department request submission</p>
+<p>Develop and deploy a front end request submission mechanism to handle any and all related IT Department (e.g., Infrastructure, Maintenance, Security) requests</p>
+<p>Integrate and automate front end request  mechanism with current enteprise instance of ServiceNow </p>","Perform internal phishing tests on all caregivers/employees at irregular intervals
+
+Collect metrics on phishing susceptibility and report on them
+
+Utilize phishing metrics to identify demographics e.g., roles, departments, locations, etc that require additional training
+
+Develop and deliver additional phishing training to caregivers as needed
+
+Expand change control process to include all systems within CCF including at M&A sites and medical device OT
+
+Perform audits of changes to ensure change management processes are being followed
+
+Define metrics for tracking and reporting on success of change control processes
+
+Define and document pre-deal and day 1 M&A security integration activities  and the associated objectives/metrics
+
+Document steps and guidelines for integrating key security capabilities post-deal (e.g., IR, monitoring, IAM, Network connectivity, endpoint security stack deployment)
+
+Establish metrics set for monitoring as well as reporting cadence and method.
+
+Document and standardize the current process, policy, and procedure regarding IT Department request submission
+
+Develop and deploy a front end request submission mechanism to handle any and all related IT Department (e.g., Infrastructure, Maintenance, Security) requests
+
+Integrate and automate front end request  mechanism with current enterprise instance of ServiceNow "
+4,PRJ0024153,DP - Data Lifecycle (P1),Kevin Tambascio,"<p>Identify data types in use throughout the organization and their associated sensitivity (e.g., legal, regulatory, business, etc. risk if exposed)</p>
+<p>Refresh data classification standards according to update process to provide additional granularity</p>
+<p>Refresh data handling guidelines for SaaS and On-Prem to reflect updated data classification system and the associated sensitivity of each data type</p>
+<p>Establish, and document, process to periodically reviews data handling and data classification guidelines</p>
+<p>Develop organizational workflows and RACIs</p>
+<p>Document and refine processes and procedures</p>
+<p>Define and document data security policies and standards</p>
+<p>Define, collect, and report on metrics to measure the effectiveness of the data security program</p>
+<p>Complete rollout of DLP agent to all endpoints</p>
+<p>Define and track DLP metrics and report on them to assist decision making</p>
+<p>Ensure that appropriate users possess an IronKey USB device</p>
+<p>Implement a prompt, in conjunction with alert, for users notifying them that they are transferring PHI data</p>
+<p>Expand DLP coverage for databases through the use of existing Varonis utility</p>
+<p>Complete rollout of NetApp for cloud data management</p>
+<p>Onboard additional databases into existing Informatica instance</p>
+<p>Deploy Azure Information Protection into the cloud environment</p>
+<p>Identify any other cloud environments, and deploy parallel controls to ensure normalized control coverage across all cloud providers</p>
+<p>Forward logs/alerts from DLP tools to SIEM for correlation and alerting</p>
+<p>Identify data destruction requirements based on legal/regulatory guidance and organizational risk</p>
+<p>Develop data destruction standards and procedures based on data classification for both cloud and on-prem</p>
+<p>Implement data destruction capabilities or contract with a third party to provide this capability holistically across the enterprise.</p>
+<p>Establish and document process to test data destruction activities and ensure activities/results operate within organizational policies</p>
+<p>Track data destruction activities against compliance/evidence needs</p>
+<p> </p>
+<p><strong>Certificate Lifecycle Management and Automation 2021 Funding</strong></p>
+<ul style=""list-style-position: inside;""><li>-Implement purchased Certificate Lifecycle tool to automate the monitoring, renewal, and distribution of  certificates</li><li>-Onboard certificates for lifecycle management</li><li>-Integrate Certificate Lifecycle tool with ServiceNow for tracking and ticketing</li><li>-Upgrade PKI servers to Windows Server 2019</li><li>-Develop and maintain PKI server upgrade plan to ensure timely refreshes</li></ul>
+<p> </p>","Identify data types in use throughout the organization and their associated sensitivity (e.g., legal, regulatory, business, etc. risk if exposed)
+Refresh data classification standards according to update process to provide additional granularity
+Refresh data handling guidelines for SaaS and On-Prem to reflect updated data classification system and the associated sensitivity of each data type
+Establish, and document, process to periodically reviews data handling and data classification guidelines
+Develop organizational workflows and RACIs
+Document and refine processes and procedures
+Define and document data security policies and standards
+Define, collect, and report on metrics to measure the effectiveness of the data security program
+Complete rollout of DLP agent to all endpoints
+Define and track DLP metrics and report on them to assist decision making
+Ensure that appropriate users possess an IronKey USB device
+Implement a prompt, in conjunction with alert, for users notifying them that they are transferring PHI data
+Expand DLP coverage for databases through the use of existing Varonis utility
+Onboard additional databases into existing Informatica instance
+Deploy Azure Information Protection into the cloud environment
+Identify any other cloud environments, and deploy parallel controls to ensure normalized control coverage across all cloud providers
+Forward logs/alerts from DLP tools to SIEM for correlation and alerting
+Identify data destruction requirements based on legal/regulatory guidance and organizational risk
+Develop data destruction standards and procedures based on data classification for both cloud and on-prem
+Update database deployment processes and procedures to include the use of database encryption according to policy
+Implement Imperva for database security monitoring 
+Update database deployment processes and procedures to include onboarding new databases into Imperva
+Prioritize database onboarding to Imperva based on risk classification/categorization of stored data
+Configure Imperva to forward alert logs to the SIEM for centralized correlation and alerting
+
+Certificate Lifecycle Management and Automation 2021 Funding
+
+-Implement purchased Certificate Lifecycle tool to automate the monitoring, renewal, and distribution of  certificates
+-Onboard certificates for lifecycle management
+-Integrate Certificate Lifecycle tool with ServiceNow for tracking and ticketing
+-Upgrade PKI servers to Windows Server 2019
+-Develop and maintain PKI server upgrade plan to ensure timely refreshes
+
+Continue to scale the Varonis implementation where applicable/throughout the environment
+Identify databases with sensitive information and tag them accordingly utilizing enterprise data management tools (e.g., Varonis, Informatica)
+Deploy the defined level of data protection controls to databases based on the data classification standard and associated handling requirements
+"
+5,PRJ0022918,CAP - CTOM Training,Gareth Parker,"<p>Review and refresh expectations of CCF staff as they relate to cybersecurity, including incident reporting</p>
+<p>Review cybersecurity organizational alignment to identify gaps, ensure ability to meet organizational mission, and reduce siloing of teams</p>
+<p>Develop metrics / KPI to report on effectiveness of cyber organizational structure</p>
+<p> </p>","Review and refresh expectations of CCF staff as they relate to cybersecurity, including incident reporting
+
+Review cybersecurity organizational alignment to identify gaps, ensure ability to meet organizational mission, and reduce siloing of teams
+
+Develop metrics / KPI to report on effectiveness of cyber organizational structure"
+6,PRJ0024150,"TVI - Protection, Threat Triage & Containment (P1)",Thomas Butler,"<p>Integrate VMWare Workspace one with ServiceNow Vulnerability Management to centrally store and monitor vulnerabilities on mobile devices</p>
+<p>Define metrics for tracking EOL and vulnerable devices and use them to inform mobile device policy and standards</p>
+<p>Integrate WorkspaceOne with SIEM to enable correlation and centralized alerting on MDM logs</p>
+<p>Receive device configuration baselines from Infrastructure team for vulnerability scanning activities</p>
+<p>Leverage Nessus to scan and identify devices that deviate from baseline configurations</p>
+<p>Utilize Cyber Hygiene dashboard to track Nessus scanning efforts</p>
+<p>Ensure sensors are deployed to all devices to continuously check for configuration drift</p>
+<p>Implement ServiceNow Vulnerability Module</p>
+<p>Develop a risk scoring and prioritization methodology that incorporates internal intelligence and context e.g., where in the environment it sits, asset type (including med devices and OT), associated business process, etc, as well as external e.g., active threat </p>
+<p>Integrate vulnerability scanning and detection solutions (e.g., Tenable, Workspace One, Ordr, etc) with ServiceNow Vulnerability Management for central management, prioritization, and tracking of vulnerabilities across the organization</p>
+<p>Utilize ServiceNow to automate the assignment of remediation owners and generation of tickets for notification, as well as tracking of remediation and exceptions.</p>
+<p>Track unremediated vulnerabilities that have been granted exceptions, to ensure the exceptions are revalidated for need and risk</p>
+<p>Utilize ServiceNow to automate the collection of metrics such as time to patch, most vulnerable systems, etc. for strategic, operational, and tactical decision making and reporting</p>
+<p>Utilize expanded BIAs to evaluate and prioritize critical assets (data, facilities, associated technology, etc) and operations (emergency rooms. research, etc.)</p>
+<p>Perform a threat landscape / adversary evaluation to identify threats that are likely to target the organization&#39;s critical assets/operations (both internal and external threat actors)</p>
+<p>Develop prioritized intelligence requirements (beginning with a narrow focus to answer key questions)</p>
+<p>Develop, document, and implement a process to continuously review, update, add, remove, and reprioritize intelligence requirements based on the changing threat landscape and organizational priorities</p>
+<p>Identify skills gaps and supplement with additional staff or third parties and required</p>
+<p>Develop a collection management framework, utilizing intelligence requirements to identify necessary information and information sources </p>
+<p>Rationalize existing intelligence sources and identify gaps in coverage (including both internal and external date/intelligence sources)</p>
+<p>Develop and document analysis processes and procedures</p>
+<p>Develop and document intelligence production and dissemination processes and procedures, including what intelligence can be shared externally and by whom</p>
+<p>Stand up honey pot</p>
+<p>Stand up malware sandbox</p>
+<p>Define and track metrics / KPIs on intelligence</p>
+<p>Develop and document processes for incorporating intelligence consumer feedback for future intelligence products</p>
+<p>Develop and document a threat hunting process, including tasking, execution, outputs, etc.</p>
+<p>Develop and document process to incorporate lessons learned in to future threat hunts, including missing data sources from the collection management framework</p>
+<p>Develop metrics and KPIs for reporting</p>
+<p>Utilize identified adversaries/threats as inputs for simulations</p>
+<p>Develop process for creating adversary simulation scenarios based on relevant objectives, TTPs, rules of engagement, and organizational priorities</p>
+<p>Develop outputs of simulations for appropriate audiences (i.e., Strategic, operational, and tactical) to facilitate remediation or decision making</p>
+<p>Develop metrics / KPI for reporting based on simulation objectives e.g., Time to detect/respond/contain</p>
+<p>Develop a detection and collection management framework to organize securty monitoring objectives and map them to available log sources</p>
+<p>Integrate NXLog with Google Chronicle for log ingestion</p>
+<p>Migrate existing alerting/correlation rules from QRadar to Google Chronicle</p>
+<p>Utilize the collection management framework to identify and track missing data, necessary to implement required alerting use cases</p>
+<p>Perform turning on rules / thresholds to reduce false positives</p>
+<p>Define and collect metrics to improve efficiency and assist in decision making</p>
+<p>Expand tabletop exercises to include a broad cross-functional team to practice coordination outside of cybersecurity and identify gaps</p>
+<p>Utilize the capabilities built in the Adversary Emulation project to develop Purple Team operations and improve detection and response capabilities </p>
+<p>Identify additional internal information sharing to improve situational awareness and effectiveness and update processes accordingly e.g., feeding incident related forensics to threat intel team</p>
+<p>Define and track IR related metrics to identify areas for improvement</p>
+<p> </p>
+<p> </p>","Integrate VMWare Workspace one with ServiceNow Vulnerability Management to centrally store and monitor vulnerabilities on mobile devices
+
+Define metrics for tracking EOL and vulnerable devices and use them to inform mobile device policy and standards
+
+Integrate WorkspaceOne with SIEM to enable correlation and centralized alerting on MDM logs
+
+Receive device configuration baselines from Infrastructure team for vulnerability scanning activities
+
+Leverage Nessus to scan and identify devices that deviate from baseline configurations
+
+Utilize Cyber Hygiene dashboard to track Nessus scanning efforts
+
+Ensure sensors are deployed to all devices to continuously check for configuration drift
+
+Implement ServiceNow Vulnerability Module
+
+Develop a risk scoring and prioritization methodology that incorporates internal intelligence and context e.g., where in the environment it sits, asset type (including med devices and OT), associated business process, etc, as well as external e.g., active threat 
+
+Integrate vulnerability scanning and detection solutions (e.g., Tenable, Workspace One, Ordr, etc) with ServiceNow Vulnerability Management for central management, prioritization, and tracking of vulnerabilities across the organization
+
+Utilize ServiceNow to automate the assignment of remediation owners and generation of tickets for notification, as well as tracking of remediation and exceptions.
+
+Utilize ServiceNow to automate the collection of metrics such as time to patch, most vulnerable systems, etc. for strategic, operational, and tactical decision making and reporting
+
+Utilize expanded BIAs to evaluate and prioritize critical assets (data, facilities, associated technology, etc) and operations (emergency rooms. research, etc.)
+
+Perform a threat landscape / adversary evaluation to identify threats that are likely to target the organization's critical assets/operations (both internal and external threat actors)
+
+Develop prioritized intelligence requirements (beginning with a narrow focus to answer key questions)
+
+Develop, document, and implement a process to continuously review, update, add, remove, and reprioritize intelligence requirements based on the changing threat landscape and organizational priorities
+
+Identify skills gaps and supplement with additional staff or third parties and required
+
+Develop a collection management framework, utilizing intelligence requirements to identify necessary information and information sources 
+
+Rationalize existing intelligence sources and identify gaps in coverage (including both internal and external date/intelligence sources)
+
+Develop and document analysis processes and procedures
+
+Develop and document intelligence production and dissemination processes and procedures, including what intelligence can be shared externally and by whom
+
+Stand up honey pot
+
+Stand up malware sandbox
+
+Define and track metrics / KPIs on intelligence
+
+Develop and document processes for incorporating intelligence consumer feedback for future intelligence products
+
+Develop and document a threat hunting process, including tasking, execution, outputs, etc.
+
+Develop and document process to incorporate lessons learned in to future threat hunts, including missing data sources from the collection management framework
+
+Develop metrics and KPIs for reporting
+
+Utilize identified adversaries/threats as inputs for simulations
+
+Develop process for creating adversary simulation scenarios based on relevant objectives, TTPs, rules of engagement, and organizational priorities
+
+Develop outputs of simulations for appropriate audiences (i.e., Strategic, operational, and tactical) to facilitate remediation or decision making
+
+Develop metrics / KPI for reporting based on simulation objectives e.g., Time to detect/respond/contain
+
+Develop a detection and collection management framework to organize securty monitoring objectives and map them to available log sources
+
+Integrate NXLog with Google Chronicle for log ingestion
+
+Migrate existing alerting/correlation rules from QRadar to Google Chronicle
+
+Utilize the collection management framework to identify and track missing data, necessary to implement required alerting use cases
+
+Perform turning on rules / thresholds to reduce false positives
+
+Define and collect metrics to improve efficiency and assist in decision making
+
+Expand tabletop exercises to include a broad cross-functional team to practice coordination outside of cybersecurity and identify gaps
+
+Utilize the capabilities built in the Adversary Emulation project to develop Purple Team operations and improve detection and response capabilities 
+
+Identify additional internal information sharing to improve situational awareness and effectiveness and update processes accordingly e.g., feeding incident related forensics to threat intel team
+
+Define and track IR related metrics to identify areas for improvement
+
+
+"
+7,PRJ0034901,Cybersecurity Portfolio Management (ServiceNow APM),Gareth Parker,"<p><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">DMND0006110 Cybersecurity Portfolio Management (ServiceNow APM) -  is an effort to align ServiceNow capabilities to better enable achievement of Cybersecurity goals and OKRs. This effort will focus on the configuration and adoption of the </span><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;""> APM – Application Portfolio Management module within ServiceNow. </span><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">The configuration and adoption will focus on meeting Cybersecurity needs and objectives while best aligning with the needs of the larger Enterprise. </span><span style=""font-family: times new roman, times;""><span style=""font-size: 16px;"">Cybersecurity owned applications will be in scope for this effort. </span></span><span style=""font-family: times new roman, times;""><span style=""font-size: 16px;"">Enablement of APM managed documents and roles based access for Cybersecurity solution architecture will also be enabled.</span></span></p>
+<p><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">Please complete items #1-4 in the ServiceNow Description field </span></p>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">1.ITD Ask:  ITD Process Owners will need to be engaged to ensure work effort is aligned with the enterprise standards. The ServiceNow team will need to support the promotion of changes into the production instance of ServiceNow. A third-party implementation partner will be engaged to support the design, development and implementation of the ServiceNow modules. Additional ServiceNow resource will be engaged to augment existing staff and increase resource . </span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">2.Priority Score:  77.36</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">3.Sizing Score:  80.00</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">4.Exception Criteria (if applicable):  Executive Request - Vugar Zeynalov is requesting that this effort be prioritized and moved forward.  This is effort supports the strategic direction of the Cybersecurity organization and is critical to support those goals.</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">a.Threshold: Patient Safety/Revenue/Regulatory/Executive Request </span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">b.Complete the Justification Statement – Include a summary by the category associated with the exception request</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">•Patient Safety – has it been approved by the Patient Safety and Quality Leadership sub-committee? (required)</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">•Revenue – list the specific revenue impact amount</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">•Regulatory – list the impact and any associated dates action needed.</span></div>
+<div><span style=""font-family: &#39;times new roman&#39;, times; font-size: 12pt;"">•Executive Request – list the reason and the executive making the request - This effort is in support of OKRs set by the CCF Board of Directors to achieve Cybersecurity maturity benchmark of quantitatively managed.</span></div>","DMND0006110 Cybersecurity Portfolio Management (ServiceNow APM) -  is an effort to align ServiceNow capabilities to better enable achievement of Cybersecurity goals and OKRs. This effort will focus on the configuration and adoption of the  APM – Application Portfolio Management module within ServiceNow. The configuration and adoption will focus on meeting Cybersecurity needs and objectives while best aligning with the needs of the larger Enterprise. Cybersecurity owned applications will be in scope for this effort. Enablement of APM managed documents and roles based access for Cybersecurity solution architecture will also be enabled.
+Please complete items #1-4 in the ServiceNow Description field 
+1.ITD Ask:  ITD Process Owners will need to be engaged to ensure work effort is aligned with the enterprise standards. The ServiceNow team will need to support the promotion of changes into the production instance of ServiceNow. A third-party implementation partner will be engaged to support the design, development and implementation of the ServiceNow modules. Additional ServiceNow resource will be engaged to augment existing staff and increase resource . 
+2.Priority Score:  77.36
+3.Sizing Score:  80.00
+4.Exception Criteria (if applicable):  Executive Request - Vugar Zeynalov is requesting that this effort be prioritized and moved forward.  This is effort supports the strategic direction of the Cybersecurity organization and is critical to support those goals.
+a.Threshold: Patient Safety/Revenue/Regulatory/Executive Request 
+b.Complete the Justification Statement – Include a summary by the category associated with the exception request
+•Patient Safety – has it been approved by the Patient Safety and Quality Leadership sub-committee? (required)
+•Revenue – list the specific revenue impact amount
+•Regulatory – list the impact and any associated dates action needed.
+•Executive Request – list the reason and the executive making the request - This effort is in support of OKRs set by the CCF Board of Directors to achieve Cybersecurity maturity benchmark of quantitatively managed."
+8,PRJ0018586,IP - Network Visibility Coverage (ISE),Gareth Parker,"<ul style=""list-style-position: inside;""><li style=""font-size: 8pt;""><span style=""font-size: 8pt;"">Deploy a consolidated wired and wireless network access control solution to identify devices joining the non-public side of the Cleveland Clinic (CCF) network​</span></li><li style=""font-size: 8pt;""><span style=""font-size: 8pt;"">Integrate 100% of publicly available network switches with the network access control solution​</span></li><li style=""font-size: 8pt;""><span style=""font-size: 8pt;"">Profile, classify and monitor 100% of devices on the non-public CCF network   ​</span></li><li style=""font-size: 8pt;""><span style=""font-size: 8pt;"">Remediate enterprise infrastructure to enable network access control capabilities​</span></li><li style=""font-size: 8pt;""><span style=""font-size: 8pt;"">Identify unknown devices accessing non-public CCF network and send alerts to Cybersecurity monitoring teams when discovered​</span></li><li style=""font-size: 8pt;""><span style=""font-size: 8pt;"">Establish and implement device policies improving network security posture and compliance over time</span></li></ul>","This project will provide security by identifying and profiling all endpoints connected to the CCF network. Phase 1 is designed to integrate previous project Ordr to provide detailed device profiling for medical devices, IoT devices, facilities IoT devices, and all other devices accessing the network. ​
+
+​"
+9,PRJ0024147,CLP - Cloud Security Automation (P1),Kevin Tambascio,"<p>Develop policies, procedures, and standards for cloud operations in each of the cloud environments CCF leverages (i.e. AWS, Azure, GCP, IBM)</p>
+<p>Design and document team organizational model with one SME per cloud environment</p>
+<p>Define and document secure cloud migration process</p>","Develop policies, procedures, and standards for cloud operations in each of the cloud environments CCF leverages (i.e. AWS, Azure, GCP, IBM)
+Design and document team organizational model with one SME per cloud environment
+Define and document secure cloud migration process
+Develop organizational workflows and RACIs for Cloud Security Automation"
+10,PRJ0034580,(Cyber Only) Precision devices  and software,Mary Ott,"<p style=""margin: 0in; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;""><strong>Executive Summary</strong> | <span style=""color: #404040; font-style: italic;""><span style=""font-size: 9pt; line-height: 107%;"">Please be brief.  2-3 sentences should suffice.</span></span></p>
+<p style=""margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"">CCF IT is requested to review the software associated with the two instruments (SmART&#43; and X-Rad 320 Xray Irradiators.  This purchase has been coordinated with CC Radiation Safety and has been approved as part of the US Dept of Energy CIRP to replace Cesium irradiators with X-ray technology across the United States.  The purchase has been approved by the highest level of CC Finance.  CC Contract No. 706103 with DOE.  The quote expires on 12/15/2023.  We will lose approximately $400,000 of a discount if this is not executed.  The vendor indicated prices will increase in 2024.  </p>
+<p style=""margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"">Machines include &#34;remote trouble shooting software&#34;.</p>
+<table style=""width: 62.1013%; height: 187.094px;""><tbody><tr style=""height: 24.5469px;""><td style=""width: 33.7277%; height: 21.5469px; background-color: #c2e0f4;""><strong>Request Use Case</strong> (<a href=""https://clevelandclinic.sharepoint.com/:x:/t/ITDIntake2/EUzTSin6pEZBrbtoCdHqOyYB935wyyvhTM5NbdcuSSSRbA?e&#61;b0FOWH&amp;nav&#61;MTVfe0FEQjZGQTExLTE2N0QtNDI2RS1CNzRFLTQ3NzMzOEE4QUU5Rn0"" target=""_blank"" rel=""noopener noreferrer nofollow"">ref</a>)</td><td style=""width: 66.1499%; height: 24.5469px; background-color: #c2e0f4;""><strong><strong>Solution Review </strong></strong><span style=""font-size: 7pt;"">(Solution to problem presented. May NOT include integration; if integration required, use Project or Epic use case. May include connected devices. Includes existing vendor relationships not on file or formally reviewed previously.<span style=""color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));"">)</span></span></td></tr><tr style=""height: 51.25px;""><td style=""width: 33.7277%; height: 30.7812px; background-color: #ced4d9;""><strong>Governance</strong> (<a href=""https://clevelandclinic.sharepoint.com/:x:/t/ITDIntake2/ETlT0zWkmURJtOtQfPW16eEB5NqvEJnMVIbonuJ6KXra6g?e&#61;WHglIZ&amp;nav&#61;MTVfezNCQjQ1NjU2LUVDNkItNEM0RC04N0UxLTA5Mzc5Mzk1NjBBM30"" target=""_blank"" rel=""noopener noreferrer nofollow"">ref</a>)</td><td style=""width: 66.1499%; height: 51.25px; background-color: #ced4d9;""> Architectural Review Board (ARB)</td></tr><tr style=""height: 46.1719px;""><td style=""width: 33.7277%; height: 46.1719px;""><strong>IT Ask</strong></td><td style=""width: 66.1499%; height: 46.1719px;"">1. Consultation and approval to procure and activate 2 SmART&#43; machines from vendor called Precision. <br />May <strong>not</strong> include integration.</td></tr><tr style=""height: 65.125px;""><td style=""width: 33.7277%; height: 65.125px;""><strong>Suggested ITD Contributors</strong></td><td style=""width: 66.1499%; height: 65.125px;"">· Cybersecurity<br />· <br />…</td></tr></tbody></table>
+<p>A scorecard is <strong>not </strong>required for this use case.</p>","Executive Summary | Please be brief.  2-3 sentences should suffice.
+CCF IT is requested to review the software associated with the two instruments (SmART&#43; and X-Rad 320 Xray Irradiators.  This purchase has been coordinated with CC Radiation Safety and has been approved as part of the US Dept of Energy CIRP to replace Cesium irradiators with X-ray technology across the United States.  The purchase has been approved by the highest level of CC Finance.  CC Contract No. 706103 with DOE.  The quote expires on 12/15/2023.  We will lose approximately $400,000 of a discount if this is not executed.  The vendor indicated prices will increase in 2024.  
+Machines include &#34;remote trouble shooting software&#34;.
+Request Use Case (ref)Solution Review (Solution to problem presented. May NOT include integration; if integration required, use Project or Epic use case. May include connected devices. Includes existing vendor relationships not on file or formally reviewed previously.)Governance (ref) Architectural Review Board (ARB)IT Ask1. Consultation and approval to procure and activate 2 SmART&#43; machines from vendor called Precision. May not include integration.Suggested ITD Contributors· Cybersecurity· …
+A scorecard is not required for this use case."
+11,PRJ0018582,IP - Secure Remote Access Solution for Device Support Vendors (VPAM),Gareth Parker,"<div>
+<div>
+<p><strong>Outcomes</strong>​</p>
+</div>
+<ul style=""list-style-position: inside;""><li>CFO commitment: Secure remote access solution for device support vendors 100% by end of 2021​</li><li>Enhance access control and visibility hardening access requirements for remote vendors​</li><li>Provide a secure service strategy for remote vendor access​</li><li>Enable VPAM capability to 60 CCF vendors in 2021. Extend VPAM capabilities to an additional 40 vendors in 2022</li></ul>
+</div>
+<p> </p>","Vendors are adopting more modern remote access solutions and refusing to support their products via more traditional options (VPN).  By creating CCF controlled versions of these products we can allow the business to support more vendors and ultimately provide support for a wider range of products and services while doing so in a secure, controlled, and auditable manner."
+12,PRJ0024144,IP - Network and Device Protection (P1),Keith Duemling,"<p>Centralize asset management and CMDB functions within ServiceNow</p>
+<p>Develop a software asset inventory within ServiceNow</p>
+<p>Inventory external information systems, and document them in ServiceNow</p>
+<p>Ensure critical business processes are mapped to applications, and their associated infrastructure</p>
+<p>Update procurement processes to ensure that future assets are captured in ServiceNow at procurement / contracting</p>
+<p>Perform asset discovery and inventory Med Devices and OT assets</p>
+<p>Enumerate the types and versions of med devices and OT assets</p>
+<p>Check med device / OT assets against known vulnerabilities and track as part of enterprise vulnerability management program</p>
+<p>Define med device / OT security standards and guidelines</p>
+<p>Update medical device / OT procurement processes to include security testing prior to procurement or production deployment</p>
+<p>Update contracting language to require vendors to provide software bill of materials (SBoM) for medical and OT devices</p>
+<p>Define list of approved software</p>
+<p>Update exception handling process to accommodate software exceptions</p>
+<p>Issue tickets / notifications to users of unapproved software</p>
+<p>Uninstall instances of unapproved software</p>
+<p>Evaluate, select, and implement an application whitelisting tool, first evaluating existing tools in the portfolio for suitability e.g., Crowdstrike</p>
+<p>Create, deploy, and centrally manage baselines and golden images for all feasible systems e.g., workstations, servers, network appliances, medical devices, OT assets, etc</p>
+<p>Provide baselines to TVIM teams identify vulnerabilities and areas for improvement. Define cadence and triggers for reassessment</p>
+<p>Update baselines based on testing results</p>
+<p>Identify if current security and infrastructure tool portfolio is capable of creating and monitoring network activity baselines</p>
+<p>Select and implement and solution if needed</p>
+<p>Create network communication baselines of normal activity</p>
+<p>Generate alerts on anomolous behavior and identify trends that can be used to inform capacity planning and resiliency decisions</p>
+<p>Rationalize existing remote access solutions and identify areas for consolidation to reduce costs, operational burden, and increase efficiency</p>
+<p>Identify remote access use cases that utilize non-standard mechanisms (e.g., Third parties, Medical Device, OT, Building Automation and document them and associated controls)</p>
+<p>Identify high-risk remote access use cases that require additional layers of protection or monitoring; design and implement this supplemental control-set</p>
+<p>Complete Tufin implementation</p>
+<p>Onboard all CCF (including M&amp;A sites) firewalls into Tufin</p>
+<p>Integrate Tufin with ServiceNow change management functionality</p>
+<p>Automate firewall configuration reviews and  generate tickets for remediation items</p>
+<p> </p>","Centralize asset management and CMDB functions within ServiceNow
+
+Develop a software asset inventory within ServiceNow
+
+Inventory external information systems, and document them in ServiceNow
+
+Ensure critical business processes are mapped to applications, and their associated infrastructure
+
+Update procurement processes to ensure that future assets are captured in ServiceNow at procurement / contracting
+
+Perform asset discovery and inventory Med Devices and OT assets
+
+Enumerate the types and versions of med devices and OT assets
+
+Check med device / OT assets against known vulnerabilities and track as part of enterprise vulnerability management program
+
+Define med device / OT security standards and guidelines
+
+Update medical device / OT procurement processes to include security testing prior to procurement or production deployment
+
+Update contracting language to require vendors to provide software bill of materials (SBoM) for medical and OT devices
+
+Define list of approved software
+
+Update exception handling process to accommodate software exceptions
+
+Issue tickets / notifications to users of unapproved software
+
+Uninstall instances of unapproved software
+
+Evaluate, select, and implement an application whitelisting tool, first evaluating existing tools in the portfolio for suitability e.g., Crowdstrike
+
+Create, deploy, and centrally manage baselines and golden images for all feasible systems e.g., workstations, servers, network appliances, medical devices, OT assets, etc
+
+Provide baselines to TVIM teams identify vulnerabilities and areas for improvement. Define cadence and triggers for reassessment
+
+Update baselines based on testing results
+
+Identify if current security and infrastructure tool portfolio is capable of creating and monitoring network activity baselines
+
+Select and implement and solution if needed
+
+Create network communication baselines of normal activity
+
+Generate alerts on anomolous behavior and identify trends that can be used to inform capacity planning and resiliency decisions
+
+Rationalize existing remote access solutions and identify areas for consolidation to reduce costs, operational burden, and increase efficiency
+
+Identify remote access use cases that utilize non-standard mechanisms (e.g., Third parties, Medical Device, OT, Building Automation and document them and associated controls)
+
+Identify high-risk remote access use cases that require additional layers of protection or monitoring; design and implement this supplemental control-set
+
+Complete Tufin implementation
+
+Onboard all CCF (including M&A sites) firewalls into Tufin
+
+Integrate Tufin with ServiceNow change management functionality
+
+Automate firewall configuration reviews and  generate tickets for remediation items"
+13,PRJ0033115,GRC - Risk Management and Compliance,Cristina Beck,"<p><strong>ITD Ask: </strong>This is mainly process and documentation related work internal to Cybersecurity.</p>
+<p><strong>Priority Score: </strong>16.67</p>
+<p><strong>Sizing Score: </strong>68.19</p>
+<p><strong>Exception Criteria: </strong></p>
+<p>Regulatory: Risk management is a key enterprise function, and these enhancements to the Cybersecurity risk management program are required in order to maintain alignment with several frameworks and the National Cybersecurity Strategy.</p>
+<p>Executive Request: The Board of Directors and ERM is requesting additional visibility into Cyber risks and enhancements to the program, including capturing risk appetite as well as better tracking of risk exceptions and issues related to third parties.  With the Board voting to move third party risk to the #1 Cyber risk to the enterprise, this elevates the priority of this work.</p>
+<p><strong>Scope:</strong></p>
+<ul style=""list-style-position: inside;""><li>Standardize risk management practices (e.g., policy, standards, and procedures for assessing, prioritizing, and communicating risk) throughout the organization, with a focus on maintaining the clinic&#39;s core mission</li><li>Define risk appetite and risk assessment/reporting cadence with input from the Board/leadership</li><li>Standardize controls on an industry standard controls framework(s) e.g., NIST 800-53 and map other necessary frameworks to it as needed for consistency and reportability</li><li>Define methodology and procedures for risk remediation analysis i.e., assessing the costs and benefits of implementing proposed risk remediation plans </li><li>Upload standardized controls, policy, procedures, framework, and methodology to the Integrated Risk Management tool.</li><li>Implement the risk remediation analysis/tracking process, and prioritize remediation plans</li><li>Define, track and report on relevant KPIs for the cybersecurity program</li><li>Track unremediated security issues that have been granted exceptions, to ensure the exceptions are revalidated for need and risk</li></ul>
+<p> </p>","ITD Ask: This is mainly process and documentation related work internal to Cybersecurity.
+Priority Score: 16.67
+Sizing Score: 68.19
+Exception Criteria: 
+Regulatory: Risk management is a key enterprise function, and these enhancements to the Cybersecurity risk management program are required in order to maintain alignment with several frameworks and the National Cybersecurity Strategy.
+Executive Request: The Board of Directors and ERM is requesting additional visibility into Cyber risks and enhancements to the program, including capturing risk appetite as well as better tracking of risk exceptions and issues related to third parties.  With the Board voting to move third party risk to the #1 Cyber risk to the enterprise, this elevates the priority of this work.
+Scope:
+Standardize risk management practices (e.g., policy, standards, and procedures for assessing, prioritizing, and communicating risk) throughout the organization, with a focus on maintaining the clinic&#39;s core missionDefine risk appetite and risk assessment/reporting cadence with input from the Board/leadershipStandardize controls on an industry standard controls framework(s) e.g., NIST 800-53 and map other necessary frameworks to it as needed for consistency and reportabilityDefine methodology and procedures for risk remediation analysis i.e., assessing the costs and benefits of implementing proposed risk remediation plans Upload standardized controls, policy, procedures, framework, and methodology to the Integrated Risk Management tool.Implement the risk remediation analysis/tracking process, and prioritize remediation plansDefine, track and report on relevant KPIs for the cybersecurity programTrack unremediated security issues that have been granted exceptions, to ensure the exceptions are revalidated for need and risk
+ "
+14,PRJ0017223,Privileged Access Management,Timothy Brogan,"<p>This is project #3 of 3 that makes up the TRR Program. This project entails reviewing, updating, and managing privileged access requirements, accounts, and processes across enterprise-wide critical-risk and high-risk accounts.</p>","Ransomware attacks hijack accounts, particularly privileged accounts, to spread fast in the environment. Account protections can limit spread, and increase chances of detection before large-scale impact. This 12-month project entails:
+
+0-6 months - Manage privileged access for critical-risk accounts
+6-12 months - Manage privileged access for high-risk accounts
+
+
+"
+15,PRJ0024141,CAP - Cybersecurity Training and Awareness (P1),Jason Collins,"<p>Identify and catalogue cyber threats and associated risks caregivers would face on the job, including those from past incidents</p>
+<p>Create and deploy training materials based on roles e.g., (including all users, priv users, third parties, executives, IT, info sec,  and physical security staff) and the associated threats/risks</p>
+<p>Mandate that all caregivers complete risk-based trainings in order to begin their roles</p>
+<p>Integrate HR data &amp; LMS with IAM solution and ticketing system to alert users and their managers of upcoming or overdue training requirements, as well as disable user access after a given period of non-compliance</p>
+<p>Track and report on caregiver training compliance by role, department, institute, etc. to identify and remediate issues in the security training program</p>
+<p>Implement content refresh cadence to ensure up to date and relevant training is provided based on evolving threat landscape</p>
+<p>Identify and catalogue cyber threats and associated risks caregivers would face on the job, as well as emerging threats and industry trends e.g., news articles, CISA / ISAC / Infragard Bulletins, annual tax related scams, etc. </p>
+<p>Identify key mediums for communicate with broad groups of users of all types e.g., posters, emails, intranet, etc</p>
+<p>Develop awareness campaigns to target broad and narrow audiences depending on specific risks and threats that have been catalogued</p>
+<p>Develop a process to quickly create and launch an awareness campaign if an emerging threats warrants it</p>
+<p>Develop KPI, capture metrics, and report on them</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>","Identify and catalogue cyber threats and associated risks caregivers would face on the job, including those from past incidents
+
+Create and deploy training materials based on roles e.g., (including all users, priv users, third parties, executives, IT, info sec,  and physical security staff) and the associated threats/risks
+
+Mandate that all caregivers complete risk-based trainings in order to begin their roles
+
+Integrate HR data & LMS with IAM solution and ticketing system to alert users and their managers of upcoming or overdue training requirements, as well as disable user access after a given period of non-compliance
+
+Track and report on caregiver training compliance by role, department, institute, etc. to identify and remediate issues in the security training program
+
+Implement content refresh cadence to ensure up to date and relevant training is provided based on evolving threat landscape
+
+Identify and catalogue cyber threats and associated risks caregivers would face on the job, as well as emerging threats and industry trends e.g., news articles, CISA / ISAC / Infragard Bulletins, annual tax related scams, etc. 
+
+Identify key mediums for communicate with broad groups of users of all types e.g., posters, emails, intranet, etc
+
+Develop awareness campaigns to target broad and narrow audiences depending on specific risks and threats that have been catalogued
+
+Develop a process to quickly create and launch an awareness campaign if an emerging threats warrants it
+
+Develop KPI, capture metrics, and report on them"
+16,PRJ0033114,TPSRM - Vendor Risk Management Enhancements,Cristina Beck,"<p><strong>ITD Ask: </strong>This is mainly process and documentation related work internal to Cybersecurity. The exception is potential integration work to bring vendor data into ServiceNow from Ivalua or another identified source of truth for vendor data.</p>
+<p><strong>Priority Score: </strong>21.67</p>
+<p><strong>Sizing Score: </strong>68.19</p>
+<p><strong>Exception Criteria: </strong></p>
+<p>Regulatory: With third party risk being elevated to the #1 Cyber Risk to the enterprise as agreed to by the Board, and several frameworks identifying key controls which need to be in place to manage third party relationships, the scope of work below needs to be completed to (a) mitigate third party risks and (b) align with regulatory frameworks and the National Cybersecurity Strategy.</p>
+<p>Executive Request: Don Sinko, Rohit Chandra, and Vugar Zeynalov are assembling a cross-functional team to address third party risk as this has now moved to the #1 Cyber risk to the enterprise. The Board has also agreed that third party risk management must be a top priority for the organization.</p>
+<p><strong>Scope:</strong></p>
+<ul style=""list-style-position: inside;""><li style=""text-align: left;"">Enhance existing risk tiering model by identifying and incorporating additional key inputs (e.g., volume of data shared, etc.)</li><li style=""text-align: left;"">Update processes and procedures to improve compliance with policy mandating that Cybersecurity be involved in assessing third party and supplier relationships prior to contracting</li><li style=""text-align: left;"">Recategorize all existing third parties into enhanced tiers</li><li style=""text-align: left;"">Expand program for recurring assessments beyond Critical and High risk suppliers; establish a risk-based approach for secondary prioritization.</li><li style=""text-align: left;"">Define third party security requirements based on tiering e.g., SOC 1/2, ISO 27K certification, HITRUST, external pen test, etc. and the required validation period</li><li style=""text-align: left;"">Integrate VRM system with Ivalua (or other identified vendor source of truth) to automate the importing and tracking of third parties, including termination of relationships</li><li style=""text-align: left;"">Update contracting language to include compliance with appropriate cybersecurity standards e.g., vulnerability disclosure, security standards adherence, involvement in recovery or tabletop exercises</li><li style=""text-align: left;"">Perform monitoring of third party security posture e.g., breaches, PR, etc.</li><li style=""text-align: left;"">Incorporate third parties into DR/BC planning, including exercises</li><li style=""text-align: left;"">Define metrics and track and report on third party adherence to commitments</li><li style=""text-align: left;"">Centrally manage vendor remediation plans to track their progress in remediating identified issues</li></ul>","ITD Ask: This is mainly process and documentation related work internal to Cybersecurity. The exception is potential integration work to bring vendor data into ServiceNow from Ivalua or another identified source of truth for vendor data.
+Priority Score: 21.67
+Sizing Score: 68.19
+Exception Criteria: 
+Regulatory: With third party risk being elevated to the #1 Cyber Risk to the enterprise as agreed to by the Board, and several frameworks identifying key controls which need to be in place to manage third party relationships, the scope of work below needs to be completed to (a) mitigate third party risks and (b) align with regulatory frameworks and the National Cybersecurity Strategy.
+Executive Request: Don Sinko, Rohit Chandra, and Vugar Zeynalov are assembling a cross-functional team to address third party risk as this has now moved to the #1 Cyber risk to the enterprise. The Board has also agreed that third party risk management must be a top priority for the organization.
+Scope:
+Enhance existing risk tiering model by identifying and incorporating additional key inputs (e.g., volume of data shared, etc.)Update processes and procedures to improve compliance with policy mandating that Cybersecurity be involved in assessing third party and supplier relationships prior to contractingRecategorize all existing third parties into enhanced tiersExpand program for recurring assessments beyond Critical and High risk suppliers; establish a risk-based approach for secondary prioritization.Define third party security requirements based on tiering e.g., SOC 1/2, ISO 27K certification, HITRUST, external pen test, etc. and the required validation periodIntegrate VRM system with Ivalua (or other identified vendor source of truth) to automate the importing and tracking of third parties, including termination of relationshipsUpdate contracting language to include compliance with appropriate cybersecurity standards e.g., vulnerability disclosure, security standards adherence, involvement in recovery or tabletop exercisesPerform monitoring of third party security posture e.g., breaches, PR, etc.Incorporate third parties into DR/BC planning, including exercisesDefine metrics and track and report on third party adherence to commitmentsCentrally manage vendor remediation plans to track their progress in remediating identified issues"
+17,PRJ0017221,Infrastructure Protections,Clay Anderson,<p>This project Is #2 of 3 projects that make up the TRR Program. This project entails continuous enterprise-wide patch management updates and configurations to CCF devices and software to minimize hacker attack points from known vulnerabilities.</p>,Infrastructure Protections
+18,PRJ0023851,IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-out area workstations,Maria Roder,"<p><strong>Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).</strong></p>
+<p> </p>
+<p>Cybersecurity has a request from IT leadership to deploy badge readers and BIBO capability to providers&#39; offices across the enterprise. </p>
+<p> </p>
+<p><strong>ITD ASK:  </strong>Provide ITD Cybersecurity, BRM (as needed), and PM resources to expand the BIBO installation to employed physician offices across the enterprise.</p>
+<p><strong>Priority Score:  36.00</strong></p>
+<p><strong>Sizing Score:   46.11</strong></p>
+<p><strong>Exception Criteria:  </strong></p>
+<p>Executive Project / Patient Safety</p>
+<p>Physicians are allocated 15 minutes per patient office visit and attempt to complete any charting, orders, med orders during the visit.  They also will chart using laptops or workstations in their offices.  These devices may or may not have BIBO/Imprivata software installed.  Having BIBO on physician office PCs improves charting and documentation efficiency, especially when making changes to orders and med prescriptions.  </p>
+<p> </p>
+<p> </p>","Requested by ITD caregiver.  Demand created to identify assignee to complete Conceptualization (Idea and Governance tabs).
+
+Cybersecurity has a request from IT leadership to deploy badge readers and BIBO capability to providers' offices across the enterprise. 
+
+ITD ASK:  Provide ITD Cybersecurity, BRM (as needed), and PM resources to expand the BIBO installation to employed physician offices across the enterprise.
+
+Priority Score:  36.00
+
+Sizing Score:   46.11
+
+Exception Criteria:  
+
+Executive Project / Patient Safety
+
+Physicians are allocated 15 minutes per patient office visit and attempt to complete any charting, orders, med orders during the visit.  They also will chart using laptops or workstations in their offices.  These devices may or may not have BIBO/Imprivata software installed.  Having BIBO on physician office PCs improves charting and documentation efficiency, especially when making changes to orders and med prescriptions.  "
+19,PRJ0032085,Replacement of MetricStream with ServiceNow Integrated Risk Management (IRM) and Vendor Risk Management (VRM) modules,Michael Krupka,"<ul style=""list-style-position: inside;""><li style=""text-align: center;"">Today, the Cybersecurity Assurance and Enterprise Risk Management (ERM) teams utilize MetricStream for Risk Management activities, including managing IT related risks, Enterprise risks, and Third Party risks.</li></ul>
+<p>For the following reasons, the team is considering replacement of MetricStream with ServiceNow&#39;s IRM and VRM modules:</p>
+<ul><li>The team has been experiencing stability issues with the MetricStream platform.</li><li>During upgrades of the MetricStream platform, customizations have been lost.</li><li>MetricStream has significantly increased licensing costs (&#43;30% for upcoming renewal)</li><li>Integration of the IRM and VRM modules with other ServiceNow modules already deployed today at CCF provides significant platform benefits</li></ul>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">Please complete items #1-4 in the ServiceNow Description field</span></strong></p>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">1. ITD Ask: Technical support for implementation of two new ServiceNow modules, Integrated Risk Management (IRM) and Vendor Risk Management (VRM)</span></strong></p>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">2. Priority Score: 77.36</span></strong></p>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">3. Sizing Score: 70</span></strong></p>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">4. Exception (if applicable): </span></strong></p>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">     a. Threshold: Patient Safety/Revenue/Regulatory/Executive Request</span></strong></p>
+<p style=""margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: &#39;Times New Roman&#39;, serif;""><strong><span style=""font-size: 10.0pt; font-family: Verdana, sans-serif;"">     b. Complete the Justification Statement – Include a summary by the category associated with the exception request</span></strong></p>
+<ul style=""list-style-type: square; margin-bottom: 0in; margin-top: 0px; list-style-position: inside;""><li style=""font-size: 10pt; font-family: Verdana, sans-serif; font-weight: normal;""><strong>Patient Safety – has it been approved by the Patient Safety and Quality Leadership sub-committee? (required)</strong></li><li style=""font-size: 10pt; font-family: Verdana, sans-serif; font-weight: normal;""><strong>Revenue – list the specific revenue impact amount</strong></li><li style=""font-size: 10pt; font-family: Verdana, sans-serif; font-weight: normal;""><strong>Regulatory – list the impact and any associated dates action needed - ServiceNow modules must be implemented by Nov 30, 2023 in order to replicate current functionality provided today by the MetricStream platform. This includes tracking and reporting of enterprise risks, including all vendor risk as well as the effectiveness of the controls put in place to mitigate these risks.</strong></li><li style=""font-size: 10pt; font-family: Verdana, sans-serif; font-weight: normal;""><strong>Executive Request – list the reason and the executive making the request - Don Sinko, Rohit Chandra, Matt Kull, and Vugar Zeynalov are assembling a cross-functional team to address third party risk as this has now moved to the #1 Cyber risk to the enterprise. The Board has also agreed that third party risk management must be a top priority for the organization.</strong></li></ul>","Today, the Cybersecurity Assurance and Enterprise Risk Management (ERM) teams utilize MetricStream for Risk Management activities, including managing IT related risks, Enterprise risks, and Third Party risks.
+For the following reasons, the team is considering replacement of MetricStream with ServiceNow&#39;s IRM and VRM modules:
+The team has been experiencing stability issues with the MetricStream platform.During upgrades of the MetricStream platform, customizations have been lost.MetricStream has significantly increased licensing costs (&#43;30% for upcoming renewal)Integration of the IRM and VRM modules with other ServiceNow modules already deployed today at CCF provides significant platform benefits
+Please complete items #1-4 in the ServiceNow Description field
+1. ITD Ask: Technical support for implementation of two new ServiceNow modules, Integrated Risk Management (IRM) and Vendor Risk Management (VRM)
+2. Priority Score: 77.36
+3. Sizing Score: 70
+4. Exception (if applicable): 
+     a. Threshold: Patient Safety/Revenue/Regulatory/Executive Request
+     b. Complete the Justification Statement – Include a summary by the category associated with the exception request
+Patient Safety – has it been approved by the Patient Safety and Quality Leadership sub-committee? (required)Revenue – list the specific revenue impact amountRegulatory – list the impact and any associated dates action needed - ServiceNow modules must be implemented by Nov 30, 2023 in order to replicate current functionality provided today by the MetricStream platform. This includes tracking and reporting of enterprise risks, including all vendor risk as well as the effectiveness of the controls put in place to mitigate these risks.Executive Request – list the reason and the executive making the request - Don Sinko, Rohit Chandra, Matt Kull, and Vugar Zeynalov are assembling a cross-functional team to address third party risk as this has now moved to the #1 Cyber risk to the enterprise. The Board has also agreed that third party risk management must be a top priority for the organization."
+20,PRJ0017218,Cyber Incident Recovery,Timothy Brogan,"<p>This project is designed to enable continuity for critical operations and allow practitioners to provide care during and after an outage from a cyber attack. It includes 1) a cyber recovery vault design and implementation component, 2) business recovery playbooks, and 3) testing of the tools and processes developed in #1 and #2.</p>","Enables continuity for critical operations and allow practitioners to provide care during and after an outage from a cyber attack. This 12-month project entails: 
+
+Months 1-6
+1) Identify mission essential business services/processes, define requirements for cyber recovery vault, and create incident response capability. 
+2) Business continuity planning, recovery playbook design, and cloud recovery requirement definition and architecture 
+3) Data vault implementation and cloud platform deployment
+
+Months 6-12
+1) Expand business resiliency processes across the enterprise
+2) Implement cloud recovery capability
+3) Conduct recoverability testing (wargaming) and tabletop exercise to test synchronized IR
+"
+21,PRJ0023610,AP - Application Security (P1),Kevin Tambascio,"<p>Develop organizational workflows and RACIs</p>
+<p>Document and refine processes and procedures</p>
+<p>Define and document application security policies and standards</p>
+<p>Define, collect, and report on metrics to measure the effectiveness of the application security program</p>","Develop organizational workflows and RACIs
+Document and refine processes and procedures
+Define and document application security policies and standards
+Define, collect, and report on metrics to measure the effectiveness of the application security program
+Update application development and deployment processes to include the centralized documenting of exposed web applications and APIs, and the inclusion of appropriate protections before deployment in production
+Ensure external facing applications require authentication and authorization that meet industry standards / leading practices
+Configure API security and management solution to forward logs to the SIEM
+Finalize secure coding & application security standards
+Develop procedures to drive efficient and consistent use of secure development tools and methods
+Develop and socialize guidance for developers on topics such as code style guides to maintain code quality
+Establish mandatory secure coding training and integrate with enterprise LMS for tracking completion by all developers
+Implement newly procured Burp Suite Enterprise, and integrate with SDLC pipeline
+
+
+"
+22,PRJ0031055,Egress Secure Email Solution,Laura Taiwo,"<p><strong><span style=""font-size: 11pt; font-family: Calibri, sans-serif; background: white;"">Target Go-Live Date per Gianni Laino is:  9/12/2023</span></strong><span style=""font-size: 11pt; font-family: Calibri, sans-serif; background: white;""> (aligns with CCF&#39;s Release Planning Go-Live dates)</span></p>
+<p> </p>
+<p>Egress will provide services to help CCF improve and streamline their secure email communication with key recipients in the UK. Egress will provide email encryption to CCF and crucially, will also provide flexible recipient access methods to make it easy for recipients to access the encrypted content. The products that Egress will provide to CCF are <em>Egress Prevent</em> and <em>Egress Protect</em> which are delivered together via one Outlook plug-in and work in synchrony to prompt/guide the sender on when they should encrypt and how to ensure the appropriate access method is selected (such as One Click Access). Egress integrates seamlessly with Outlook desktop and can also support OWA and mobile users too.</p>
+<p>1. ITD Ask: </p>
+<p>- Assistance from Enterprise Cybersecurity, Architecture &amp; Messaging teams for appropriate Solution Design in light of our current Enterprise architecture for secure outbound email &amp; DLP.<br />- Approval from Enterprise Leadership to move forward with this solution for London (London may be viewed as a pilot with potential benefit for wider Enterprise).<br />- Assistance with Implementation, Testing &amp; Service Design from Enterprise Messaging team.<br />- Support from the Enterprise Leadership for any required cybersecurity exceptions for deviation from standard Enterprise solutions.</p>
+<p>2. Priority Score: 46.11</p>
+<p>3. Sizing Score: 13.33</p>
+<p>4. Exception Criteria</p>
+<p>     a. Threshold:  Executive Request</p>
+<p>     b. Justification Statement:</p>
+<p>We have been asked to pursue this as high priority by London ET as the issues faced by Mimecast are causing significant impact to: <br />- Patients (risk to patient safety, impacting care pathways, impacting scheduling (and therefore revenue), poor patient experience resulting in numerous complaints/concerns from patients around inability to access their data and perception of unnecessary complexity) <br />- Partner organisations including for clinical workflows (including an incident around information transfer to the Coroner)<br />- Potential partner organisations (stymying efforts to win business against competitors with Embassies in particular)<br />- Various CCL teams (Medical Secretaries, GPS, GP Liaisons, Case Mgrs, Strategy/BD, Commercial)  </p>
+<p>The proposed product is seen as a low-cost, quick-win solution to this myriad of impacts.  We would appreciate the support of the Enterprise in pursuing this, and agreeing a suitable implementation design that enables the benefits of this product while maintaining the integrity of our architecture and cybersecurity posture.</p>
+<p> </p>
+<p>Additional Scope notes from previous meetings in March 2023 with team.  Teams needed for the implementation (subsequent to solution &amp; design):</p>
+<ul style=""list-style-position: inside;""><li>Azure admin for the web add-in (Identity) Erin Smith is cyber contact, Shane R is the architect for review</li><li>GPO creation for the COM add-in &amp; deployment (Client Engineering) Curt</li><li>Mimecast admin for conditional routing rules to enable the encryption product (Messaging) Sonja &amp; Gia R</li><li>Ping engagement for SSO for back-end authentication of the add-ins at Outlook launch (Identity) **on O365, not yet desktop client apps.  See cyber above for contact</li><li>Mobility team Tom Taconet</li></ul>
+<p> </p>
+<p>Teams needed to approve solution in addition:  cyber/architecture (already engaged)</p>","Go Live delayed to 18/09.  Project closure forecast for 2 weeks after this date.
+____________________________
+
+Target Go-Live Date per Gianni Laino is:  9/12/2023 (aligns with CCF's Release Planning Go-Live dates)
+ 
+Egress will provide services to help CCF improve and streamline their secure email communication with key recipients in the UK. Egress will provide email encryption to CCF and crucially, will also provide flexible recipient access methods to make it easy for recipients to access the encrypted content. The products that Egress will provide to CCF are Egress Prevent and Egress Protect which are delivered together via one Outlook plug-in and work in synchrony to prompt/guide the sender on when they should encrypt and how to ensure the appropriate access method is selected (such as One Click Access). Egress integrates seamlessly with Outlook desktop and can also support OWA and mobile users too.
+
+1. ITD Ask: 
+- Assistance from Enterprise Cybersecurity, Architecture &amp; Messaging teams for appropriate Solution Design in light of our current Enterprise architecture for secure outbound email &amp; DLP.- Approval from Enterprise Leadership to move forward with this solution for London (London may be viewed as a pilot with potential benefit for wider Enterprise).- Assistance with Implementation, Testing &amp; Service Design from Enterprise Messaging team.- Support from the Enterprise Leadership for any required cybersecurity exceptions for deviation from standard Enterprise solutions.
+2. Priority Score: 46.11
+3. Sizing Score: 13.33
+4. Exception Criteria
+     a. Threshold:  Executive Request
+     b. Justification Statement:
+
+We have been asked to pursue this as high priority by London ET as the issues faced by Mimecast are causing significant impact to: 
+- Patients (risk to patient safety, impacting care pathways, impacting scheduling (and therefore revenue), poor patient experience resulting in numerous complaints/concerns from patients around inability to access their data and perception of unnecessary complexity) 
+- Partner organisations including for clinical workflows (including an incident around information transfer to the Coroner)
+- Potential partner organisations (stymying efforts to win business against competitors with Embassies in particular)
+- Various CCL teams (Medical Secretaries, GPS, GP Liaisons, Case Mgrs, Strategy/BD, Commercial)  
+
+The proposed product is seen as a low-cost, quick-win solution to this myriad of impacts.  We would appreciate the support of the Enterprise in pursuing this, and agreeing a suitable implementation design that enables the benefits of this product while maintaining the integrity of our architecture and cybersecurity posture.
+ 
+Additional Scope notes from previous meetings in March 2023 with team:
+
+Teams needed for the implementation (subsequent to solution & design):
+-Azure admin for the web add-in (Identity) Erin Smith is cyber contact, Shane R is the architect for review
+-GPO creation for the COM add-in & deployment (Client Engineering) Curt
+-Mimecast admin for conditional routing rules to enable the encryption product (Messaging) Sonja & Gia R
+-Ping engagement for SSO for back-end authentication of the add-ins at Outlook launch (Identity) **on O365, not yet desktop client apps.  See cyber above for contact
+-Mobility team Tom Taconet
+ 
+Teams needed to approve solution in addition:  cyber/architecture (already engaged)"

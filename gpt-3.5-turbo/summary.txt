@@ -1,0 +1,1930 @@
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Research Requests with Cybersecurity Service Delivery Team to Identify  Criteria/Requirements when Cybersecurity Should be engaged   - Cybersecurity Domain Epic: Next Steps
+1. Develop research criteria/requirements
+2. What are the criteria questions GRC engages the research requester
+a. Need to know what all reasons are for what you reviewed and why research is able to make exception due to Research's exception requirements
+b. With the Research criteria/requirements, let's make sure they are complaint with a Cyber Review just to really understand the research criteria/requirements are cyber compliant
+c. Understand when to engage Service Delivery Team and what little parts need to be reviewed for a Research Study (Compare requirements of why Research wouldn't need to go thru a protection Profile)
+i. Why engage Service Delivery Team – Architecture
+3. Review a full case on how the Research Study is reviewed by GRC and then how Service Delivery would look it over
+a. Define what requirements are pertinent to Cyber compliance requirements
+4. SLA's for Service Delivery Review – how long each section would take to let the requester know up front in the process
+5. How to handle research device connection for an OT assessment – Technical Person needs help with and Clay Anderson
+6. TPRA Questions  With Multiple third parties when and why would you do your TPRA….  What is the requirements
+7. EDSMC Criteria questions  Erin, Ed and Daryl will interview Dustin and get back to Research and GRC on how the process will work with each of our teams
+
+Notes
+Data Encrypted
+Data at rest
+The amount of data
+Directly put data into sponsor system
+Research security – Email
+Release documentation from patients – patient consent
+De-Identified
+Limited Data Set with dates
+Example:  E-Diary tells them how they
+
+1. We'd like to review a RACI for each Team: Purpose of each team (parameters/boundaries of each team), definition of each process and how we work together and our responsibilities together: EDSMC, Cyber Assurance (GRC), Research Team, IRB, Cyber Advisory
+2. We'd like to review a workflow for the process of how the request for research should come from and to Cybersecurity Advisory
+3. We'd like to discuss a workflow for why each team is involved, who needs to follow-up with these teams for status: EDSMC, IRB, Research, GRC
+a. At the end of the process, who needs to give final approval to go back to IRB
+b. EDSMC gives their own approval and Cyber Advisory checks with Dustin Sarosy
+c. Cyber Advisory checks in MetricStream for TPRA but any other approvals should come from GRC/Research for what type of approval – Our they just approving just the TPRA or what else are those teams approving
+4. Why would research send Cybersecurity Advisory group any research study request to review what are the requirements
+a. If Cybersecurity Advisory Team review is needed then is it because of PHI Data being handled, CCF transfer or access
+5. The Research Requester is asking why now they have to go thru Cybersecurity Advisory Team for Review
+6. What are Cybersecurity Advisory Team requirements to have Research/GRC (TPRA) come back to Advisory for review
+7. Finally Create a workflow
+8. Is it CCF Data
+9. What are the HIPA and Hi-Trust requirements for research projects and research data
+10. Who are Stakeholders
+11. What are their roles (RACI)
+12. Additional Risks assessing that we need to evaluate to the CCF
+13. Where data stored
+14. Does the Classification of Data change the due-diligence of review of risk
+15. Technical Risks
+16. Regulatory Risks or Requirements
+17. Who has final approval GRC or Advisory
+18. GRC if going to approve then how do they document the EDSMC approval to Advisory and Requester, what is the flow
+19. Is EDSMC required and why, Does EDSMC know the follow of these additional requests are coming
+20. SLA component (ex:  7Days)
+21. Prioritization of request (official process)
+
+Summary:
+ The given list of project tasks and descriptions is related to a Cybersecurity Advisory Center of Excellence project. The tasks involve researching and identifying criteria/requirements for engaging cybersecurity in various scenarios, developing research criteria/requirements, understanding when to engage the service delivery team, reviewing the process of how a research study is reviewed by GRC and service delivery, creating SLAs for service delivery review, handling research device connections for an OT assessment, discussing TPRA questions, and defining criteria questions for EDSMC. The project also includes reviewing a RACI for each team involved, creating workflows for the research request process, assessing HIPAA and Hi-Trust requirements, evaluating additional risks, considering data classification, identifying technical and regulatory risks, determining stakeholders and their roles, final approval processes, documenting approvals, and establishing SLAs and prioritization for requests.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): WAF Request Review - Minor Cybersecurity Secure Design and Engineering Service: 1. Does this request involve the purchase of hardware or software? No
+2. Please provide a description of your request, including intended use. Both websites are informational sites for two different research prjects, ADRC and COBRE.  This Wordpress based website will be used to display information and direct current and future research participants to appropriate information and associated Redcap forms.
+3. Please provide the name of the system, service, device, and/or application related to your request.  We are asking for standard port 80 and 443 external access and SSL to support the Hosting of the following websites on an existing hardware hosting enviroment.
+nevadacntn.org
+nevadacntn.com
+nvadrc.org
+4. Does this request involve Hardware (I.e. - Devices (Tablets, Wearables, etc.), IoT (Internet of Things), Medical Devices used in the clinical setting for the cafeteria and/or patient care (I.e. - Laptops, iPad, Cameras, Pumps, Imaging equip, Ultrasound, etc.)?  No
+4.1. If yes, what type(s)?  (Please include Device Manufacturer, Device Model, Device Description (Infusion Pump, Blood Gas, JACE Controller, Ultrasound, Etc.)
+5. Please provide an Overview of the System related to this Cyber review (including connections to other CCF systems/Assets/Devices (Epic, PAX...)): N/A
+5.1. Please provide any available documentation (Security, SOC certification, MDS2, DICOM Conformance Statement, Network Diagram, List of used Ports/Protocols, SBOM, etc.)
+6. What type of Data is stored, processed and/or transmitted with this system?
+6.1. De-identified medical data, data set containing no PHI NONE
+6.2. Limited data set, data set containing PHI that excludes direct identifiers NONE
+6.3. Non-medical patient demographic data NONE
+6.4. PHI (Protected Health Information: MRN, etc.) NONE
+6.5. PII (Name, Social Security Number, Phone number, address, etc.) NONE
+6.6. Proprietary Information (contracts, medium-value trade secrets, short-term business plans) NONE
+6.7. Intellectual Property NONE
+6.8. Statutorily protected PHI (HIV testing, mental health treatment, physical or sexual abuse, etc.) NONE
+6.9. Other, please specify This is basically IRB Approved informational pages to provide information on ADRC and COBRE Research general info.  No PHI is collected on this site.  IRB Approved Redcap forms are used when collecting any user requested information.
+7. Will this Data be Transferred and/or Shared with any Third Parties? NO
+8. Where will this system, service, device, and/or application be installed?
+8.1. Cloud-based (Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Third-party hosted) NO
+8.2. Installed within Cleveland Clinic's environment (on-prem) NO
+8.3. Hybrid (Cloud and On-prem) NO
+9. What is your Estimated Go-Live: Already live on external host.  Working to move the hosting internally.
+10. CCF Line of Business/Institute:  Research projects being conducted at Cleveland Clinic Lou Ruvo Center for Brain Health in Las Vegas
+11. CCF Contacts:
+11.1.                      CCF Business Owner: Dr. Justin Miller
+11.2.                      CCF Project Manager: Brook Hurd
+11.3.                      CCF Technical Lead: Brook Hurd
+11.4.                      Third-Party/Vendor Relationship Manager (CCF employee most familiar with the products or services provided by this vendor): N/A
+12. Third-Party/Vendor Contacts: N/A
+12.1.                      Vendor Company Name: N/A
+12.2.                      Vendor Contact Name, Phone, Email: N/A
+12.3.                      Vendors Main/Company Website: N/A
+
+Summary:
+ The project involves implementing cybersecurity measures for a Wordpress-based website that will be used to display information and direct research participants to relevant forms. The request does not involve the purchase of hardware or software. The websites that will be hosted are nevadacntn.org, nevadacntn.com, and nvadrc.org. The system does not involve any hardware or devices. The data stored, processed, and transmitted on the system does not contain any PHI or PII. The system will not transfer or share data with any third parties. The system is already live on an external host and the goal is to move the hosting internally. The project is for research projects conducted at the Cleveland Clinic Lou Ruvo Center for Brain Health in Las Vegas. The project contacts include Dr. Justin Miller as the business owner, Brook Hurd as the project manager and technical lead, and there is no designated third-party/vendor relationship manager. There are no third-party/vendor contacts specified.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): ESI Virtual EM Program - eVisit Software Platform - Cyber/Arch only: IT Ask: Complete an ARB and cyber review of the eVisit platform for the ESI Virtual ED program.  Looking to have eVisit replace AmWell as platform for telehealth calls.
+7/15- Success Criteria for pilot:
+1.) 80% visit success rate
+2.) Patient/Physician surveys with an average of 4 out of 5 rating
+3.) Visit Volume: 200 pts or 3 months, whichever comes first (ideally, no less than 100 pts)
+4.) Technical support availability &amp; wait times: 24/7 availability with 2 minutes wait times for  calls &amp; chat
+7/5- The ask is for pilot for local ED&#39;s.  No cost for pilot. E Visit will do all of the support. No integration needed at this time. E Visit adjusts call to audio only if signal is weak.
+Data provided from AmWell shows a lower percentage of dropped/poor quality calls than the providers are reporting.
+1)      The volumes are on the conservative side
+2)      Our projected 5 year EBIDA is ~$15.8m
+3)      2022 volumes only include the latter half of 2022
+4)      The current 2022 financials only account for ~50% of patients who went through triage and does not account for ACO impact/shared savings
+2022
+2023
+2024
+2025
+2026
+2027
+Grand Total
+2,870
+10,330
+38,994
+74,404
+82,104
+82,104
+5) Provider feedback- “It seems like 1 out of 3 calls has video/audio issues.  Takes multiple attempts of reconnecting.  Also, the website is clunky.  As in the using the video will cover any patient info and you need to open up an additional page to have it visible. All this makes it somewhat user un-friendly.  And seems to make the EMS provider less likely to utilize us as it adds unnecessary time to the call.”
+“I’ve had several calls where the connection with audio or video or both failed, often with the video pixelated or frozen, making it difficult to communicate, or assess the patient.   It was necessary to make several calls to complete the visit.”
+“One time ems had an iPhone so we did FaceTime which worked well... In general video quality is subpar even when not freezing or disconnecting.”
+▪ Patient Safety –6/16 - Patient Safety returned a rating of &#34;mid-tier&#34;
+▪ Revenue – list the specific revenue impact amount-Without the eVisit platform, ESI risks $420,000 in lost revenue due to poor video/audio quality of the current vendor and potential lost partnerships.
+▪ Regulatory – list the impact and any associated dates action needed
+▪ Executive Request – list the reason and the executive making the request
+Scoring: 58.33
+Sizing: 13.33
+6/28 - Diagram attached, additional justification below:
+Revenue justification math
+Assumed VA EMS volume: 350 calls/mo x 12 mo &#61; 4,200 calls/yearRevenue &#61; $100/call (this is conservative estimate)Revenue &#64; risk&#61;$420,000
+Discussed with Dr. Graham getting testimonials/examples from our Virtual physicians and partners on the current platforms
+7/1- As of 5/30/22 -- Dr. Shook and Matt Stanton approved this for ESI to move forward with as their priority recognizing some gaps in current platform, however, not an enterprise TElehalth solution to be evaluated at this time (the attached Virtual ED Platform Comparison PPT)
+Summary:
+ The project involves implementing a new eVisit software platform for the ESI Virtual ED program, replacing the current platform AmWell. The success criteria for the pilot include a visit success rate of 80%, positive patient and physician surveys, a minimum visit volume of 100 patients, and 24/7 technical support availability with short wait times. The data from AmWell shows lower dropped/poor quality calls than reported by providers. There is projected revenue of approximately $15.8 million over five years. Provider feedback highlights issues with video/audio quality and user-friendliness of the current platform. Patient safety and revenue are key considerations for the project. The project has been approved by Dr. Shook and Matt Stanton for ESI to move forward, recognizing some gaps in the current platform.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): CKID Chronic Kidney Disease in Children Prospective Study - Cybersecurity Domain Epic: • Name of Request: CKID Chronic Kidney Disease in Children Prospective Study
+• Description of Request: Introduction of sponsor-provided iPad into study use to transfer study questionnaire data to sponsor
+• Timeline: ASAP
+• CCF Line of Business/Institute: Pediatric Institute
+• Contacts:
+o CCF Business Owner: Jennie Wahl (Pediatrics)
+o CCF Project Manager: Jaclynn Grayson (Research Coordinator)
+o CCF Technical Lead: Unknown at this time (per Mike Behl, Assurance)
+o Vendor Contact: TBD – ladies mentioned above have more information
+• Any documentation regarding this request See attached Word Doc that provides some technical details:
+-Nephron data managemnet system sits behind John Hopkins firewall;
+-Uses 128 bit encryption (web server Nephron is located) and uses SSL (uses Windows 200 file system security)
+-Nephron has a UNIX daily backup via tape
+-Used XML
+-My SQL server is the database storage
+
+The compliance risk of this study appears low based on the following factors:
+ Only 9 enrolled participants at this time
+ Full written informed consent
+ A data usage agreement has been put in place
+ Study was already IRB approved (14-893)
+ The study is a long-term study that will continue in perpetuity, but is not likely to exceed 500 records
+ A data usage agreement has been executed
+ De-identified data (no PHI)
+
+The request is to add use of an NIH-provided i-Pad to be given to and held by the research team at CCF to enter de-identified study questionnaire responses into.  From there, it is proposed that the response data be emailed to the sponsor.
+ My request is that you work with the vendor to 1.) configure secure CCF email on this iPad or propose a more secure and viable option; or: 2.) Work to see if it is possible to use a CCF-managed iPad instead that will be able to run the needed application(s) to facilitate the study; or 3.) See what other options are available; or 4.) Determine the best way to transfer from the iPad study data to a CCF computer and transfer to the sponsor in a secure manner
+
+When Assurance follows up on these, we will reference this as "CKID"; please reference this when referring to any individual work or demand items—it gets very difficult to keep up with statuses.
+
+
+Summary:
+ The project is focused on cybersecurity for a Chronic Kidney Disease in Children Prospective Study. The request is to introduce an iPad to transfer study questionnaire data to the sponsor. The compliance risk of the study is considered low. The project manager is Jaclynn Grayson and the technical lead is currently unknown. The request is to configure secure CCF email on the iPad or explore other secure options for transferring the study data to the sponsor. The project is referred to as "CKID".
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): IRB 21-089 handheld computer diary - CA-1689 - Cybersecurity Domain Epic: IRB 21-089 handheld computer diary - CA-1689.
+
+Mike, I see notes below about this research not needing Cyber Advisory approval on this. Let us know if it will go thru your team or ours.
+**We may need a meeting on this. Thanks for your help.
+
+1. Cybersecurity already listed these action items below.
+2. OT Assessment – for lab top and machine to determine the controls in how we connect device to CCF Network  Carol and Debora fill out link is below
+a. After you Click the OT Assessment Link below you will get a form to complete, once completed please Email back to:
+i. Clay Anderson & Alex Wolf, and  CybersecurityOT@ccf.org, and Cybersecurity Team
+b. Then Erin Smith will help schedule a meeting to work with Clay and Alex to review your OT assessment
+2. TPRA – Third Party Risk Assessment Link below please fill out  Carol and Debora
+3. CCF coordinator will sign into portal and make sure patient data is De-Identified data – confirm data is De-Identified  Carol and Debora to provide confirmation
+4. Password Policy matches or exceeds the Cleveland Clinic Policy use link below  Carol and Debora
+c. Link to Authentication and Password Management Standard Operating Link
+
+Third Party Risk Assessment
+• Link provided above is a request form to begin the assessment
+• Assessment to be completed by a CCF sponsor because they require a CCF login…Please advise when completed)
+• Please note:  Process takes ~ 10 business days, but can take longer if responses to additional questionnaires are delayed.
+• TPRA Process Flow: Initial Submission (Link Above) => processing (Brian Gesing) => Scoping Assessment (Emailed to Relationship Manager) => processing (Brian Gesing) => Vendor Assessment (Emailed to vendor contact) => processing (Brian Gesing)  => Qualified!
+OT Assessment (Click on the link to download the form. You may need Vendor assistance to complete)
+• Please note:  Approval takes ~ 5 business days
+
+Notes
+Hand Held – Key in each day dose of medicine and quality of life and symptoms. To collect real-time accurate date
+
+
+Summary:
+ This text provides a list of project tasks and descriptions related to a cybersecurity advisory project. The tasks include conducting an OT assessment, completing a Third Party Risk Assessment (TPRA), confirming de-identification of patient data, and verifying password policy compliance. The project also involves a handheld computer diary for collecting real-time accurate data on medication, quality of life, and symptoms. A meeting may be required to further discuss the research.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Music Therapist - PHI Transfer assistance - Cybersecurity Domain Epic: Name of Request: MT Audio and Video File Transfer to Patients
+
+•       Description of Request: Music therapists frequently create audio or video recordings of patient songs, that could include the patient and/or family members, their voices, or heartbeat recordings. We often provide copies of these patient artefacts on CD or USB, but it would be helpful to have an electronic means to deliver these things to pts. However, the files are sometimes large, so they cannot be attached in an email. OneDrive would be a great option, but at this time, we can only transfer files among CC employees.
+
+•       Timeline: As soon as possible? A few months ago, we got a request from a pt who lost access to their video to receive a new copy.
+                          
+Debbie has a use case for the Music therapy department (approximately 12 caregivers) requiring the ability to share 500 mb – 1 gb audio/video files to patients and their families. These uploads typically only occur once or twice per month.
+We discussed the possibility of utilizing Box for this use case, however, due to the content of the audio/video files, they would need to be stored in the Confidential or Restricted Confidential folders within Box. While exceptions to the external collaboration restrictions can be completed, the patients/families would be utilizing public email domains (gmail/yahoo/aol) which are not to be exempted. Therefore, Box is not a valid solution. (Also worth noting that the $25 chargeback is not feasible in this situation).
+
+I can think of two options which might work for this use case. First, would be utilizing OneDrive (not sure if this is available for use yet or if there are any data type/file size/collaboration restrictions in place). Second would be the SFTP request process in Service Now. I'm not sure whom currently owns that process or if this would be a valid use case for it.
+
+Is architecture able to assist Debbie with determining an approved solution for sharing these files with patients/families?
+
+Summary:
+ The project involves finding a solution to transfer audio and video files created by music therapists to patients and their families. The files are too large to be attached in an email and the option to transfer files using OneDrive is only available for employees. Box is not a suitable solution due to restrictions on external collaboration. The options being considered are utilizing OneDrive (if available) or the SFTP request process in Service Now. Architecture assistance is sought to determine an approved solution.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): American Medical Association (AMA) Forward Health Group Epic Connection -Research - Cybersecurity Domain Epic: I have a situation that will need your review.  This came in as a study, but per my discussion with Katherine Bulava who submitted the review, she is not sure yet if this will be presented to the IRB for approval as a study or will be more of a quality project that won't need to go through the IRB—that is still being determined on their end.  This will function similarly to SIGNAL, if you know or are familiar with this (I am not).
+
+The situation will use a Vendor (Forward Health Group) software solution to facilitate this effort via connection to the Epic EMR, not to access patient data per se, but to study Clinician activities in the EMR.  However, there may be access to patient data established (I don't know and Katherine wasn't exactly sure on this either).  I kicked off a TPRM for Forward Health.  Per this conversation, Dr. Boose would be the go-to person to get more specific info on both "study" activities and technology.
+
+Info gathering
+Would you please provide the following information to kick off the Cybersecurity Architecture engagement:
+
+• Name of Request:  American Medical Association (AMA) Forward Health Group Epic Connection
+• Description of Request:  See above – direct EMR connection to facilitate study/project
+• Timeline:  As soon as feasible
+• CCF Line of Business/Institute:  Staff Affairs Office
+• Contacts:
+o CCF Business Owner:  Katherine Bulava, but Dr. Eric Boose is most familiar with initiative
+o CCF Project Manager:  Same as above, but additional technical inquiries are better directed to Dr. Boose
+o CCF Technical Lead:  TBD – Dr. Boose for now and CC Katherine
+o Vendor Contact:  Kate DeBaene (katedebaene@forwardhealthgroup.com); also Nancy Nankivil (nancy.nankivil@ama-assn.org)
+• Any documentation regarding this request:  See attached
+
+Summary:
+ The project involves a cybersecurity advisory for the American Medical Association (AMA) related to a connection between the Forward Health Group software and the Epic EMR system. The purpose of the connection is to study clinician activities in the EMR, although there is uncertainty about whether access to patient data will be involved. The project is in the information gathering stage, and the team is requesting various details such as the timeline and contacts for the project.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Doximity - Amion - Cybersecurity Domain Epic: Software Request REQ0159537 and REQ0159799 - Doximity Inc. (the vendor) & Amion  - Cybersecurity Next Steps as of 6-21
+
+In looking at this request – Jason and I just met on next steps, we should probably do a full cybersecurity review due to these two different study proposals. I will set-up a meeting for us and will include Jason as optional. I will get this on our calendar this week.
+You two filled out the intake form but didn't put any vendor contact and we didn't see response to the follow up e-mails requesting it.  The Dr is talking about using Doximity like facetime, but the Amion request was just about scheduling for residents.
+
+We would like to understand your Use Case and will review the description of it again on the call.
+
+TPRA – Doximity
+Would you have your team help find the vendor contact for Doximity that is the next steps in the TPRA after you finalize your Survey is to have the vendor fill out a vendor survey which electronically gets sent to them.  See directions below. .Thanks.
+
+TPRA – Amion has been approved and qualified
+
+
+
+
+Software Request REQ0159537 and REQ0159799 - Cybersecurity Approved the installation of the Software on Kinza Tareen Computer - may need TRPA TBD - As of 4-30
+*Look into the TPRA if needed,   if needed Erin will reach out to program manager – Kinza please provide. Thank you!
+
+Notes
+Software is Amion resident scheduling calls for residents – Software can proceed
+admin to the account can change schedule - All other caregivers have one general log-in all residents use with no password needed to get in but can't change any of the schedule
+Connect to internet and stores on internet
+Wants to access thru web browser – new schedule is access thru
+Put on their Mac computer
+Rotation and Days
+Rules that calls auto schedule resident class
+
+Summary:
+ The project tasks and descriptions provided relate to a cybersecurity project involving the company Doximity and the software Amion. The project includes reviewing two study proposals and conducting a full cybersecurity review. It also involves finding the vendor contact for Doximity and finalizing a survey. Additionally, there is mention of software installation and scheduling for residents. The project requires understanding the use case and may involve reaching out to a program manager.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Lodi hospital/Sound Physician Telemedicine  - Post-Purchase - Cybersecurity Domain Epic: Intake Request
+Please fill out the information below and we will start a kick-off call for next steps. Thank You.
+Info gathering
+Would you please provide the following information to kick off the Cybersecurity Architecture engagement
+
+NO PHI,Not connected to CCF Network, It's on the Public Wifi network but we need to wipe the key off system when system becomes decommissioned
+
+• Name of Project/Request: Lodi hospital/Sound Physician Telemedicine
+• Have you submitted this request in ServiceNow?    no
+o If yes, what is your ServiceNow Idea or Demand Number:
+• Description of Project/Request: Sound Physician Telemedicine with Lodi Hospital
+• Is this a Research Study?  no
+• If yes, fill out the Research Security Questionnaire ..  In Question 3, choose Research Study
+o If no, continue to fill out the info gathering form questions below
+• Does this Request have Medical Devices being used?   Telemedicine device
+• Is it network connected?    yes
+• Will there be data leaving the Cleveland Clinic? no
+• Is this a Pre-Acquisition Request (YES or NO):   no
+• Timeline: ASAP    patient care issue
+• CCF Line of Business/Institute:   Akron General Lodi Hospital
+• Contacts:
+o CCF Business Owner:        Steve Abdenour
+o CCF Project Manager:      Butch Sukie
+o CCF Technical Lead:          TBD
+o Vendor Company Name:   Sound Physicians Telemedicine Inc.
+o Vendor Contact Name, Phone, Email:       Sound Physicians Telemedicine Inc., 1498 Pacific Avenue, Suite 400, Tacoma, WA  98402   Sarah Brown sarbrown@soundphysicians.com
+Summary:
+ The given project involves cybersecurity architecture for a telemedicine project at Lodi Hospital with Sound Physician Telemedicine. The project does not involve PHI and is not connected to the CCF network. It will be on the public WiFi network, but the system key needs to be wiped when decommissioned. The project is not a research study and does not involve data leaving the Cleveland Clinic. It is not a pre-acquisition request. The timeline is ASAP due to a patient care issue. The project is for Akron General Lodi Hospital and the contacts include Steve Abdenour as the CCF business owner, Butch Sukie as the CCF project manager, and Sarah Brown from Sound Physicians Telemedicine Inc. as the vendor contact.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): PGDx/ctDNA based pan-cancer liquid biopsy  - Minor - Cybersecurity Secure Design and Engineering Service: Name of Project/Request: PGDx/ctDNA based pan-cancer liquid biopsy
+•        Description of Project/Request:  Installation and utility of Elio server for bioinformatics analysis
+•        Have you submitted this request in ServiceNow?
+o   If yes, what is your ServiceNow Idea or Demand Number: N/A
+•        Is this a Pre-Purchase Request (YES or NO):  No
+•        What type of Cleveland Clinic data will be processed, shared, stored, and/or transmitted (PHI, PII, Public, De-Identified)? -Deidentified NSG sequencing data
+•        Where will data be hosted (Cloud (SaaS), On-Premise, Hybrid)? On-premise/Racks
+•        Does this request involve Hardware (I.e. - Medical Devices, Tablets, Wearables, Other Devices)?
+o   If yes, what type(s)? Yes/PGDx elio server
+•        Will it require a network connection?
+o   If yes, Ethernet, Secure Wifi, or Public Wifi:Yes/Ethernet
+•        Timeline:
+•        CCF Line of Business/Institute:
+The Center for Immunotherapy & Precision Immuno-Oncology (CITI)
+
+•        Contacts:
+o   CCF Business Owner: Shadi Swaidani
+o   CCF Project Manager: Shadi Swaidani
+o   CCF Technical Lead: Hana Husic
+o   Vendor Company Name: PGDx
+o   Vendor Contact Name, Phone, Email: Alex Shaw, ashaw@pgdx.com
+•        Any documentation regarding this system Attached (2 PDFs)
+
+Summary:
+ The given project is titled "PGDx/ctDNA based pan-cancer liquid biopsy" and is related to cybersecurity. The project involves installing and utilizing an Elio server for bioinformatics analysis. The data processed will be deidentified NSG sequencing data, and it will be hosted on-premise/racks. The project requires a PGDx elio server, which will require a network connection through Ethernet. The project is under the Center for Immunotherapy & Precision Immuno-Oncology (CITI) at Cleveland Clinic. The contacts for the project include Shadi Swaidani as the CCF Business Owner, Project Manager, and Vendor Company Name, and Hana Husic as the CCF Technical Lead. The vendor contact for the project is Alex Shaw from PGDx.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): (Cyber/Arch) Alliance for Paired Kidney Donation (APKD): This is a request is to have IT Cybersecurity review vendor software as outlined in the contract currently in CCF Legal Review
+IT Ask:Cyber / Arch ReviewPriority Score: 51.08Sizing Score: 10.00Exception Criteria (if applicable):  · Threshold: Patient Safety/Revenue/Regulatory  · Justification Statement:  Q2 ETSC Pre-Defer State (if applicable):
+By including those incompatible pairs in the paired donation registry, the APKD is seeing more than a 50% rise in matches. That means 50% more patients who are finding the gift of life. With more pairs in the system, the rise in matches will continue to climb, and that’s exactly what the APKD is working toward.
+The goal is to get the transplant center personnel to refer patients to the alliance for paired kidney donation so we can match more people and save more lives.
+The APKD uses a Nobel prize-winning algorithm, developed by Alvin Roth, to match one incompatible pair with another. A scoring rubric, developed by a team of healthcare professionals, is used help find the best possible match.
+Cost: $10K annually per site.  Looking at OH only at this time
+Technology Overview
+System Name: Kidney Match
+* https://paireddonation.org/ * AWS Platform * Developed with PostreSQL * Server side middleware between database and WWW written in Adobe Lucee, about 200 modules * Client side data validation : JavaScript * Matching algorithm: SQL  Server stored procedures * Optimization algorithm: Python * AKPD
+Attachments:
+* Contract is attached (9.13.22 Draft) * Architecture 2022 * KidneyMatch Overview document
+Summary:
+ The project is focused on cybersecurity advisory for the Alliance for Paired Kidney Donation (APKD). The APKD is a platform that uses a Nobel prize-winning algorithm to match incompatible pairs for kidney donations. The goal is to increase the number of matches and save more lives. The project involves reviewing vendor software as outlined in the contract, developing a scoring rubric, and implementing various technologies such as AWS, PostgreSQL, Adobe Lucee, JavaScript, SQL Server stored procedures, and Python. The estimated cost for the project is $10,000 annually per site.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Evaluation of alternative interface methodology from vendor partner - Cybersecurity Domain Epic: • Name of Request: Evaluation of alternative interface methodology from vendor partner.
+
+Description of Request:  Here is the message from the vendor:  We are doing a little bit of work in vetting some different options on how to establish an HL7 interface without having to use VPN tunnels.  We're basically planning to transmit over https and use a pre-shared token to secure the requests beyond what https does for us.  We are exploring this option to make our interfaces more reliable with the eventual goal of making our interface stack highly available.
+
+We are trying to understand a couple of things about this approach:
+
+1) We are planning to add an access token to the actual HL7 message that allows for this additional security, would this be challenging to the add to the interface on the CC side?  We are thinking this could go either in a field in the message header or in a custom Z segment but are open to suggestions if something else makes better sense.
+2) What does your information security team think about this type of an approach?
+
+At this point we're just trying to get those couple of questions answered without doing any actual work.  Who on the CC side would be the best resources to go to in order to get thoughts about these items?
+
+
+• Timeline:  Meet with vendor in next 30 days?
+
+• CCF Line of Business/Institute: Pharmacy
+
+• Contacts:
+o CCF Business Owner: Jeff Chalmers
+o CCF Project Manager: N/A – not a project at this time.
+o CCF Technical Lead: Jeff Chalmers
+o Vendor Contact: Kaveh Arabfakhry <kaveh.arabfakhry@medkeeper.com>
+
+• Any documentation regarding this request
+
+Summary:
+ The project is focused on evaluating an alternative interface methodology from a vendor partner in the cybersecurity domain. The vendor is looking to establish an HL7 interface without using VPN tunnels and instead transmit over https with a pre-shared token for added security. The project team needs information on how to add the access token to the HL7 message and wants to know the opinion of the information security team on this approach. The timeline for meeting with the vendor is within the next 30 days. The project is related to the Pharmacy line of business/institute. The contacts for the project include Jeff Chalmers as the CCF business owner and technical lead, and Kaveh Arabfakhry as the vendor contact. There may be additional documentation regarding this request.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Institutional License fee - Cybersecurity Domain Epic: •         Name of Project/Request: Cheeky Scientist (we have already uploaded idea to ITD)
+•         Have you submitted this request in ServiceNow? Yes
+o    If yes, what is your ServiceNow Idea or Demand Number: IDEA0001577( this shows as completed)
+•         Description of Project/Request: expert cytometry class
+•         Is this a Research Study? No
+•         If yes, fill out the Research Security Questionnaire ..  In Question 3, choose Research Study
+o    If no, continue to fill out the info gathering form questions below
+•         Does this Request have Medical Devices being used? No
+•         Is it network connected? We just need the Internet to use or access this website.
+•         Will there be data leaving the Cleveland Clinic? No, these are tutorials
+•         Is this a Pre-Acquisition Request (YES or NO): We have not acquired as of now.
+•         Timeline: Once approved this program will be available for an entire year.
+•         CCF Line of Business/Institute: LRI Institute, Flow Cytometry Core
+•         Contacts:
+o    CCF Business Owner: Kewal Asosingh
+o    CCF Project Manager: Amy Graham
+o    CCF Technical Lead: Eric Schultz
+o    Vendor Company Name: Cheeky Scientist
+o    Vendor Contact Name, Phone, Email: (Nazar Filonov info@alphanano.tech)
+Cheeky Scientist
+P.O. Box #1507
+Coeur d'Alene, ID 83816
+United States
+support@cheekyscientist.com
+
+208.518.7902
+
+Summary:
+ The project is focused on Cybersecurity and falls under the Advisory COE. The specific task is related to the Institutional License fee in the Cybersecurity domain. The project request is for an expert cytometry class, but it is not a research study. There are no medical devices involved, and the request only requires internet access. The project timeline is for one year. The project is associated with the LRI Institute, specifically the Flow Cytometry Core. The contacts for the project include Kewal Asosingh as the CCF Business Owner, Amy Graham as the CCF Project Manager, Eric Schultz as the CCF Technical Lead, and the vendor company, Cheeky Scientist (contact info provided).
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Ziosoft Software deployment - Minor Cybersecurity Secure Design and Engineering Service: • Name of Project/Request: Ziosoft Software deployment
+• Description of Project/Request: Configure and build desktop and laptop – work with Ziosoft Team to allow deployment of software
+• Please provide any available documentation.
+• Have you submitted this request in ServiceNow?
+o If yes, what is your ServiceNow Idea, Demand, or Project Number:
+• Is this a Pre-Purchase Request (YES or NO):No
+• Does this request involve Hardware (I.e. - Medical Devices, Tablets, Wearables, Other Devices)?
+o If yes, what type(s)? CCF Desktop and Laptop – Dr. Tretter has 2 license
+• What is the Highest classification of Data for your request/project?
+o Public, Internal, Confidential, Restricted Confidential (Choose One)
+• Does this service or system require access from the internet?
+o No
+• What is your requested Timeline: ASAP
+• CCF Line of Business/Institute: Pediatric Cardiology / Pediatric Institute
+• Contacts:
+o CCF Business Owner: Lauren Piechowiak
+o CCF Project Manager: Jennifer Owens
+o CCF Technical Lead:
+o Vendor Company Name: Ziosoft Inc
+o Vendor Contact Name, Phone, Email:
+Rajeev Taitriya – Rtaitriya@ziosoftinc.com
+
+Amy Tipton l Global Clinical Education and Success Manager
+Ziosoft USA Inc.
+39899 Balentine Drive, Suite 116
+Newark, CA 94560 USA
+(o) +1  650.413.1300
+(c) +1  614.907.1912
+
+Summary:
+ The project is related to cybersecurity and involves the deployment of Ziosoft software. The project request is to configure and build desktop and laptop computers to allow for the deployment of the software. The project does not involve any pre-purchase requests or hardware devices. The highest classification of data for the project is not specified. The requested timeline is ASAP. The project is for the Pediatric Cardiology/Pediatric Institute at CCF. The contacts for the project include Lauren Piechowiak as the CCF Business Owner, Jennifer Owens as the CCF Project Manager, and Rajeev Taitriya and Amy Tipton as representatives of Ziosoft Inc.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Protenus - Cybersecurity Domain Epic: Info gathering
+Would you please provide the following information to kick off the Cybersecurity Architecture engagement?
+• Name of Project/Request: Protenus
+• Is this request going through the ITD PMO Intake Process? Already approved and ready for golive
+o What is the Jira Initiative ID:
+• Description of Project/Request:  We would like to automate ticket creations from the vendor.  The vendor will send alter emails to ServiceNow for incident creation and routing
+• Timeline:  ASAP
+• CCF Line of Business/Institute:  SMO - ServiceNow
+• Contacts:
+o CCF Business Owner:  Brian Gyurko
+o CCF Project Manager:
+o CCF Technical Lead: Tim Mason & Clayton Teague
+o Vendor Contact Name, Phone, email (If applicable):
+•
+Name of Project/Request: Protenus Healthcare Analytics Platform
+Is this request going through the ITD PMO Intake Process? Yes - Protenus Healthcare Analytics Platform - DMND0003243
+Description of Project/Request: Implementation of Protenus SaaS Healthcare Analytics Platform, includes extracted data files from Epic, Workday, and Kronos, and establishment of SFTP interface to Protenus (AWS)
+Timeline: Go-live Feb. 26, 2020 or sooner.
+CCF Line of Business/Institute: Enterprise wide, solution managed by Exec Admin – Integrity Office
+Contacts:
+CCF Business Owner: Brian Gyurko
+CCF Project Manager:
+CCF Technical Lead: John Doan
+Vendor Contact (If applicable): Connor Chin
+Any documentation regarding this system – See attached
+
+Summary:
+ The text provides information about two project requests related to cybersecurity. The first project, called Protenus, is about automating ticket creation from the vendor's alert emails to ServiceNow. The second project is about implementing the Protenus Healthcare Analytics Platform, which includes extracting data files from Epic, Workday, and Kronos, and setting up an SFTP interface to Protenus (AWS). The contact person for both projects is Brian Gyurko. The timeline for the second project is to go live by Feb. 26, 2020, or earlier.
+Raw Description:
+ Cybersecurity - Data & Application Protection (8 epics): D850HasChildren-CyberDNA - Data Life Cycle & Security: CyberDNA - DS - Data  Life Cycle & Security
+Outcome Name: Control access to sensitive data; Monitor and audit database activity; Databases are protected and encrypted; Data communications are protected and encrypted
+***
+(P1) #279... Implement Imperva for database security monitoring
+(P1) #280... Update database deployment processes and procedures to include onboarding new databases into Imperva
+(P1) #281... Prioritize database onboarding to Imperva based on risk classification/categorization of stored data
+(P1) #282... Configure Imperva to forward alert logs to the SIEM for centralized correlation and alerting
+(P1) #283... Identify databases with sensitive information and tag them accordingly utilizing enterprise data management tools (e.g., Varonis, Informatica)
+(P1) #284... Deploy the defined level of data protection controls to databases based on the data classification standard and associated handling requirements
+
+Phase 2
+#285... Update database deployment processes and procedures to include the use of database encryption according to policy
+#286... Identify potential communications methods for transmitting data and encrypt lines of communication
+#287... Enforce automatic encryption / secure file transfer for attachments sent outside of CCF
+#288... Perform recurring scans for unencrypted communications and identify the associated applications, processes, and owners for remediation
+#289... Centrally manage and track the remediation of non-secure communications
+#290... Determine what defined caregiver/employee roles require access to what levels of data
+#291... Assign allowable data access tags to defined roles
+#292... Implement controls enforcing access rights to sensitive data based on data tags
+Summary:
+ The project tasks listed are related to cybersecurity and specifically focus on data and application protection. The main objectives include controlling access to sensitive data, monitoring and auditing database activity, protecting and encrypting databases and data communications. The tasks in Phase 1 include implementing Imperva for database security monitoring, updating database deployment processes to include onboarding new databases into Imperva, prioritizing database onboarding based on risk classification, configuring Imperva to forward alert logs to the SIEM, identifying and tagging databases with sensitive information, and deploying data protection controls based on data classification standards. Phase 2 tasks include updating database deployment processes to include database encryption, identifying communication methods for encrypting data transmission, enforcing encryption for attachments, performing scans for unencrypted communications, managing remediation of non-secure communications, determining access requirements for caregiver/employee roles, assigning data access tags to roles, and implementing controls for access to sensitive data based on data tags.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Experian OneSource - Cybersecurity Domain Epic: Experian OneSource CA-1696 - Final Action Items as of 5-27-21
+
+1. Send the email notification to Cristina  Victoria to send
+2. Screen shot of the IP list to Cristina  Victoria to send
+3. Capture the work done in Risk Analysis and let the enterprise and leadership know about the changes  Cristina and Victoria
+4. 2 weeks change to the IP range so Chad can tell if CCF will need new servers, no influx of calls to helpdesk day one  Victoria and Chad
+5. Victoria and Chad to keep team up to date via email. Thanks
+
+
+
+Action Item to review
+1. Double check log-in activity reports to who is actually logging or not and then report back to Chad  Victoria
+2. Chad to give everyone access who was on that new report
+3. Victoria to work with Lisa Goode to help them with training  Victoria
+4. Citrix link only when remote, and send a communication  Victoria and Chad
+5. Choose a date to find when rest of list with IP addresses are given access  Victoria and Chad
+6. Clarify Weston, Indian River, Nevada IP Ranges  Firewall Team will send to Victoria so she can make the changes in Experian
+7. Complete risk analysis with Finance, Cybersecurity and relay update to leadership  Cristina and Anna and send to Matt Cook and Erin Smith and requesting team
+
+
+
+Summary:
+ The given list of project tasks and descriptions is related to the Cybersecurity - Advisory COE project. The tasks involve various individuals including Cristina, Victoria, Chad, Lisa Goode, and the Firewall Team. The tasks include sending email notifications, capturing work done in risk analysis, checking login activity reports, providing access to a new report, coordinating training with Lisa Goode, sending a communication about Citrix link, determining dates for providing access to IP addresses, clarifying IP ranges with the Firewall Team, and completing risk analysis with Finance and Cybersecurity. These tasks are aimed at improving cybersecurity measures within Experian OneSource.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): Corporate Compensation - Marketpay Pricing System  (Cyberse/ARB only): The Corporate Compensation department within the Caregiver Office utilizes a 3rd party hosted software solution to house and analyze external market information.  This is a common practice, and we have been utilizing Payfactors as our vendor for the last four years.  Our contract is up for renewal, and we have determined that Marketpay, a &#34;sister system&#34; owned by the same overarching company (Payscale) would be a better fit.  We are looking to sign a contract and implement before the end of this calendar year.
+The goal of this project is to replace the tool used by Compensation to compare current CC caregiver compensation to different markets. Caregiver compensation information along with job description information will be extracted weekly from Workday and imported into third-party SaaS platform for market analysis.
+IT Ask:
+Create a data pull from Workday with caregiver compensation and job description information that will be imported into third-party analysis platform.
+Suggested ITD contributors to solution design:
+None
+Human Resource Business Unit IT Group (HRIS)
+HRIS team to data pull
+Priority Score:
+Sizing Score:
+Exception Criteria (if applicable):
+· Threshold:
+· Justification Statement:
+It is crucial to understand compensation rates across different markets to allow CC
+to be provide competitive wages in the job market to attract and retain caregivers
+given the shortage of healthcare workers.
+Q2 ETSC Pre-Defer State (if applicable):
+Summary:
+ This project focuses on cybersecurity and identity engineering. Specifically, it involves the Corporate Compensation department's implementation of a new software solution called Marketpay for analyzing external market information. The goal is to replace the existing tool used by the department to compare caregiver compensation to different markets. The project requires creating a data pull from Workday, the company's HR system, to extract caregiver compensation and job description information for import into the Marketpay platform. The project is deemed crucial due to the need for competitive wages to attract and retain caregivers in the healthcare industry. No specific contributors to the solution design are mentioned, and additional details such as priority score, sizing score, and exception criteria are not provided.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IDP - Integrate ServiceNow with AppviewX (Certificate Lifecycle Tool): Hi,
+We will like to integrate appviewx with service now. We use appviewx to manage cleveland clinic certificates.  approx 800 apps
+This module will allow us use servicenow as a front end for appviewx using the API. It will allow tickets to be auto generated for devices that have certificate expiration and assign ticket to device team.
+1. ITD Ask: Integrate ServiceNow with Appviewx for SSL certificate request, renewal and ticket creation for expiration
+2. Priority Score: 30.42
+3. Sizing Score: TBD
+4. Exception Criteria (if applicable):
+a. Threshold: Patient Safety/Revenue/Regulatory/Executive Request - Executive Request
+b. Complete the Justification Statement – Include a summary by the category associated with the exception request
+Patient Safety – has it been approved by the Patient Safety and Quality Leadership sub-committee? (required)Revenue – list the specific revenue impact amountRegulatory – list the impact and any associated dates action neededExecutive Request – list the reason and the executive making the request - Matt Kull the CIO has requested we immediately look into ways to reduce application outages due to SSL certificate expiration. With servicenow integration, we will be able to generate ticket for each cert expiration and directly send the team responsible a ticket. We will also be able to escalate and mark certificates expiring in X day as priority 2 if required.
+Summary:
+ The project is focused on integrating AppviewX with ServiceNow for SSL certificate request, renewal, and ticket creation for expiration. The goal is to use ServiceNow as a front end for AppviewX using the API. This integration will allow tickets to be automatically generated for devices with certificate expiration and assigned to the device team. The project has a priority score of 30.42 and the exception criteria include Patient Safety, Revenue, Regulatory, and Executive Request categories. The executive, Matt Kull, has requested the integration to reduce application outages due to SSL certificate expiration.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Projecto - Minor Cybersecurity Secure Design and Engineering Service: General Information:
+•         Name of Project/Request: Projecto
+•         Description of Project/Request: Security Assessment for Project (third party system) in preparation for possible sharing of PPI data from Oracle ERP.
+•         Please provide any available documentation.
+•         Have you submitted this request in ServiceNow? No.
+o    If yes, what is your ServiceNow Idea, Demand, or Project Number:
+•         Is this a Pre-Purchase Request (YES or NO): No.
+•         Does this request involve Hardware (I.e. - Medical Devices, Tablets, Wearables, Other Devices)? No.
+o    If yes, what type(s)?
+•         What is the Highest classification of Data for your request/project? I'm not positive on the right classification, but we might pass SSN's which is PPI.
+o   Public, Internal, Confidential, Restricted Confidential (Choose One)
+•         Does this service or system require access from the internet?
+o   Yes/No (Choose One)
+•         What is your requested Timeline: ASAP - completed by March 2022.
+•         CCF Line of Business/Institute: Operations.
+•         Contacts:
+o    CCF Business Owner: Christine Foley?
+o    CCF Project Manager: NA.
+o    CCF Technical Lead:
+o    Vendor Company Name: Wizard Software?
+o    Vendor Contact Name, Phone, Email:
+
+Summary:
+ The project is titled "Projecto" and it involves conducting a security assessment for a third-party system in preparation for potential sharing of Personally Identifiable Information (PPI) data from Oracle ERP. The project does not involve hardware and the highest classification of data is likely to be PPI. The requested timeline is ASAP with completion by March 2022. The project falls under the Operations line of business/institute. The contacts listed include Christine Foley as the CCF Business Owner and Wizard Software as the vendor company.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): VECTR SSO Integration - Minor Cybersecurity Secure Design and Engineering Service: • Name of Project/Request: VECTR SSO Integration
+• Description of Project/Request: To implement SSO authentication with an existing application.
+• Please provide any available documentation.   https://docs.vectr.io/sso/
+• Have you submitted this request in ServiceNow? NO
+o If yes, what is your ServiceNow Idea, Demand, or Project Number: NA
+• Is this a Pre-Purchase Request (YES or NO): NO
+• Does this request involve Hardware (I.e. - Medical Devices, Tablets, Wearables, Other Devices)? NO
+o If yes, what type(s)? NA
+• What is the Highest classification of Data for your request/project?
+o Public, Internal, Confidential, Restricted Confidential (Choose One)
+• Does this service or system require access from the internet?
+o Yes/No (Choose One)
+• What is your requested Timeline: ASAP
+• CCF Line of Business/Institute: Cyber Security
+• Contacts:
+o CCF Business Owner: Kevin Tambascio
+o CCF Project Manager: Kevin Tambascio
+o CCF Technical Lead: David Charbel
+o Vendor Company Name: Security Risk Advisors
+o Vendor Contact Name, Phone, Email: https://docs.vectr.io/
+
+
+Summary:
+ This project involves implementing Single Sign-On (SSO) authentication with an existing application called VECTR. The request does not involve any hardware and the highest classification of data is not specified. The project does require internet access and the requested timeline is ASAP. The CCF line of business/institute is Cyber Security and the project contacts include Kevin Tambascio as the business owner and project manager, David Charbel as the technical lead, and the vendor company Security Risk Advisors.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Cleveland Clinic Experience | Upcoming Recordings: We will be hosting a pre-recorded panel discussion with Dr. Mihaljevic on Wednesday, June 23rd.  The (4) panelists will be in different locations throughout our main campus.  Our locations have not been 100% identified yet, but we are hoping to have more information sometime soon.
+
+When we have identified the panelist locations, would you be available to join us on a walkthrough to identify ITD ports for us to tie into for our panel discussion?  We are likely looking at the week of June 14th for a walkthrough.
+
+Our AV provider (NPI) will be supplying the zoom platform, as well as providing the AV equipment within the 4 different locations.  Media Productions will handle AV equipment on the rooftop.
+
+Please find a list of panel members below.  I will confirm the room locations with you when finalized.
+
+- Dr. Mihaljevic | Moderator | Miller Pavilion Rooftop
+- Dr. Cosgrove | Panel #1 | Location – TBD
+- Dr. Gillinov | Panel #2 | Location – TBD
+- Dr. Karamlou | Panel #3 | Location – TBD
+- Dr. Desai | Panel #4 | Location – TBD
+
+Summary:
+ The project is related to cybersecurity and involves setting up an advisory COE (Center of Excellence). There are 59 epics or tasks associated with this project. The project also involves hosting a pre-recorded panel discussion with Dr. Mihaljevic on June 23rd. The panelists will be in different locations on the main campus, but the locations haven't been finalized yet. The team is planning a walkthrough of the locations to identify ITD ports for the panel discussion. An AV provider will supply the Zoom platform and AV equipment for the panel discussion. The panel members include Dr. Mihaljevic as the moderator and four other doctors. The locations for the panelists are still to be determined.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Cleveland Clinic / Focus Payroll  - Cybersecurity Domain Epic: Cleveland Clinic / Focus Payroll -  Next steps as of 5-24
+Remote access for CCF remote access to US Bank
+Rochelle Lane
+Heidi Kraus
+Shane Ricker
+Sam Murry
+1. Link from US Bank to Shane and Sam for a mock test  US Bank to send
+2. Simulate a load test and put on a VDI server with Jeri Mahoney  Shane and Sam
+3. Security group to be provisioned and how to handle remote workers to be put in a separate group, then those remote workers would get access and leverage the same role  Shane
+4. Pin to a specific URL to do an enrollment that is the only place who CCF grant access to they can get to access, make sure external resource is correct, Citrix control  Shane and Sam
+5. Info data entry and owner Server Info Database and who the responsibility party at the clinic  Shane and Sam
+6. Service Now request for issues and KBA on how to use it  Rochelle, Shane, Sam, Erin
+7. Redbook with load testing FAQ  Rochelle, Shane, Sam, Erin
+
+Summary:
+ This is a list of project tasks and descriptions related to the Cybersecurity - Advisory COE project at Cleveland Clinic. The tasks involve various aspects of cybersecurity, including remote access for Cleveland Clinic employees to US Bank, load testing, security group provision, enrollment, server information database, and Service Now request for issues. The tasks are assigned to individuals including Rochelle Lane, Heidi Kraus, Shane Ricker, Sam Murry, and Erin.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): STSK0011677 - KPMP EHR data extraction and transmission to University of Washington - Cybersecurity Domain Epic: STSK0011677 - KPMP EHR data extraction and transmission to University of Washington
+Next Steps EDSMC for UOf W
+Use Case
+• CCF Tablet to log-in into Redcap then transport EHR data to University of Washington
+• Use Box or SSH Secure data transmission – both ways are fine
+• SSH key submission
+• PHI Data will be sent
+
+• Name of Project/Request: KPMP EHR data extraction and transmission to University of Washington
+• Is this request going through the ITD PMO Intake Process? Not Sure what this is
+o What is the Jira Initiative ID: Not Sure what this is
+• Description of Project/Request: EHR data extraction and transmission to University of Washington
+• Timeline: First transmission when approvals obtained then at least biannually thereafter
+• CCF Line of Business/Institute: LRI/GUKI
+• Contacts:
+o CCF Business Owner:
+o CCF Project Manager: John F. O'Toole  216-219-5901
+
+Summary:
+ This project involves the extraction and transmission of EHR (Electronic Health Record) data from KPMP (Kidney Precision Medicine Project) to the University of Washington. The purpose of the project is to ensure cybersecurity during the data transmission process. The project tasks include using a CCF (Cleveland Clinic Foundation) tablet to log in to Redcap and then securely transmit the EHR data to the University of Washington using either Box or SSH Secure data transmission methods. The project also involves submitting SSH keys and ensuring that PHI (Protected Health Information) data is sent securely. The timeline for the project is to have the first transmission after approvals are obtained, and then at least biannually thereafter. The project is associated with the CCF Line of Business/Institute LRI/GUKI. The contact person for the project is John F. O'Toole, the CCF Project Manager, who can be reached at 216-219-5901.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): MEGsoftware update - Cybersecurity Domain Epic: • Name of Project/Request: MEGsoftware update
+
+• Is this request going through the ITD PMO Intake Process? NO
+o What is the Demand ID number:
+
+• Description of Project/Request:
+We have a small suite in M2 of Main Campus that collects Magnetic Brainwave data.
+The equipment has been running on a Debain linux platform for many years.
+Presently, our vendor is transitioning the software from the Linux platform to Windows 10 platform which runs on CCF IT Win10 Desktop and laptop machines.
+•
+
+• Timeline:  July 6, 2021
+
+• CCF Line of Business/Institute:  MEG/Neurological Institute
+
+• Contacts:
+• CCF Business Owner:  George Lawrence
+• CCF Project Manager: Dr. Richard Burgess
+• CCF Technical Lead:  Karl Horning
+• Vendor Contact Name, Phone, email (If applicable):
+• Shawn Walls, 207-356-2429, shawn.walls@megin.fi
+• Tao Song , 858-699-7225
+
+Summary:
+ The project is related to cybersecurity in the MEG/Neurological Institute at CCF (Cleveland Clinic Foundation). The specific task is a software update for MEGsoftware, which collects Magnetic Brainwave data. The update involves transitioning the software from a Debian Linux platform to a Windows 10 platform. The timeline for the project is July 6, 2021. The project contacts include George Lawrence as the CCF Business Owner, Dr. Richard Burgess as the CCF Project Manager, Karl Horning as the CCF Technical Lead, and vendor contacts Shawn Walls and Tao Song.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): C200Epic - IAM/Stackrox/Dome9/Infrastructure as Code: CyberDNA - CLP - Cloud Security Automation (P2)
+Outcome Name: Deploy protections to SaaS applications; Automate cloud security methodology
+***
+#153... Procure enterprise licenses for planned toolset and coverage (Dome9, Stackrox) -
+#154... Expand deployments of existing tooling to cover all cloud environments
+#155... Secure Infrastructure-as-Code (IaC) template configuration
+#156... Enable pre-deployment configuration checking (could be a done with Hashicorp Sentinel to validate Terraform IaC security configs)
+#157... Integrate cloud management tools with ServiceNow to establish a single, centralized, asset management repository
+#158... Establish log pipeline from all cloud environments to enterprise SIEM
+#159... Select and implement CASB solution that best fits CCF future-state needs
+#160... Onboard SaaS applications into CASB
+#161... Integrate CASB with existing CCF DLP tooling
+#162... Integrate CASB with existing CCF SIEM
+Summary:
+ The project is focused on cybersecurity and data and application protection. The goal is to deploy protections to SaaS applications and automate cloud security methodology. The project involves tasks such as procuring enterprise licenses for tools, expanding tool deployments, securing Infrastructure-as-Code templates, integrating cloud management tools with ServiceNow, establishing a log pipeline to a SIEM, selecting and implementing a CASB solution, onboarding SaaS applications into CASB, and integrating CASB with existing DLP and SIEM tools. Keywords: cybersecurity, data protection, application protection, SaaS applications, cloud security methodology, IAM, Stackrox, Dome9, Infrastructure-as-Code, CASB, SIEM, ServiceNow.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): ERT - ECG Machine  Research Trial - Cybersecurity Domain Epic: ERT - ECG Machine OT Protection Profile Items
+Retention Policy
+TPRA - Complete
+Platform Security Baselines
+The Server Inventory Database (SID)
+Portable Storage Media Standard Operating Procedure for more information
+OT Assessment
+Thycotic Secrete Service Vaulting
+SSO Sign-on or CFF Password Policy
+Encryption Standard
+Vulnerability Report from Vendor
+
+Legal  - A signed copy of the Legal Language Security Addendum has been reviewed and signed by the Vendor and CCF Legal Counsel
+
+• Name of Request: ECG Machine
+
+• Description of Request: This ECG machine will be used to record ECG information then will be transmitted to the ERT portal.
+
+• Timeline: ASAP
+
+• CCF Line of Business/Institute: Respiratory Institute
+
+• Contacts:
+o CCF Business Owner: Stuart Houltham
+o CCF Project Manager: Stuart Houltham
+o CCF Technical Lead: Stuart Houltham
+o Vendor Contact: Stuart Houltham
+
+
+Summary:
+ The project involves implementing cybersecurity measures for an ECG machine in the Respiratory Institute at CCF. The tasks include OT assessment, platform security baselines, encryption standards, and vulnerability report from the vendor. The project is urgent and the contact person for the project is Stuart Houltham.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): PlayBookUX  will leverage existing market research patient panels for testing.: With our new UX team specializing in the my.clevelandclinic.org website user experience, we need a tool to conduct user research studies.  This tool will leverage existing market research patient panels for testing.  No new patient information will be collected and these patient panels already exist and processes approved.
+
+PlaybookUX is the vendor/program we'd like to use: https://www.playbookux.com
+
+Packages we would need to consider are roughly between 15,000-20,000 per year. Marketing Digital Operations under Matt Bakaitis has budget for this tool.
+https://www.playbookux.com/pricing/
+
+Previously, we had put in a request for Loop11: the Loop11 request can be closed if it isn't already.
+Title: Loop11 for Market Research & Marketing Digital Operations (DMND0005015, IDEA0002482)
+The same information that was used for the Loop11 request applies to this one as well as far as goals and strategic items.
+Summary:
+ The project is focused on cybersecurity and falls under the Cybersecurity - Advisory COE. The specific task is to leverage an existing market research patient panel for testing the my.clevelandclinic.org website user experience. The team needs a tool to conduct user research studies, and they have identified PlaybookUX as the vendor/program they would like to use. The tool is estimated to cost between $15,000-20,000 per year, and the Marketing Digital Operations department has budgeted for it. The previous request for Loop11, another research tool, can be closed. The goals and strategic items for the Loop11 request apply to this new request as well.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Haiku Hospital Access BYOD phones - Cybersecurity Domain Epic: Haiku Hospital Private Practice Providers - provide them access to Haiku on their BYOD phones
+Name of Request:
+Expanding haiku access to providers add original hospitals
+
+Description of Request:
+Expanding BYOD access to private practice similar to MPC providers. We want to use our current MDM to give Epic mobile access to private practice providers using epic already
+
+Timeline:
+July 1 and ongoing per request process.
+                          
+CCF Line of Business/Institute:
+  ITD digial domain - patient journey
+Contacts:
+CCF Business Owner:  Matt Stanton
+CCF Project Manager: Dan Aarons
+CCF Technical Lead: Dan Aarons
+Vendor Contact: epic systems
+
+Any documentation regarding this request
+
+
+Summary:
+ The given text describes a project task related to expanding access to the Haiku mobile app for private practice providers at Haiku Hospital. The goal is to provide mobile access to Epic for these providers using the current Mobile Device Management (MDM) system. The timeline for the project is July 1 and ongoing. The project falls under the ITD digital domain - patient journey at the Cleveland Clinic. The business owner is Matt Stanton, the project manager and technical lead are both Dan Aarons, and the vendor contact is Epic Systems. Documentation regarding this request may be available.
+Raw Description:
+ Cybersecurity - Data & Application Protection (8 epics): C105Epic - Cloud Reference Architecture (PRB0041529): Problem Statement:
+PRB0041529 "[Cloud] NIST: A Cloud Security Reference Architecture to serve as design guidance has not been formalized."
+
+Description:
+While CCF leverages various cloud security capabilities and policies to align with NIST 800-53 controls, a Cloud Security Reference Architecture to serve as design guidance has not been formalized.
+(Observation #17 Cloud Security  PR.AC-5)
+
+Evidence Required
+Develop and publish a cloud reference architecture that provides guidance within CCF on how to implement applications on the cloud by outlining details such as, but not limited to:
+     a. Approved avenues for cloud network access from the internet or on-premises locations/data centers (e.g., APIs, Direct Access, VPN etc)
+     b. Defined network perimeter/boundary protections to leverage (such as, enterprise security groups, network access control lists, IDS/IPS)
+     c. Availability zone requirements and load balancing
+     d. Multi-regional resiliency requirements
+
+Summary:
+ The project focuses on cybersecurity with a specific focus on data and application protection. The task at hand is to develop and publish a cloud reference architecture that provides guidance on implementing applications on the cloud within CCF (presumably a company or organization). The reference architecture should include details such as approved avenues for cloud network access, network perimeter protection, availability zone requirements, and multi-regional resiliency requirements. The goal is to align with NIST 800-53 controls and provide design guidance that is currently lacking.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Incident 0900318  Need Secure WiFi Password - Cybersecurity Domain Epic: Hi Shannon,
+My name is David Hines.  I am the Manager of Network Services for Cleveland Clinic, with responsibilities including the Wireless Network.
+
+We do not allow Personal devices on the network at this time.
+
+In order to have a deice onboarded, it needs to be reviewed by Cyber Security Architecture, as well as my Wireless team.
+We need to ensure that the device can safely join the network, and that it meets are standards for doing so.
+
+Someone from Cyber will be in touch with you to discuss the process.
+In the mean time, I will close the Incident.  If you still want to move forward, you will need to work through Cyber Security.
+This is not an incident, which is defined as something that was working is not.  This better fits a Service request, which is something that you did not have, but want to add.
+
+If you have any questions, feel free to reach out to me directly.
+
+Thank You!
+
+Dave
+
+
+Summary:
+ The project task is related to cybersecurity and involves the onboarding of personal devices onto the network at Cleveland Clinic. The device needs to be reviewed by the Cyber Security Architecture and Wireless teams to ensure it meets the necessary standards. The sender of the message, David Hines, is the Manager of Network Services at Cleveland Clinic.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): QGlobal - Cybersecurity Domain Epic: Action Items
+Password Policy share with CCF  Chris and Matt
+Vulnerability Scan  Chris and Matt
+Protection Profile  Matt
+Multifactor and SSO Q3 – Q4  Let Annette, Dr. Goodpaster, and Brian know so they can alert Cybersecurity complete. Thanks.
+Next meeting Week of May 3  Erin to set-up
+
+Notes
+Cloud hosted from QGlobal – fill in data before their intact appointment or testing remotely
+Issues with WIN 10
+Server turned off to be decommissioned and turned back on
+Patient record isn't pulled in or pushed out
+PHI date of birth
+Use report from QGLobal and caregiver who is the account admin can see patient record and only caregivers who have sub accounts will only have that access
+Password policy is standard
+Multifactor and SSO Q3 – Q4
+Summary:
+ The project is focused on cybersecurity and involves various tasks and epics. Some of the specific tasks mentioned include sharing the password policy with Chris and Matt, conducting a vulnerability scan with Chris and Matt's involvement, working on the protection profile with Matt, and implementing multifactor and single sign-on authentication in the third and fourth quarter. There is also a mention of a meeting to be scheduled by Erin for the week of May 3. Additionally, there are some notes related to issues with WIN 10, cloud hosting, decommissioning and restarting servers, patient record management, and password policies.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): Innovations - Occulus Set-Up (Tactical): Conferring with my architect, Shane Ricker, I believe that we need to huddle on a new approach to supporting these devices. A couple of the challenges that he is seeing are 1) dependency on Tech Mahindra as it relates to static IP addresses, 2) social media blocking policy (Oculus is owned and operated by Facebook), and 3) restricted user permissions on workstations.
+
+The 2nd and 3rd challenges are practical for 80% of CCF environment but as you are seeing; pose challenges for the other 20%. I would like to propose the following to resolve the issues.
+
+Tactically, provide us with users and workstation names for all remaining installations. We'll work with our ITD partners to get all of them installed and running. Keep in mind that we may see disruptions as Facebook/Oculus issues updates or changes to the software or backend interfaces.
+
+Summary:
+ This text is discussing a project related to cybersecurity and the setup of Occulus devices. The project involves addressing challenges related to dependency on Tech Mahindra for static IP addresses, social media blocking policy, and restricted user permissions on workstations. The proposed solution is to provide users and workstation names for all remaining installations, and to work with ITD partners to ensure successful installation and operation. Disruptions may occur due to updates or changes made by Facebook/Oculus.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Falcon Camera: • Name of Project/Request:
+Falcon Camera
+
+• Is this request going through the ITD PMO Intake Process?
+o What is the Demand ID number:
+Not Currently
+
+• Description of Project/Request:
+Dr Dweik has requested a webcamera through media operations . This project is however much more complex and a mix of IT and AV. He wants some sort of link or portal that can be shared to end users. The link that follows is the example he provided. https://history.mayoclinic.org/tours-events/mayo-clinic-peregrine-falcon-program.php
+
+• Timeline: None Currently
+
+• CCF Line of Business/Institute: Respiratory Institute.
+
+• Contacts:
+o CCF Business Owner:
+o CCF Project Manager: Jack Tibbitts
+o CCF Technical Lead:
+o Vendor Contact Name, Phone, email (If applicable):
+
+Summary:
+ The project is called "Falcon Camera" and it is related to cybersecurity and advisory. The project involves setting up a web camera for media operations, which is a mix of IT and AV. The project requires the creation of a link or portal that can be shared with end-users. The project is part of the Respiratory Institute at CCF. The business owner is not specified, but the project manager is Jack Tibbitts. No timeline or vendor information is provided.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): RINGSIDE STUDY ECG Device - Cybersecurity Domain Epic: • Name of Request:  RINGSIDE STUDY Global Instrumentation, LLC M12R 12-lead ECG Holter Device
+• Description of Request:  A research study that will use an ECG device that may get networked
+• Timeline:  as soon as possible
+• CCF Line of Business/Institute:  Taussig
+• Contacts:
+o CCF Business Owner:  Heather Keaney (keaneyh@ccf.org)
+o CCF Project Manager:  Heather Keaney
+o CCF Technical Lead:  TBD
+o Vendor Contact:   Martin, Carol cmartin@ert.com    May also want to add Clinical Research Org Contact:  Roy, Kim <Kim.Roy@iqvia.com>
+• Any documentation regarding this request:  See MDS2 and Spec sheet attached for device
+
+Summary:
+ The project task is related to cybersecurity in the Advisory Center of Excellence (COE). The specific task is the RINGSIDE STUDY ECG Device in the cybersecurity domain. It involves research using an ECG device that may be networked. The timeline for the project is as soon as possible. The project is part of Taussig, a line of business or institute. The contacts for the project include CCF Business Owner Heather Keaney, CCF Project Manager Heather Keaney, CCF Technical Lead TBD, Vendor Contact Carol Martin, and potentially Clinical Research Org Contact Kim Roy. The request is accompanied by documentation including the MDS2 and Spec sheet for the device.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Virtual ED Triage - Cybersecurity Domain Epic: 1. Chris will discuss workflow with Cyber Advisory Oct 6   Chris S.
+2. Set-up next meeting to see about questions  Erin Smith
+3. Chris S to write the story about the power app approach to Ricky Aldridge  Chris S.
+Location based filtering
+ER / Triage locations
+Since passcode on the device rotates, what other limiting controls are available  Kyle B.
+4. Service Desk Support - Work with Cossette, Amy <COSSETA@ccf.org> to see if there a clear line on who to work with for issue  Bob Ganem
+Work with ESI
+No expiration on the Pin on the Laptop.
+Create a Knowledge Article
+5. Read encryption policy - Passwords are never transmitted in clear text or protected with vulnerable encryption
+Encryption Policy
+
+Summary:
+ The given list of project tasks and descriptions is related to the Cybersecurity - Advisory COE project. Some of the tasks include discussing workflow with the Cyber Advisory team, setting up meetings for questions, writing a story about the power app approach, exploring limiting controls for passcode rotation on devices, working with the Service Desk Support team to clarify who to work with for an issue, reading the encryption policy, and creating a Knowledge Article. The tasks highlight various aspects of cybersecurity and information protection.
+Raw Description:
+ DP - Data Lifecycle (P1): Continue to scale the Varonis implementation where applicable/throughout the environment: OKR Activity 278
+
+Major milestones –
+• Onboarding London, Radiology, HVI, Lerner (Lerner is a longshot I think)
+• Also investigate with support from Storage team about enabling NFS share monitoring
+o Ask the business if it is necessary since it is application data and not usually accessed by individuals
+Resources – We might need to add more storage capacity for our DB server due to the number and size of new sources we are and have added. We can have Varonis perform a sizing of our existing environment to help us determine what we should add to support our growth plans.
+Backlog – I believe Robert already has a backlog/stories built for each of the three sites
+Complete in 2023? – I think all but Lerner can be completed year without issue. I would keep your current percentages.
+
+
+
+Summary:
+ This project involves scaling the Varonis implementation throughout the environment by onboarding various departments, investigating NFS share monitoring, and potentially adding more storage capacity for the DB server. The project is expected to be completed in 2023, with the exception of the Lerner department.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Brooks Bio - Cybersecurity Domain Epic: • Name of Request: Provide communication path for Power Meter Connectivity
+
+• Description of Request: Brooks Bio – Need to install power meters to monitor power in the building, but we do not have connectivity in the building.
+
+• Timeline: ASAP
+                          
+• CCF Line of Business/Institute: Operations/ Construction
+
+• Contacts:
+o CCF Business Owner: Russ Saghy
+o CCF Project Manager:
+o CCF Technical Lead: Joseph Davidson
+o Vendor Contact: Bryan Beatrez (bryanbeatrez@eaton.com)
+Summary:
+ The project is focused on cybersecurity, specifically in the area of power meter connectivity for Brooks Bio. The request is to install power meters to monitor power in the building, but there is currently no connectivity in the building. The timeline for this request is as soon as possible, and it falls under the Operations/Construction department at CCF. The primary contacts for this project are Russ Saghy as the CCF Business Owner, and Joseph Davidson as the CCF Technical Lead. Additionally, the vendor contact for this project is Bryan Beatrez from Eaton (bryanbeatrez@eaton.com).
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): American Association of Thoracic Surgery - Cybersecurity Domain Epic: • Name of Request: American Association for Thoracic Surgery Quality Gateway (AQG)
+
+• Description of Request: electronic data collection of cardiac and thoracic surgery information to support quality improvement and reporting of risk adjusted outcomes
+
+• Timeline: As soon as possible (original request was entered in October; this is a high priority)
+
+• CCF Line of Business/Institute: Heart, Vascular, and Thoracic Institute (HVTI)
+
+• Contacts:
+o CCF Business Owner: Lars Svensson, HVTI Chair SVENSSL@ccf.org
+o CCF Project Manager: Nichole Arcaro ARCARON@ccf.org
+o CCF Technical Lead: Patrick Vargo VARGOP@ccf.org
+o Vendor Contact:
+
+Summary:
+ This project involves the creation of a Cybersecurity Advisory Center of Excellence (COE) for the American Association of Thoracic Surgery. The specific task for this project is the implementation of the American Association for Thoracic Surgery Quality Gateway (AQG), which entails electronic data collection of cardiac and thoracic surgery information to support quality improvement and reporting of risk-adjusted outcomes. The timeline for this task is high priority, and it is under the Heart, Vascular, and Thoracic Institute (HVTI) of the Cleveland Clinic Foundation. The project contacts include Lars Svensson as the CCF Business Owner, Nichole Arcaro as the CCF Project Manager, and Patrick Vargo as the CCF Technical Lead. The vendor contact information is not provided.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): RAdmin Software Review - MinorCybersecurity Secure Design and Engineering Service: Name of Request: RAdmin packaging
+
+•             Description of Request: This is to approve the RAdmin software for packaging.  Jie Zeng currently needs this to continue to effectively work from home.
+
+•             Timeline:  We would like to have this running on Jie's computer before the end of November.
+
+•             CCF Line of Business/Institute:  sleep lab
+
+•             Contacts: Jie Zeng
+o             CCF Business Owner: unknown
+o             CCF Project Manager: n/a
+o             CCF Technical Lead: Jie Zeng
+o             Vendor Contact: n/a
+
+•             Any documentation regarding this request – REQ0307470 would contain any other relevant information.
+
+Summary:
+ The project tasks and descriptions are related to cybersecurity. One of the tasks is a RAdmin software review and packaging request for Jie Zeng to effectively work from home. The request needs to be completed before the end of November. The project is for the sleep lab, and Jie Zeng is the technical lead. Documentation for the request can be found under REQ0307470.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): UiPath  - Cybersecurity Domain Epic: • Name of Project/Request: Evaluation of UiPath
+
+• Is this request going through the ITD PMO Intake Process? Yes
+o What is the Idea or Demand record ID?: DMND0003737
+
+• Description of Project/Request: Evaluation of UiPath application and determination of on-prem vs. cloud based solution.
+• Timeline: June 2021.
+
+• CCF Line of Business/Institute: Finance, Revenue Cycle Management
+
+• Contacts:
+o CCF Business Owner: Charlie Sweeney/Justin Fink
+o CCF Project Manager: Pragya Sharma
+o CCF Technical Lead: Charlie Sweeney/Justin Fink
+o Vendor Contact (If applicable): Kirk Neal (UiPath)
+
+Summary:
+ The project is focused on cybersecurity and involves an evaluation of the UiPath application. The project will determine whether the solution should be on-premises or cloud-based. The timeline for the project is in June 2021. The project is part of the Finance, Revenue Cycle Management line of business. The contacts for the project include Charlie Sweeney and Justin Fink as the CCF business owners, Pragya Sharma as the project manager, and Kirk Neal as the vendor contact from UiPath. The project has gone through the ITD PMO Intake Process and has the record ID DMND0003737.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Cybersecurity - Act Millennium" MicroMini (II) MotionLogger Actigraph  from a CD: • Name of Request: Install the following programs
+• "Act Millennium" MicroMini (II) MotionLogger Actigraph  from a CD
+Download : Action-W version 2.7.3285 with Infant Algorithm for 32-bit Systems for Ambulatory-Monitoring services.
+          Description of Request: Software installation
+
+• Timeline: ASAP
+
+• CCF Line of Business/Institute:
+• Pediatric Inst/Childrens Hosp
+• cContacts:
+o CCF Business Owner: Leah Barto
+o CCF Project Manager: Jennie Wahl
+o CCF Technical Lead: Phil Eberwein
+o Vendor Contact: info@ambulatory-monitoring.com
+
+Summary:
+ The given list of project tasks and descriptions is related to the installation of cybersecurity software called "Act Millennium" MicroMini (II) MotionLogger Actigraph from a CD. The request is to install the software, and the timeline for completion is ASAP. The project is associated with the Pediatric Institute/Children's Hospital of the CCF Line of Business/Institute. The project contacts include Leah Barto as the CCF Business Owner, Jennie Wahl as the CCF Project Manager, Phil Eberwein as the CCF Technical Lead, and the vendor contact is info@ambulatory-monitoring.com.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): qTest Accessibility for DR Application Test Management - Cybersecurity Domain Epic: * Name of Request: qTest Accessibility for DR Application Test Management
+
+* Description of Request: We want to make the qTest site accessible from within the DR network so that application analysts can view their test cases and report their testing progress as part of the DR testing cycles starting in August 2021.
+
+* Timeline: July – August 2021
+
+* CCF Line of Business/Institute: ITD
+
+* Contacts:
+    * CCF Business Owner: David Schraff
+    * CCF Project Manager: David Schraff
+    * CCF Technical Lead: David Schraff
+    * Vendor Contact: Kristen Wiley (k.wiley@tricentis.com)
+
+Summary:
+ The project is related to cybersecurity and is focused on making the qTest site accessible from within the DR network for application analysts. The goal is to allow analysts to view test cases and report testing progress as part of the DR testing cycles starting in August 2021. The project is being managed by David Schraff and the vendor contact is Kristen Wiley from Tricentis. The timeline for the project is July-August 2021.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Cybersecurity - KPMP EHR data extraction and transmission to University of Washington: • Name of Project/Request: KPMP EHR data extraction and transmission to University of Washington
+• Is this request going through the ITD PMO Intake Process? Not Sure what this is
+o What is the Jira Initiative ID: Not Sure what this is
+• Description of Project/Request: EHR data extraction and transmission to University of Washington
+• Timeline: First transmission when approvals obtained then at least biannually thereafter
+• CCF Line of Business/Institute: LRI/GUKI
+• Contacts:
+o CCF Business Owner:
+o CCF Project Manager: John F. O'Toole  216-219-5901
+
+Summary:
+ The project involves extracting and transmitting EHR data to the University of Washington. The timeline for this project is to have the first transmission when approvals are obtained and then at least biannually thereafter. The project is related to the CCF Line of Business/Institute, with John F. O'Toole as the CCF Project Manager.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): HillRom Nurse Call System Pentest (#2): A series of user stories for conducting a penetration test of this important system used in our clinical areas.
+
+NaviCare Nurse Call provides a powerful platform for clinical connectivity to help improve patient safety and satisfaction, improve efficiency at the point of care, and integrate into the healthcare enterprise. Unlike traditional nurse call systems, NaviCare Nurse Call is designed from the ground up to streamline communications and facilitates integration into the healthcare enterprise.
+
+Providing a powerful platform for clinical connectivity, NaviCare Nurse Call helps better connect patients, caregivers, beds and IT systems, turning real-time data into informed action at the point of care. The end result: improved caregiver responsiveness and an environment more conducive to improving patient outcomes.
+Summary:
+ The project involves conducting a penetration test on the HillRom Nurse Call System, which is part of the NaviCare Nurse Call platform. The NaviCare Nurse Call system is designed to improve patient safety and satisfaction, enhance efficiency at the point of care, and integrate into the healthcare enterprise. The goal of the project is to ensure the system's cybersecurity and identify any vulnerabilities that may exist.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Sommetrics Supra Study - Cybersecurity Domain Epic: • Name of Request:  Sommetrics Supra Study
+• Description of Request: Trice Imaging Software review and approval for download
+• Timeline:  As soon as possible within normal Architecture workflow to kick off study in August
+• CCF Line of Business/Institute: Neuro / Sleep Disorders – also Lerner I believe
+• Contacts:
+o CCF Business Owner: Samantha Wells
+o CCF Project Manager: Samantha Wells
+o CCF Technical Lead: TBD - unknown
+o Vendor Contact:  Andre Puleo  andre.puleo@sommetrics.com; there may be others needed from Trice:  TBD
+
+Summary:
+ The project is called "Cybersecurity - Advisory COE" and consists of 59 epics. One of the epics is the "Sommetrics Supra Study" in the Cybersecurity domain. The request is for a review and approval of the Trice Imaging Software for download. The timeline for this task is to be completed as soon as possible within the normal Architecture workflow in order to kick off the study in August. The project is related to the Neuro/Sleep Disorders field, specifically the Lerner Institute at CCF. The main contacts for this task are Samantha Wells as the CCF Business Owner and Project Manager, and Andre Puleo from Sommetrics as the vendor contact.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Phantom / Office 365 integration - Cybersecurity Domain Epic: Phantom / Office 365 integration:
+• Description of Request: We need to set up Phantom Dev to access Office 365 for testing. This will also need to be set up in Prod later
+• Timeline: We need this before we go live with office 365.
+• CCF Line of Business/Institute: Cyber Security
+• Contacts:
+o CCF Business Owner: Mike Gross
+o CCF Project Manager:
+o CCF Technical Lead: Brad McCrillis
+o Vendor Contact: Nick Buhler
+• Any documentation regarding this request
+
+Summary:
+ The project involves implementing Phantom/Office 365 integration for testing purposes. It needs to be set up in both the Dev and Prod environments before going live with Office 365. The project is under the Cybersecurity domain and the main contacts are Mike Gross as the business owner, Brad McCrillis as the technical lead, and Nick Buhler as the vendor contact. Any documentation related to this request should be provided.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Cybrary Training Roadmap - Cybersecurity Domain Epic: Cybrary - Training Module Course Selection - Next Steps as of 7-7-21
+
+Next Steps – Daryl to present a quick roadmap at the meeting this afternoon – Thanks Daryl
+
+1. Training Plan for Advisory
+2. Building Roadmap with learning objectives for this year and next year
+3. Requirements – 1 class per quarter for professional development start for 3rd and 4th quarter
+4. Register team in 2nd quarter
+5. Set-up in system in 2nd quarter
+
+Summary:
+ The project is focused on cybersecurity and involves the creation of a training plan and roadmap. Some of the key tasks include building a roadmap with learning objectives for this year and next year, setting up the system, and registering the team for training. Daryl will present a quick roadmap at a meeting. The project also includes a requirement for one class per quarter for professional development in the 3rd and 4th quarters.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Stripo - Cybersecurity Domain Epic: Cyber,
+
+The user needs to have software installed:
+
+
+
+Name of Request: Install the following programs
+Stripo (my.stripo.email)
+          Description of Request: Software installation
+
+
+
+Timeline: ASAP
+
+
+CCF Line of Business/Institute:
+Internal Medicine and Geriatrics
+Contacts:
+CCF Business Owner: Alejandro Duran Crane
+CCF Project Manager: Jeffrey Shivak
+CCF Technical Lead: Phil Eberwein
+Vendor Contact:
+1 415 940 7047
+contact@stripo.email
+Summary:
+ The project is focused on cybersecurity and specifically on establishing an advisory center for the topic. The task at hand is to install the Stripo software, which is part of the cybersecurity domain. The timeline for the installation is "ASAP." The project is being managed by the Internal Medicine and Geriatrics department at CCF (Cleveland Clinic Foundation). The business owner is Alejandro Duran Crane, the project manager is Jeffrey Shivak, and the technical lead is Phil Eberwein. The contact information for the vendor is provided.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Develop a risk scoring and prioritization methodology that incorporates internal intelligence and context e.g., where in the environment it sits, asset type (including med devices and OT), associated business process, etc, as well as external e.g., active: Develop a risk scoring and prioritization methodology that incorporates internal intelligence and context e.g., where in the environment it sits, asset type (including med devices and OT), associated business process, etc, as well as external e.g., active threat campaigns, adversary TTPs, etc.
+Summary:
+ The project task is focused on developing a risk scoring and prioritization methodology for TVI - Protection, Threat Triage & Containment (P1). The methodology should incorporate internal intelligence and context, such as the environment, asset type (including medical devices and OT), and associated business processes. It should also consider external factors such as active threat campaigns and adversary techniques, tactics, and procedures (TTPs).
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Genentch - Cybersecurity Domain Epic: Use Case
+CCF Research team - De-identified data that belongs to Genentech(Roche)
+
+Action Items *Erin is looking into if these need to be done
+1. EDSMC – Use link to fill in the Assessment
+2. Password Policy – Double check with the
+3. TPRA  Qualified and Approved for Genentech = Roche
+4. TRPA  Still need AG Mednet approval – see link below to fill out
+Summary:
+ The project is focused on cybersecurity in the advisory center of excellence (COE). There are 59 epics (tasks) related to this project. One of the epics is specifically related to the Genentech cybersecurity domain and involves use cases. Additionally, the project involves the CCF Research team and de-identified data that belongs to Genentech (Roche). There are several action items listed, including EDSMC assessment, double-checking the password policy, and obtaining approval for TPRA and TRPA, with the latter requiring approval from AG Mednet. Erin is responsible for looking into the need for these action items.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Urodynamics Device - Connect to network INC0860477 - Cybersecurity Domain Epic: Configuration item: Computer (unspecified)
+Description: Replacement network device Urodynamics device Room: HC4-553D
+- used for patient procedures
+Received replacement (ordered by clinical engineering)
+per Other ticket - notes from Adam Cieplowski of Network Field Services - East team
+Clinical Engineering is working to get the replacement. Device was never on CCF network, and would need to be vetted by Cyber Security to fully join network.
+
+Summary:
+ The project involves cybersecurity advisory for a Urodynamics device that needs to be connected to a network. The device is used for patient procedures and needs to be replaced with a new network device. The replacement has been ordered by clinical engineering. The device has never been on the CCF network and needs to be vetted by the cybersecurity team before being fully connected to the network.
+Raw Description:
+ DP - Data Lifecycle (P1): Refresh data handling guidelines for SaaS and On-Prem to reflect updated data classification system and the associated sensitivity of each data type: OKR Activity 249
+Refresh data handling guidelines for SaaS and On-Prem to reflect updated data classification system and the associated sensitivity of each data type
+
+Reference per Kevin Mooney: https://ccf.policytech.com/dotNet/documents/?docid=64041
+
+This is the Cyber policy on Third Party Risk Management: https://ccf.policytech.com/dotNet/documents/?docid=66010
+
+
+
+Summary:
+ The project task involves refreshing data handling guidelines for software as a service (SaaS) and on-premises systems to align with an updated data classification system and the sensitivity of each data type. The project references a document by Kevin Mooney on the topic and also includes a cyber policy on third-party risk management. The project task is labeled as DP - Data Lifecycle and is part of OKR Activity 249.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - IIQ - MyAccess Servicenow integration: IE - ILM - IIQ - MyAccess Servicenow integration
+There is a need to integrate the MyAccess (Sailpoint IIQ) system with servicenow to automate account provisioning. We own the IIQ/servicenow modules and have contracted with kpmg to configure them.
+Cybersecurity Identity Engineering with work together with the servicenow teams to do the base implementation by the end of the year.
+Summary:
+ The project involves integrating the MyAccess system with servicenow for account provisioning automation. The Cybersecurity Identity Engineering team will work with the servicenow teams to implement this integration by the end of the year.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): Zero Trust Architecture for M&A: Problem Statement:
+Current M&A and affiliate access to CCF systems (e.g. Epic, Syngo) risk the spread of malware infection and data exfiltration due to network integration requirements.
+
+Expected Outcomes:
+Standard, secure, and, cost efficient access to CCF Systems & data
+Rapid onboarding/off-boarding of affiliates / Physician Groups
+Support federated identities and BIBO
+
+Focused Communities
+Advisory, Identity, Technology Protection
+Summary:
+ This project is focused on cybersecurity in the form of an advisory center of excellence (COE). Specifically, the project aims to implement a zero trust architecture for mergers and acquisitions (M&A). The problem statement highlights the risks associated with current M&A and affiliate access to CCF systems, such as the spread of malware infection and data exfiltration. The expected outcomes of the project include standard, secure, and cost-efficient access to CCF systems and data, rapid onboarding and offboarding of affiliates and physician groups, and support for federated identities and BIBO. The project is focused on the advisory, identity, and technology protection communities.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): Patient Data Tokenization: Problem Statement:
+International patients are hesitant to use CCF services because of potential access to PHI/PII from US Government due to U.S. Patriot act
+
+Expected Outcomes:
+Specified data fields within the existing CCF instance of Epic can be tokenized/obfuscated to support international and state level privacy needs and requirements
+Data tokenization/obfuscation is transparent to the end-users
+
+Focused Communities
+Advisory, Assurance, Technology Protection
+Summary:
+ The project is focused on cybersecurity and is part of an Advisory Center of Excellence (COE). One of the epics within the project is to address the issue of patient data privacy for international patients who are hesitant to use CCF (presumably a healthcare organization) services due to concerns about access to their personal health information (PHI) and personally identifiable information (PII) by the US government under the US Patriot Act. The expected outcome of this epic is to tokenize or obfuscate certain data fields within the existing CCF system in order to comply with international and state privacy regulations. This data tokenization process should be transparent to end-users. The project is focused on the advisory, assurance, and technology protection communities.
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (7 epics): IE - AM - Imprivata 7.10 appliance upgrade: IE - AM - Imprivata 7.9 appliance upgrade
+   Upgrade Test appliance - .5 day
+   Upgrade citrix agent to 7.9 - .5 day
+   7.9 agent testing - 2 days
+   Citrix testing  - 1 day
+   Upgrade appliance in Prod - .5 day
+Upgrade citrix agent in Prod - 1 week
+Summary:
+ The project involves providing engineering support for cybersecurity and specifically focuses on upgrading Imprivata appliances and Citrix agents. There are 7 epics in total, with tasks such as upgrading the test appliance, upgrading the Citrix agent, conducting agent testing, testing Citrix, and upgrading the appliance in Prod (production). The estimated time for each task ranges from 0.5 days to 1 week.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Disaster Recovery Testing and Exercises (CCF, CCL, M&A) - 2024: Included Activities:
+DR Test Planning Oversight (Includes all planning meetings, technical meetings, etc)
+DR Test Execution Oversight
+DR Test Reporting Oversight
+DR Test Issues Oversight (Problem Task tracking, management and escalation)
+DR TTX Planning Oversight
+DR TTX Participation Oversight
+DR Technical Drill Participation
+DR Test Exception Management and Oversight
+DR Risk Escalation Management and Oversight
+Summary:
+ The project involves cybersecurity and business resilience in relation to enterprise disaster recovery testing and exercises. The project is expected to be completed by 2024 and includes activities such as test planning, execution, reporting, issue management, technical drills, participation oversight, exception management, and risk escalation.
+Raw Description:
+ AP - Application Security (P1): Document and refine processes and procedures: OKR Activity 227
+Deliverables:
+1) Creation of all necessary SOPs needed by the Cyber DNA team to operationalize all aspects of our program
+2) Creation of developer-facing docs to assist them in making the correct requests for their projects. Scope: ADO project creation, SSO support.
+3) Creation of a top-level Sharepoint page for the Development community that guides them through the process and provides access to the job aids/documents
+Summary:
+ The project tasks involve improving application security by documenting and refining processes and procedures. The deliverables include creating Standard Operating Procedures (SOPs) for the Cyber DNA team, developer-facing documentation for project requests, and a Sharepoint page for the Development community. The scope of the project includes ADO project creation and SSO support.
+Raw Description:
+ AP - Application Security (P1): Define, collect, and report on metrics to measure the effectiveness of the application security program: OKR Activity 229
+Deliverables:
+1) Define and socialize a metrics strategy for the Application Protection program. How do we measure success of this program? How do we collect data? How do we hold development teams accountable?
+2) Work with Faig to build out the Exec-level metrics in Tableau
+3) Creation of any Team-level metrics also needed
+Summary:
+ The project involves defining, collecting, and reporting on metrics to measure the effectiveness of the application security program. The deliverables include creating a metrics strategy for the program, building executive-level metrics in Tableau, and creating any needed team-level metrics. The goal is to measure the success of the program, collect relevant data, and hold development teams accountable.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): EMI  - Cybersecurity Domain Epic: 1. Find out if Vendor uses Single Sing On Federation  Kim to let Daryl and Erin know
+a. If not what are their password standards
+2. MetricStream Research Survey to Clare   Kim to work with Mike Behl
+a. Kim Relationship manager and fill it out with Clare
+
+We will touch base by email updates to close this request out thanks
+
+Summary:
+ The project is focused on Cybersecurity and involves creating an Advisory COE (Center of Excellence). The specific task mentioned is related to the Cybersecurity domain epic, which includes finding out if a vendor uses Single Sign-On Federation, and if not, what their password standards are. Another task mentioned is conducting a MetricStream Research Survey, which involves working with Mike Behl and completing the survey with Clare. The project team plans to provide updates through email communication to close out this request.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): Additional Cybersecurity Reviews for Epic AI Modules: Cosmos and Nebula formerly came through ITD Intake and was reviewed by Cybersecurity architecture for solution security. CCF Chief Information Security Officer requested that these be re-examined to ensure that we are fully protecting patient data. Specifically, while the solution may protect PHI data during transmission, storage, and processing; could de-identified patient health records be enumerated or aggregated to breach patient health data.
+Summary:
+ The project involves conducting additional cybersecurity reviews for two epic AI modules named Cosmos and Nebula. These modules have already been reviewed by the cybersecurity architecture team, but the Chief Information Security Officer (CCF) has requested a re-examination to ensure the full protection of patient data. The main concern is whether de-identified patient health records could be enumerated or aggregated to breach patient health data, despite the modules already offering protection during transmission, storage, and processing.
+Raw Description:
+ Cybersecurity - Network Protection (8 epics): Replacement of Tufin with FireMon: Tufin is a firewall management tool that Technology Protection has been using for several years. As a result of changes to Tufin&#39;s licensing model from perpetual to subscription and only 30-days notice during contract negotiations, Technology Protection worked with Supply Chain to engage FireMon for providing the required capabilities and additional automation and integrations such as ServiceNow that Tufin was having difficulty providing.
+Summary:
+ The project involves implementing cybersecurity measures to protect the network. The specific task is to replace Tufin, a firewall management tool, with FireMon due to changes in Tufin's licensing model. Technology Protection has decided to engage FireMon to provide the necessary capabilities and automation. Integration with ServiceNow is also planned.
+Raw Description:
+ Cybersecurity - Operational Technology (1 epics): ServiceNow/Nuvolo Integration: Objectives:
+Support the IT Service Management organization with the rollout of ServiceNow and Nuvolo capabilities associated with cybersecurity.
+
+Key Results:
+* Workflows documented for new device onboarding for all devices maintained in the Nuvolo device schema
+* Ordr integration between ServiceNow and Nuvolo enabled, tested, and live
+* All devices in Ordr are identified in ServiceNow and Nuvolo
+Summary:
+ This project focuses on cybersecurity in operational technology. The objective is to support the IT Service Management organization in implementing ServiceNow and Nuvolo capabilities related to cybersecurity. The key results include documenting workflows for new device onboarding, enabling and testing the integration between ServiceNow and Nuvolo for Ordr, and identifying all devices in Ordr within ServiceNow and Nuvolo.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Transfer ownership of phishing training: Tom has requested that ownership of the phishing training process be transferred from the SOC team to the Red Team. This epic will contain any and all portions of that process including the transfer, training, and execution of this process. The Red team will work with Mike Gross and team to better understand how this process is carried out and ensure proper access is given to the members responsible on the Red team.
+Summary:
+ The project involves a cybersecurity task focused on the Red Team. The main task is to transfer ownership of the phishing training process from the SOC team to the Red Team. The Red Team will collaborate with Mike Gross and his team to learn how the process is executed and ensure appropriate access for the Red team members involved. The epic will encompass all aspects of the transfer, training, and execution of the phishing training process.
+Raw Description:
+ Cyber Incident Recovery: Develop formal steering committee comprised of key business stakeholders, audit, and risk to monitor critical infrastructure and service delivery risks. Designate personnel to serve as liaisons with national groups to discuss sector specific critical infr: Develop formal steering committee comprised of key business stakeholders, audit, and risk to monitor critical infrastructure and service delivery risks. Designate personnel to serve as liaisons with national groups to discuss sector specific critical infrastructure and service delivery threats and risks.
+Summary:
+ The project involves developing a formal steering committee to monitor critical infrastructure and service delivery risks in order to ensure cyber incident recovery. The committee will be comprised of key business stakeholders, audit, and risk. The project also requires designating personnel to serve as liaisons with national groups to discuss sector-specific critical infrastructure and service delivery threats and risks.
+Raw Description:
+ AP - Application Security (P1): Define and document application security policies and standards: OKR Activity 228
+Deliverables:
+1) Creation of all necessary application security policy documents and submit to GRC for the approval process
+2) Creation of all necessary application security standard documents, reviewed by our stakeholders/customers, and updated with their feedback
+3) Publishing of our developer-facing documents in our Sharepoint landing page for developers
+Summary:
+ The project is focused on defining and documenting application security policies and standards. The tasks include creating application security policy documents for approval, creating application security standard documents based on stakeholder feedback, and publishing developer-facing documents on a Sharepoint landing page. The project is identified as "AP - Application Security (P1)" and is part of OKR Activity 228. GRC refers to the process of governance, risk, and compliance.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Akron - Investigation and Remediation of In Use Outbound Domain Controller ports: Working with the IAM team and using Chronicle reporting and other sources determine if in use outbound ports are required for DC functionality.  All unneeded ports should be blocked by firewall rule, the high level expectation is that all outbound ports will be blocked for domain controllers (per Microsoft Documentation)
+Summary:
+ The project involves the investigation and remediation of inbound and outbound domain controller ports for cybersecurity purposes. The goal is to determine if any of the outbound ports are necessary for the functionality of the domain controllers and block the unnecessary ports through firewall rules. The project tasks will be carried out in Akron and will involve working with the IAM team and utilizing Chronicle reporting and other sources for information. The high-level expectation is to block all outbound ports for domain controllers, based on Microsoft Documentation.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: IE - AM - Imprivata CCF OHIO Regional Hospitals,  FHCs & Indiv Community  Sites Phys Office Phase: Install Imprivata BIBO on all workstations used by employed physicians located in their offices.   OH CCF Regional FHCs and individual locations
+Summary:
+ The project is focused on deploying the BIBO (Biometric Identification and Biographical Overlay) system to the offices of the CCF Empl provider. This will involve installing the Imprivata BIBO on all workstations used by employed physicians in their offices. The deployment will cover various OHIO CCF Regional Hospitals, FHCs (Family Health Centers), and individual community sites. The goal is to enable efficient check-in and check-out processes for physicians at these locations.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): C620 - Tune Cloud Protection Standard (GCP & AWS) and corresponding GCP & AWS Recommendations and Organization Policies: Tune Cloud Protection Standard (GCP & AWS) and corresponding GCP & AWS Recommendations and Organization Policies - 89 Points
+Use outputs of "Defender for Cloud tuning to guide policies needed for at-scale security management.
+Summary:
+ This project involves the task of tuning the cloud protection standards for Google Cloud Platform (GCP) and Amazon Web Services (AWS), as well as creating corresponding recommendations and organization policies. The goal is to use the outputs of "Defender for Cloud" to guide the creation of policies for effective security management at scale. The task is worth 89 points and is part of a larger cybersecurity project focused on data and application protection.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): C110 -  Create Cloud Tag Standard and corresponding Azure Policy initiative: Create written document to define standard cloud tags
+Create Cloud Tag Standard initiative in Azure policy
+Add custom policies to enforce tags on subscriptions and resource groups, with input validation where applicable
+Add custom policies to perform inheritance from subscriptions to resource groups and resource groups to resources
+Summary:
+ The project involves a cybersecurity task related to Data & Application Protection. The main task is to create a Cloud Tag Standard and an Azure Policy initiative. This includes creating a written document defining the standard cloud tags and implementing custom policies to enforce these tags on subscriptions and resource groups. Additionally, custom policies will be created to ensure tag inheritance from subscriptions to resource groups and from resource groups to resources.
+Raw Description:
+ Cybersecurity - Endpoint Protection (3 epics): Zscaler ZCC Agent Deployment (Cyber Hygiene): Assess network and compliance needs.
+Procure licenses and support.
+Integrate ZCC into the network.
+Install ZCC clients on all endpoints.
+Configure security policies and traffic routing.
+Implement access controls and monitoring.
+Test, optimize, and document.
+Provide staff training and ongoing maintenance.
+Summary:
+ The project involves implementing endpoint protection for cybersecurity by deploying Zscaler ZCC agent. The tasks include assessing network needs, procuring licenses, integrating ZCC into the network, installing clients on endpoints, configuring security policies and traffic routing, implementing access controls and monitoring, testing and optimizing the system, providing staff training, and ongoing maintenance.
+Raw Description:
+ Cybersecurity - Attack Surface Reduction (5 epics): Automation Server Platform to Enhance Vulnerability Communications and Tracking: Stand up an Automation Server Platform to Enhance Vulnerability Communications and Tracking.  This platform will support integration with Threat Intelligence Partners,  Remediation Partners  and other tools like Teams that will allow more efficient tracking of vulnerabilities and remediation efforts to reduce risk.
+Summary:
+ The project involves the implementation of a cybersecurity initiative called Attack Surface Reduction. It consists of five epics, one of which is the development of an Automation Server Platform to enhance vulnerability communications and tracking. The platform will integrate with various partners and tools, such as Threat Intelligence Partners, Remediation Partners, and Teams, to streamline the tracking of vulnerabilities and the efforts to mitigate them. The goal of this project is to reduce the risk associated with cybersecurity attacks.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Complete 20 pentests on critical systems, security controls, and/or applications: Complete 20 pentests on critical systems, security controls, and/or applications following our defined pentesting processes. The backlog for these tests are driven by a risk-based approach to prioritize systems/assets/devices through an objective set of criteria.
+Summary:
+ The project involves a cybersecurity task specifically focused on the "Red Team" activities. The goal is to complete 20 penetration tests on critical systems, security controls, and applications. These tests will be conducted using a defined pentesting process. The prioritization of systems/assets/devices for testing will be based on a risk-based approach using objective criteria. The project consists of 38 epics/tasks related to this Red Team cybersecurity project.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Ordr Penetration Test: Test the capability of Ordr to properly alert on malicious traffic against OT devices. The red team will replicate typical attack types against a test OT device to ensure that we are seeing alerts being triggered and that they are being sent to Chronicle via integrations in the production system.
+Summary:
+ The project focuses on cybersecurity and specifically the red team's task in conducting a penetration test on Ordr's capability to detect malicious traffic against OT devices. The goal is to ensure that alerts are triggered and sent to Chronicle via integrations in the production system. The project consists of 38 epics.
+Raw Description:
+ Service Delivery - ServiceNow Development and Administration (1 epics): SailPoint/MyAccess Integration with ServiceNow: Phase 1 - 1/3/22:  Connector as already tested in POC
+Phase 2 - Q1 2023:  10 forms that need to "reach back out to SN" during the provisioning process
+Summary:
+ The project involves ServiceNow development and administration, specifically focusing on integrating SailPoint/MyAccess with ServiceNow. The project has two phases: Phase 1, which includes testing the connector in a proof of concept, and Phase 2, which involves the development of 10 forms that interact with ServiceNow during the provisioning process. The project timeline includes completing Phase 1 by January 3, 2022, and Phase 2 in the first quarter of 2023.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): C610 - Tune Cloud Protection Standard (Azure) and corresponding Azure Policy Initiative: Tune Cloud Protection Standard (Azure) and corresponding Azure Policy Initiative - 89 Points
+Use outputs of "Defender for Cloud tuning for Azure" story to guide policies needed for at-scale security management of Azure
+Summary:
+ This project involves implementing cybersecurity measures for data and application protection. One of the tasks is to tune the Cloud Protection Standard for Azure and create corresponding Azure Policy Initiatives. The goal is to use the outputs from the "Defender for Cloud tuning for Azure" story to guide the development of policies for managing Azure security at scale. The task is worth 89 points.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Google Colab and Drive - Cybersecurity Domain Epic: Store images on the eye diagnosis of the retinal Google Colab
+Image Analysis
+Statistical Analysis for Machine Learning
+De-Identified Data
+One person access the Google Colab Drive
+Personal Google Colab Drive account
+
+Summary:
+ The project is related to cybersecurity and involves creating an advisory center of excellence (COE). It includes 59 epics/tasks, one of which is related to using Google Colab and Drive for storing images related to eye diagnosis. Other tasks involve image and statistical analysis for machine learning, handling de-identified data, and ensuring one person access to the Google Colab Drive. Additionally, a personal Google Colab Drive account is needed for this project.
+Raw Description:
+ Cybersecurity - Data & Application Protection (8 epics): C620 - Security Stack Deployment - GCP: Security Stack Deployment - GCP
+Windows: Tenable, Crowdstrike, Symantec/Defender, Tanium
+Linux: Tenable, Crowsdstrike, Symatec/Defender, Ansible?
+Summary:
+ The project involves implementing cybersecurity measures for data and application protection. The specific task mentioned is the deployment of a security stack on the Google Cloud Platform (GCP), both for Windows and Linux environments. The security stack includes various tools such as Tenable, Crowdstrike, Symantec/Defender, Tanium, and Ansible.
+Raw Description:
+ DP - Data Lifecycle (P1): Implement Imperva for database security monitoring: OKR Activity 279
+Rollout Imperva to 100% of critical databases across the enterprise. As of August 2022, the term "critical" was defined to mean any database that has PHI/PII/PCI data in our environment.
+Summary:
+ The project task is to implement Imperva for database security monitoring as part of the Data Lifecycle project (P1). The objective is to rollout Imperva to all critical databases across the enterprise, where critical databases are defined as those containing PHI/PII/PCI data. This task is part of OKR Activity 279 and is expected to be completed by August 2022.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Research Study Cyber Risk Assessment (IRB 21-268) - Cybersecurity Domain Epic: To use another system other than RedCap for the research study
+Working with Falweh, Nidaa <falwehn@ccf.org> and Dr. Graham Chapman
+Summary:
+ The project focuses on Cybersecurity and involves the creation of an Advisory COE (Center of Excellence) with 59 epics. One specific epic is the "Cyber Risk Assessment," which requires using a system other than RedCap for a research study. The project involves collaboration with Falweh, Nidaa, and Dr. Graham Chapman.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - ILM - Roles - TACACS role onboarding: IE - ILM - Roles - TACACS role onboarding
+Create roles in IIQ
+Remove rights from groups except for IIQ (and emergency?)
+Create job aids
+Deploy new process to Tom's team
+Summary:
+ The project involves tasks related to cybersecurity and identity engineering. It includes creating roles in IIQ (IdentityIQ) and onboarding TACACS roles. The project also involves removing rights from groups except for IIQ, creating job aids, and deploying a new process to Tom's team.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: IE - AM - Imprivata CCF OH Main Campus REG/SCHED/FinCounseling areas Phase: Imprivata BIBO installed in all MC buildings, Reg, Sched,and Financial Counseling workstations.
+Summary:
+ The project involves deploying BIBO to CCF Empl Provider Offices/Check-in/Check-out. The specific tasks include installing Imprivata BIBO in all MC buildings and workstations in areas such as Reg, Sched, and Financial Counseling.
+Raw Description:
+ IP - Zero Trust: Develop a target state zero trust architecture suitable for CCF, ensuring it provides adequate attack surface reduction, resiliency, data protection, and ability to deploy monitoring. Take into consideration specific CCF needs e.g., -Med Device / OT segmentation -Segmentation of Production and Pre-Production Environments:
+Summary:
+ The project involves developing a target state zero trust architecture for CCF (unknown abbreviation). The goal is to create a secure infrastructure that reduces attack surface, protects data, and enables monitoring. Specific considerations include segmentation of medical devices and operational technology, as well as production and pre-production environments.
+Raw Description:
+ Cybersecurity - Business Resilience (5 epics): GRC Gov Admin - Sungard Semi-Annual Contract Management: As the CS Manager responsible for BC/DR Contracts, I want to review and process contracts, in a timely manner, so that current and new solutions that affect Business Resilience are properly managed.
+Summary:
+ The project is focused on cybersecurity and business resilience. The main task described is related to contract management for business continuity and disaster recovery solutions, specifically reviewing and processing contracts in a timely manner. The project aims to ensure that contracts related to business resilience are properly managed.
+Raw Description:
+ TPSRM - Vendor Risk Management Enhancements: Incorporate third parties into DR/BC planning, including exercises: Develop policy, set and communicate requirements for third parties who materially support CCF critical functions/services to participate in and comply with the enterprise business resilience program to include business continuity and disaster recovery planning, testing, and exercises.
+Summary:
+ The project involves enhancing the vendor risk management process by incorporating third parties into the disaster recovery (DR) and business continuity (BC) planning. This includes developing a policy and setting requirements for third parties that support critical functions/services to participate in and comply with the enterprise's business resilience program. The project aims to ensure that these third parties are involved in the planning, testing, and exercises related to DR and BC.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IIQ Epic Enhancements/Issues 2021: This Epic will be used to raise issues brought by the Epic provisioning or security teams as it relates to IIQ specifically.  Even if the result is no action is taken, it will provide a consistent view into single issues
+Summary:
+ The project involves cybersecurity and identity engineering tasks. Specifically, it focuses on IIQ (IdentityIQ) epic enhancements and issues. The goal is to address issues raised by the Epic provisioning or security teams related to IIQ, ensuring a consistent view into single issues.
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (7 epics): IE - AM - Imprivata - M&A Imprivata Policy Standardization: IE - AM - Imprivata - M&A Imprivata Policy Standardization
+completing without indian river. Will create a seperate epic after indian river has new badges
+Summary:
+ The project involves providing engineering support for the cybersecurity company Imprivata. It includes tasks such as policy standardization and support for mergers and acquisitions. There is also a mention of creating a separate epic after Indian River has new badges.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - AM - Implement SSO for Stryker: IE - AM - Implement SSO for Stryker Surgicount
+Stryker Contact: torre.goodman@stryker.com
+CCF contact: Pehotsky, Carol; Owens, Jennifer
+Summary:
+ The project involves cyber security and identity engineering. It includes implementing Single Sign-On (SSO) for Stryker and Stryker Surgicount. The contacts for the project are Torre Goodman from Stryker and Carol Pehotsky and Jennifer Owens from CCF.
+Raw Description:
+ AP - Application Security (P1): Ensure that results of COTS application vulnerability assessments are received by application owners, and that gaps identified during the assessment are remediated according to policy: Ensure that results of COTS application vulnerability assessments are received by application owners, and that gaps identified during the assessment are remediated according to policy
+Summary:
+ The project is focused on Application Security (AP) specifically in relation to COTS (Commercial off-the-shelf) applications. The goal is to ensure that the results of vulnerability assessments are received by the owners of these applications. In addition, any gaps identified during the assessment need to be remediated according to policy.
+Raw Description:
+ AP - Application Security (P1): Ensure vulnerability scans are performed on all COTS applications throughout the environment, with manual WASAs performed against high risk applications on a defined cadence: Ensure vulnerability scans are performed on all COTS applications throughout the environment, with manual WASAs performed against high risk applications on a defined cadence
+Summary:
+ The project involves ensuring the security of the applications in the environment. This includes conducting vulnerability scans on all commercially off-the-shelf (COTS) applications and performing manual Web Application Security Assessments (WASAs) on high-risk applications according to a defined schedule.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: FLA FHC and Ambul sites Phase 2 - bibo in employed physicians' officies: FLA FHC and Ambul sites Phase 2 - bibo in employed physicians' officies
+Summary:
+ The project involves deploying BIBO (an unknown system or software) to the CCF Empl Provider Offices for check-in/check-out purposes. This deployment will take place in FLA FHC and Ambul sites as part of Phase 2. The specific objective of Phase 2 is to implement BIBO in the offices of employed physicians.
+Raw Description:
+ IDP - Access for Critical Apps P2: Assess and revise existing process for access recertifications - automate certifications for all identified use-cases and applications (including disconnected applications); use-cases should include periodic reviews for privileged and non-priviliged access by resource owners and managers, job transfer reviews.:
+Summary:
+ The project task is to assess and revise the existing process for access recertifications. The goal is to automate the certification process for all identified use-cases and applications, including disconnected applications. The use-cases should include periodic reviews for privileged and non-privileged access by resource owners and managers, as well as job transfer reviews.
+Raw Description:
+ Cybersecurity - Intelligence Automation (12 epics): Update Meetings with Current Vendors : Meetings with current vendors discussing issues with the product, updates,
+Anomali meetings
+Chronicle/Looker meetings
+CrowdStrike meetings
+Fusion Meetings
+IBM Qradar meetings
+Mimecast meetings
+
+Summary:
+ The project involves automating intelligence in cybersecurity. One of the tasks is to update meetings with current vendors, including Anomali, Chronicle/Looker, CrowdStrike, Fusion, IBM Qradar, and Mimecast. These meetings focus on discussing product issues and updates.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Identify internal web server/application resources: internal web server/application resources:
+
+ Scope
+  All internal listening on web ports with web server running with vuln
+
+ First round of findings
+  Break down via category
+
+ Review
+  Low hanging fruit
+
+ Track Vulnerabilities
+
+Summary:
+ The project is focused on cybersecurity, specifically the Red Team aspect. It involves identifying internal web server and application resources. The scope includes all internal resources listening on web ports and running with vulnerabilities. The project also involves breaking down the findings into categories, reviewing low hanging fruit, and tracking vulnerabilities.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: IE - AM - Imprivata  CCF OH Main Campus  Empl Provider Offices Phase: Implement BIBO in all patient facing reg and sched areas/workstations located on Main Campus.
+Summary:
+ The project involves deploying BIBO (Bring It Back On) system to CCF (Cleveland Clinic Foundation) employee provider offices for check-in and check-out processes. The specific phase of the project is to implement BIBO in patient-facing registration and scheduling areas/workstations located on the main campus of CCF.
+Raw Description:
+ Service Management Office (1 epics): SMO - MyAccess IIQ/Sailpoint Integration to Service Catalog: Work associated with  integrating service catalog to MyAccess.
+
+The Demand has an epic (not a project):  IE - ILM - IIQ - MyAccess Servicenow integration
+Summary:
+ This project involves integrating MyAccess IIQ/Sailpoint to the service catalog. It is part of the Service Management Office (SMO) and aims to improve the accessibility of services. There is also a demand epic for integrating MyAccess Servicenow with IE, ILM, and IIQ.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): C110 -  Create Cloud Naming Standard and corresponding Azure Policy initiative: Create written document to define standard naming convention for cloud assets
+Create Cloud Naming Standard initiative in Azure policy
+Add custom policies to audit/enforce naming conventions for various resource types
+Summary:
+ The project involves working on a cybersecurity initiative focused on data and application protection. One of the tasks is to create a standard naming convention for cloud assets and corresponding Azure Policy initiative. This includes creating a written document defining the naming standard and implementing custom policies to audit and enforce the naming conventions for different types of resources.
+Raw Description:
+ CAP - Cybersecurity Training and Awareness (P1): Identify and catalogue cyber threats and associated risks caregivers would face on the job, as well as emerging threats and industry trends e.g., news articles, CISA / ISAC / Infragard Bulletins, annual tax related scams, etc.:
+Summary:
+ The project involves conducting cybersecurity training and awareness for caregivers. The tasks include identifying and cataloging cyber threats and associated risks that caregivers may face on the job. This includes keeping track of emerging threats and industry trends through sources such as news articles, CISA/ISAC/Infragard Bulletins, and annual tax-related scams.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): DMD" supports email deployment : DMD" supports email deployment (list updating, scrubbing, and whitelisting) that shares our achievements with the over 300k voting collective to encourage their votes for the US News Report rankings.
+Summary:
+ The project is focused on cybersecurity and involves a Cybersecurity Advisory COE. There are 59 epics (major tasks or projects) that need to be completed. One specific task is related to email deployment, where the team needs to update, scrub, and whitelist email lists to inform over 300,000 voting individuals about their achievements and encourage them to vote for the US News Report rankings.
+Raw Description:
+ Cybersecurity - Endpoint Protection (2 epics): Standardized Email Delegation Process: Standardize a workflow specific to email delegation access for retired or terminated caregivers. SNOW request with HR/Governance review to approve based on criteria. Automate to issue Service request or SCTASK to messaging.
+Summary:
+ The project involves implementing cybersecurity measures to protect endpoints. The first epic focuses on creating a standardized workflow for email delegation access for retired or terminated caregivers. This involves submitting a request through SNOW (ServiceNow) with HR/Governance review and approving it based on certain criteria. The process will be automated to issue a service request or a SCTASK (ServiceNow change task) to the messaging team.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Integrate vulnerability scanning and detection solutions (e.g., Tenable, Workspace One, Ordr, etc) with ServiceNow Vulnerability Management for central management, prioritization, and tracking of vulnerabilities across the organization:
+Summary:
+ The project involves integrating vulnerability scanning and detection solutions with ServiceNow Vulnerability Management for central management, prioritization, and tracking of vulnerabilities across the organization. The solutions being integrated include Tenable, Workspace One, Ordr, and others. The goal of the project is to enhance the protection, threat triage, and containment of vulnerabilities.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - AM - VIP - Upgrade Enterprise Gateway: IE - AM - VIP - Upgrade Enterprise Gateway
+
+https://knowledge.broadcom.com/external/article/151159/symantec-vip-enterprise-gateway-endofsup.html
+
+Summary:
+ The project involves cybersecurity and identity engineering, specifically focusing on upgrading an enterprise gateway called Symantec VIP. The project consists of 65 epics related to this upgrade. More information about the upgrade can be found at the provided link.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Disaster Recovery Planning (CCL, M&A) - 2024: Included Activities:
+AIA Reviews (Tier Assessment, Re-tier requests)
+DR Plan Audit (New and Annual Reviews)
+Plan Maintenance (CL360 uploads)
+Summary:
+ The project is focused on cybersecurity and business resilience. It involves seven epics, with the first one being "Enterprise Disaster Recovery Planning" for the years 2023-2024. The activities included in this epic are AIA reviews, DR plan audits (both new and annual reviews), and plan maintenance with CL360 uploads.
+Raw Description:
+ GRC - Operational Enhancements: Internal Phishing Program - Perform internal phishing tests on all caregivers/employees at irregular intervals: Bolster the phishing program to improve the overall maturity, coverage, and effectiveness.
+
+Key Results:
+- Minimum 10 phishing campaigns
+- Minimum 4 targeted campaigns
+Summary:
+ The project involves enhancing the internal phishing program of a company. The goal is to perform phishing tests on all employees at irregular intervals to improve the program's maturity, coverage, and effectiveness. Key results include running a minimum of 10 phishing campaigns and 4 targeted campaigns.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): [2022 Capability] Enhanced Purple Teaming: Create a new capability that tests more advanced attack techniques above & beyond TTPs tested in 2021, in order to further evaluate our people, processes, and technology against threats.
+Summary:
+ The project is focused on enhancing cybersecurity through the Red Team's activities. The goal is to create a new capability that tests advanced attack techniques beyond what was tested in 2021, in order to evaluate and improve the organization's response to threats. The project includes 38 epics or tasks.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - PAM - Restrict Service accounts from interactive logon: IE - PAM - Restrict Service accounts from interactive logon
+
+1. chronicles serach for likely candidates
+2. contact owners, test, execute
+
+Summary:
+ The project focuses on Cybersecurity - Identity Engineering and specifically addresses the task of restricting service accounts from interactive logon. The project includes 40 epics related to this task. The specific tasks mentioned include searching for potential candidates, contacting owners, testing, and executing the restrictions.
+Raw Description:
+ Cyber Incident Recovery: Perform regular tabletop exercises, facilitated by a third party for evaluation, that utilize a range of scenarios and participants (e.g., execs, third parties, PR, each institute, etc) who are assigned to defined roles in the DR/BC process:
+Summary:
+ The project involves conducting regular tabletop exercises for cyber incident recovery. These exercises will include various scenarios and participants assigned to specific roles in the disaster recovery and business continuity process. A third party will facilitate the exercises and evaluate the participants' performance. The goal is to assess and improve the organization's preparedness for cyber incidents.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Verification of Privilege Access Changes: The IAM team is implementing a series of changes to remove local administrator access and provide a better method for privileged actions. The Threat Sim team needs to verify these types of changes as they are implemented.
+Summary:
+ The project involves a cybersecurity task related to the "Red Team" which includes 38 epics. One specific epic is the "Verification of Privilege Access Changes" where the IAM team is removing local administrator access and implementing a better method for privileged actions. The Threat Sim team is responsible for verifying these changes as they are implemented.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - PAM - Restrict RDP & SSH to servers: IE - PAM - Restrict RDP & SSH to servers
+
+after cloud migration
+Need DE's set up with cloud migration
+test server side agent
+
+Summary:
+ The project involves Cybersecurity - Identity Engineering with a focus on restricting Remote Desktop Protocol (RDP) and Secure Shell (SSH) access to servers. This task is to be done after cloud migration and involves setting up Digital Employees (DE) with cloud migration and testing the server-side agent.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Disaster Recovery Planning (CCF) - 2024: Included Activities:
+AIA Reviews (Tier Assessment, Re-tier evaluations)
+DR Plan Audit (New and Annual Review)
+DR Plan Maintenance (CL360 uploads)
+Summary:
+ The project is focused on cybersecurity and business resilience. Specifically, the project involves Enterprise Disaster Recovery Planning, with a timeline set for completion in 2024. The activities included in this project are AIA Reviews, DR Plan Audit, and DR Plan Maintenance.
+Raw Description:
+ AP - Application Security (P1): Develop organizational workflows and RACIs: OKR Activity 226
+Deliverables:
+1) High-level Secure Software Development Lifecycle Vision and Strategy
+2) Organizational-wide workflow and RACI content that has been socialized with stakeholders
+Summary:
+ The project entails developing workflows and RACIs (Responsible, Accountable, Consulted, Informed) related to application security. The deliverables include a vision and strategy for secure software development lifecycle and organizational-wide workflow and RACI content that has been discussed with stakeholders.
+Raw Description:
+ AP - Application Security (P1): Implement newly procured Burp Suite Enterprise, and integrate with new/existing COTS web-based applications: OKR Activity 236A
+Implement newly procured Burp Suite Enterprise, and integrate with new/existing COTS web-based applications
+Summary:
+ The project involves implementing a newly procured software called Burp Suite Enterprise for application security. The software will be integrated with new and existing web-based applications. The project task is labeled as "AP - Application Security (P1)" and is associated with the OKR Activity 236A.
+Raw Description:
+ IDP - Patient Identity: Perform role mining such that it: - enumerates necessary roles based on operational use, compliance, and other requirements - maps roles to appropriate entitlements (separation of duties) - maps roles to appropriate attributes (from HR source of truth) :
+Summary:
+ The project involves performing role mining for patient identity in an IDP (Identity Provider) system. The main tasks include enumerating necessary roles based on operational use, compliance, and other requirements, mapping roles to appropriate entitlements to ensure separation of duties, and mapping roles to appropriate attributes sourced from HR.
+Raw Description:
+ Cybersecurity - Data & Application Protection (8 epics): C610 -  Defender for Cloud tuning for Azure : Disable policies or create exemptions for Defender recommendations that are not applicable
+Identify opportunities to add policies to the Cloud Protection Standard in order to automate security configurations at scale
+Summary:
+ The project involves cybersecurity tasks related to data and application protection. One of the tasks is to tune Defender for Cloud in Azure by disabling policies or creating exemptions for Defender recommendations that are not applicable. Another task is to identify opportunities for adding policies to the Cloud Protection Standard, which would automate security configurations at scale.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - AM - Surgicount SSO: IE - AM - Surgicount SSO
+Surgicount is not compatible with ping. It needs to be onboarded to Azure after the migration project is completed.
+
+
+Summary:
+ The project tasks involve cybersecurity and specifically focus on identity engineering. Specifically, one of the tasks is related to Surgicount SSO, which requires onboarding to Azure after the migration project is finished. There are a total of 65 epics associated with this project.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Business Resilience Exercises (CCF, CCL, M&A) - 2024: Included Activities:
+TTX Planning and content development
+TTX Scheduling
+TTX Execution
+TTX Reporting
+Summary:
+ The project involves implementing cybersecurity measures for business resilience. It specifically focuses on three exercises related to enterprise business resilience: Continuity of Critical Functions (CCF), Continuity of Core Lines (CCL), and Mergers and Acquisitions (M&A). The included activities for the project include planning and developing content for table-top exercises (TTX), scheduling the TTX, executing the TTX, and reporting on the TTX. The project is expected to be completed by 2024.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Third Party Business Resilience Activities (CCF) - 2024: Included Activities:
+Third Party Working Group Project Management
+Third Party Business Resilience Planning
+Third Party Business Resilience Policy Updates
+Summary:
+ The project involves implementing cybersecurity measures and ensuring business resilience. The focus is on carrying out various activities related to third-party business resilience, including project management, planning, and policy updates. The project is scheduled to be completed by 2024.
+Raw Description:
+ Cybersecurity - Network Protection (2 epics): AnyConnect to ISE / Radius: AnyConnect users who have converted to the 1-year password expiration policy experience a bug that displays a message that their password will expire within the first 90 days of making this change.
+Summary:
+ The project involves implementing cybersecurity measures for network protection. This includes two epics: AnyConnect to ISE and Radius. A bug currently affects AnyConnect users who have converted to a 1-year password expiration policy, displaying a message that their password will expire within the first 90 days of the change.
+Raw Description:
+ CAP - Cybersecurity Training and Awareness (P1): Create and deploy training materials based on roles e.g., (including all users, priv users, third parties, executives, IT, info sec,  and physical security staff) and the associated threats/risks:
+Summary:
+ The project involves the creation and deployment of cybersecurity training materials for different roles in an organization. The training materials will cover topics such as threats and risks related to cybersecurity, and the intended audience includes all users, privileged users, third parties, executives, IT staff, information security staff, and physical security staff.
+Raw Description:
+ AP - Application Security (P1): Implement web application firewall in front of all external COTS applications, and ensure effective policies are in place: OKR Activity 242
+Implement web application firewall in front of all external COTS applications, and ensure effective policies are in place
+Summary:
+ The project involves implementing a web application firewall for all external COTS (Commercial Off-The-Shelf) applications and defining effective policies for application security. The activity is a part of OKR (Objectives and Key Results) Activity 242.
+Raw Description:
+ Cybersecurity - Intelligence Automation (12 epics): Purple Teaming: Weekly Purple team meetings where we test different attacks and threats. There are many after-action tasks following these meetings. New rules or reports are commonly created for actions that are not currently blocked or detected.
+Summary:
+ The project involves cybersecurity intelligence automation, specifically focusing on purple teaming. This includes conducting weekly purple team meetings to test attacks and threats, and performing various tasks after these meetings, such as creating new rules and reports. The goal is to enhance the ability to block and detect actions that are currently not addressed.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Standard Windows Server Controls Assessment: Request a standard Windows server and conduct a security assessment to understand the weaknesses and vulnerabilities contained on a standard image. This would be similar to the Windows laptop control assessment in 2021.
+Summary:
+ The project involves conducting a cybersecurity assessment on a standard Windows server image to identify weaknesses and vulnerabilities. This assessment is similar to a previous assessment conducted on Windows laptops in 2021. The project is part of the Red Team's tasks in the Cybersecurity project.
+Raw Description:
+ Cybersecurity - Data & Application Protection (8 epics): D375 - DAM - Imperva Phase 2 Continuing Projects:  DAM - Imperva Phase 2 Continuing Projects
+Activities following Imperva Initial Roll Out (post 6/30/2023)
+Summary:
+ The project tasks involve cybersecurity focused on data and application protection. It includes 8 epics related to Imperva Phase 2 and continuing projects. The activities listed are those that will be carried out after the initial roll-out of Imperva, starting from 6/30/2023.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Business Resilience Program Governance - 2024: Included Activities:
+Annual Policy Review and Update
+Internal or External Audit Response
+NIST, Hi-Trust or other regulatory Inquiry Response
+Consultative Services
+Summary:
+ The project focuses on the topic of cybersecurity and business resilience. It is a program governance project that is expected to be completed by 2024. The activities include reviewing and updating policies annually, responding to internal or external audits, responding to regulatory inquiries from organizations such as NIST or Hi-Trust, and providing consultative services.
+Raw Description:
+ DP - Data Lifecycle (P1): Deploy Azure Information Protection into the cloud environment: OKR Activity 262. Need to consider unstructured data stored in all of our cloud environments. Azure Info Protection may not work in GCP, AWS, IBM, etc.
+Summary:
+ The project involves deploying Azure Information Protection into a cloud environment to manage the data lifecycle. The objective is to consider unstructured data stored in various cloud environments, including GCP, AWS, IBM, etc. It is mentioned that Azure Info Protection may not work in these other cloud platforms.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): G100-CyberDNA Special Projects (Not Capital): Placeholder for special projects assigned to CyberDNA Team.  A Child Epic should be created for each project with User Stories created under the Child Epic.
+Summary:
+ The text provides a list of project tasks and descriptions related to cybersecurity and data & application protection. There are 14 epics in the project related to CyberDNA Special Projects, which are placeholders for special projects assigned to the CyberDNA Team. Each project has a child epic, and under each child epic are user stories.
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (4 epics): IE - AM - Imprivata - New Process for Imprivata Badge Reader Deployments: Design new Process for Imprivata Badge Reader Deployments
+von ples taking over replacement badge readers
+
+Summary:
+ The project involves providing engineering support for cybersecurity initiatives, specifically focusing on Imprivata Badge Reader Deployments. The goal is to design a new process for deploying replacement badge readers, with Von Ples taking over the task.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - AM - Access Management Operations Q4 2022: IE - AM - Access Management Operations Q4 2022
+For stories too small to have their own epic.
+SSO/MFA/Conditional Access
+Summary:
+ The project is related to cybersecurity and focuses on identity engineering. There are 65 epics under this project, with one of them being "Access Management Operations Q4 2022." The project also includes tasks related to SSO (Single Sign-On), MFA (Multi-Factor Authentication), and Conditional Access.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - ILM - IIQ - Managed User Access Enhancements: IE - ILM - IIQ - Managed User Access Enhancements
+1. Revoke Access
+2. Notification email missing body of message
+Summary:
+ The project is related to Cybersecurity and specifically focuses on Identity Engineering. It involves 65 epics, with one of them being "Managed User Access Enhancements" in the context of IE (Identity Engineering), ILM (Identity Lifecycle Management), and IIQ (Identity and Access Management). Two specific tasks under this epic are "Revoke Access" and "Notification email missing body of message".
+Raw Description:
+ Cybersecurity - Data & Application Protection (8 epics): G800-CyberDNA Major Incident Checklist: Major incident checklist. The goal is to use that checklist during a major incident to validate that none of our tools/controls have a part in this.
+Summary:
+ The project focuses on cybersecurity and data protection. It involves developing a major incident checklist to ensure that none of the tools or controls contribute to a major incident.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): G100-CyberDNA Special Projects (Capital): Placeholder for special projects assigned to CyberDNA Team.  A Child Epic should be created for each project with User Stories created under the Child Epic.
+Summary:
+ The project tasks involve cybersecurity for data and application protection. There are 14 epics related to this. The G100-CyberDNA Special Projects is a placeholder for special projects assigned to the CyberDNA team. Each project will have a child epic with user stories created under it.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - DS - Ashtabula B2B RFP and ACMC B2B Integration : IE - DS - Ashtabula B2B RFP and ACMC B2B Integration
+Summary:
+ The given list of project tasks includes a cybersecurity project related to identity engineering. The specific task mentioned is the Ashtabula B2B RFP and ACMC B2B Integration. The project consists of 40 epics.
+Raw Description:
+ CAP - Cybersecurity Training and Awareness (P1): Explore and enable any LMS features to alert users and their managers of upcoming and overdue training requirements.  If none exist, develop and automate the notification outside of LMS for security awareness training modules.:
+Summary:
+ The project is focused on Cybersecurity Training and Awareness, specifically on exploring and enabling Learning Management System (LMS) features for alerting users and managers about training requirements. If there are no existing features in the LMS, the project also involves developing and automating notification for security awareness training modules outside of the LMS.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - AM - MFA - KB article for Microsoft Authenticator : IE - AM - MFA - KB article for Microsoft Authenticator
+Prep SD and end users for installing/registering Microsoft Authenticator
+Summary:
+ The project involves tasks related to Cybersecurity - Identity Engineering, specifically focused on Microsoft Authenticator. The tasks include creating knowledge base articles for installing and registering Microsoft Authenticator and preparing end users for the process.
+Raw Description:
+ TPSRM - Vendor Risk Management Enhancements: Define third party security requirements based on tiering e.g., SOC 1/2, ISO 27K certification, HITRUST, external pen test, etc. and the required validation period:
+Summary:
+ The project involves enhancing the Vendor Risk Management process. This includes defining the security requirements for third-party vendors based on different tiers such as SOC 1/2, ISO 27K certification, HITRUST, external pen test, etc. The project also requires determining the validation period for these requirements.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Utilize ServiceNow to automate the collection of metrics such as time to patch, most vulnerable systems, etc. for strategic, operational, and tactical decision making and reporting:
+Summary:
+ This project involves using ServiceNow to automate the collection of metrics related to protection, threat triage, and containment. The metrics will be used for decision-making and reporting purposes.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Develop, document, and implement a process to continuously review, update, add, remove, and reprioritize intelligence requirements based on the changing threat landscape and organizational priorities:
+Summary:
+ The project is focused on TVI - Protection, Threat Triage & Containment (P1). The objective is to develop and implement a process for continuously reviewing and updating intelligence requirements based on the changing threat landscape and organizational priorities. The project involves the documentation of this process and the addition, removal, and reprioritization of intelligence requirements.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - PAM - Set service accounts to 25+ character passwords: IE - PAM - Set service accounts templates to 25+ character passwords
+Rotate domain admin service accounts with new template
+Summary:
+ The project involves cybersecurity tasks related to identity engineering. There are 65 epics associated with this project. Some specific tasks include setting service accounts to 25+ character passwords and templates, as well as rotating domain admin service accounts with a new template.
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (4 epics): IE - BIBO - Imprivata 23.2 Update (all locations): IE - BIBO - Imprivata 23.2 Update (all locations)
+Summary:
+ The project involves providing engineering support for cybersecurity related tasks. One of the tasks is an update for Imprivata 23.2 in all locations.
+Raw Description:
+ GRC - Risk Management and Compliance: Standardize risk management practices (e.g., policy, standards, and procedures for assessing, prioritizing, and communicating risk) throughout the organization, with a focus on maintaining the clinic's core mission:
+Summary:
+ The project is focused on standardizing risk management practices in an organization, specifically in the areas of policy, standards, and procedures for assessing, prioritizing, and communicating risk. The project has a specific focus on maintaining the clinic's core mission. The project tasks involve implementing GRC (Governance, Risk Management, and Compliance) in order to achieve these objectives.
+Raw Description:
+ GRC - Operational Enhancements: IT Department Intake Enhancements - Develop and deploy a front end request submission mechanism to handle any and all related IT Department (e.g., Infrastructure, Maintenance, Security) requests: IT Department Intake Enhancements
+Summary:
+ The project task is to develop and deploy a front end request submission mechanism for the IT department to handle various requests such as infrastructure, maintenance, and security. This project focuses on operational enhancements in the GRC (Governance, Risk, and Compliance) domain.
+Raw Description:
+ GRC - Operational Enhancements: M&A Playbook Development - Document steps and guidelines for integrating key security capabilities post-deal (e.g., IR, monitoring, IAM, Network connectivity, endpoint security stack deployment): M&A  Playbook Development
+Summary:
+ The project is focused on enhancing the operational aspects of GRC (Governance, Risk Management, and Compliance). The specific task in this project is to develop an M&A (Merger and Acquisition) playbook that outlines the steps and guidelines for integrating key security capabilities after a deal is made. The mentioned capabilities include incident response, monitoring, identity and access management (IAM), network connectivity, and endpoint security stack deployment.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Assessment: Privilege Escalation: Conduct purple team testing on the Tier 0/1/2 TTPs for the Privilege Escalation tactic in our environment.
+Summary:
+ The project involves conducting a purple team assessment on the privilege escalation tactic in the environment for cybersecurity. This is part of a larger project with 38 epics related to red team cybersecurity activities.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): KPMP - Cybersecurity Domain Epic: KPMP Study -  using Box.com rather than an SSH tunnel for the recently approved KPMP study (IRB 19-464).
+Summary:
+ The project is related to cybersecurity and an Advisory COE (Center of Excellence). It involves 59 epics, with one specific epic related to the KPMP (Kidney Precision Medicine Project) cybersecurity domain. The task under this epic is to study the use of Box.com instead of an SSH tunnel for the recently approved KPMP study with the IRB (Institutional Review Board) number 19-464.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): IP - Cloud First: Forward proxy (ZScaler (ZIA, ZPA)), Threat hunting IDS,IPS on-prem (Fidelis), MCAS integrations for policy enforcement
+Summary:
+ The project involves tasks related to cybersecurity and advisory for a Center of Excellence (COE). There are 59 epics, or major tasks, that need to be completed. The specific focus is on IP - Cloud First, which includes implementing technologies such as ZScaler (ZIA, ZPA) for forward proxy, Fidelis for on-prem Intrusion Detection System and Intrusion Prevention System, and integrating MCAS for policy enforcement. The project aims to improve and strengthen cybersecurity measures.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): 2022 External Pentest Support: Supporting external vendors (aside from Synack) who we hire out to conduct pentesting, purple teaming, or red teaming of our organization.
+Summary:
+ The project involves implementing cybersecurity measures through a Red Team approach. This includes tasks such as providing external pentest support to organizations by hiring vendors for conducting pentesting, purple teaming, or red teaming activities.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - Pilot to Open IIQ to end users: IE - ILM - Pilot to Open IIQ to end users
+Epic Quicklink request pilot for power users
+
+Summary:
+ The project involves tasks related to cybersecurity, specifically in the area of identity engineering. There are 40 epics or large-scale tasks related to this project. One of the specific tasks is to pilot the use of IIQ (IdentityIQ) for end users. Another task involves requesting a pilot for power users to test epic quicklinks.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Utilize expanded BIAs to evaluate and prioritize critical assets (data, facilities, associated technology, etc) and operations (emergency rooms. research, etc.):
+Summary:
+ The project involves implementing measures to protect, triage, and contain threats to critical assets and operations. It requires utilizing expanded business impact assessments (BIAs) to evaluate and prioritize assets like data, facilities, technology, as well as emergency rooms and research operations.
+Raw Description:
+ GRC - Operational Enhancements: M&A Playbook Development - Establish metrics set for monitoring as well as reporting cadence and method: M&A Playbook Development - Metrics
+Establish metrics set for monitoring as well as reporting cadence and method
+Summary:
+ The text describes project tasks related to the GRC (Governance, Risk, and Compliance) Operational Enhancements project. The tasks specifically focus on the development of an M&A (Mergers and Acquisitions) Playbook and the establishment of metrics for monitoring and reporting. The project aims to create a set of metrics and determine the frequency and method for reporting on them.
+Raw Description:
+ CLP - Cloud Security Automation (P1): Develop policies, procedures, and standards for cloud operations in each of the cloud environments CCF leverages (i.e. AWS, Azure, GCP, IBM): OKR Activity 150
+Summary:
+ The project's main task is to develop policies, procedures, and standards for cloud operations in various cloud environments such as AWS, Azure, GCP, and IBM. The project is labeled as CLP - Cloud Security Automation and is part of OKR Activity 150.
+Raw Description:
+ AP - Application Security (P2): Identify and implement an API management solution to securely manage APIs being created in by CCF.  First evaluating existing tools in the environment, such as Apogee, for the ability to scale:
+Summary:
+ The project involves implementing an API management solution to secure APIs created in CCF (presumably a software development project). The first step is to evaluate existing tools like Apogee to determine their scalability.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Testing: Achieve 100% coverage of Tier 0 and Tier 1 TTPs across our organization, so we can understand and improve our defensive resiliency
+
+Summary:
+ The project involves a cybersecurity initiative called Red Team, specifically focused on Purple Team Testing. The goal is to achieve 100% coverage of Tier 0 and Tier 1 TTPs (Tactics, Techniques, and Procedures) throughout the organization. This will help to understand and enhance the defensive resiliency of the organization.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): Preparation and Deployment for Enterprise Architecture Solution: We are deploying the Essential product from Enterprise Architecture Solutions.  This Epic will support the preparation, planning and initial implementation work for the project.
+Summary:
+ The project is focused on cybersecurity and involves the creation of an Advisory COE (Center of Excellence). There are a total of 59 epics/tasks involved in this project. One of the main tasks is the preparation and deployment of an Enterprise Architecture Solution called Essential. This epic includes activities related to planning and initial implementation work for the project.
+Raw Description:
+ Cybersecurity - Business Resilience (7 epics): Enterprise Business Resilience Planning (CCF) - 2024: Included activities:
+CCRA (New and Annual Review)
+BR Plan Audit (New and Annual Review)
+Summary:
+ The project tasks and descriptions provided are related to the Cybersecurity - Business Resilience project, specifically focused on Enterprise Business Resilience Planning. The tasks mentioned include activities such as CCRA (New and Annual Review) and BR Plan Audit (New and Annual Review), which are part of the project activities to be carried out until 2024.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): Advisory - 2024 - (Cyber Architect) Demand Cyber Review Work: This epic will be used to capture all the Cyber Advisory work related to the Intake Demands.
+
+Summary:
+ The project tasks and descriptions provided are related to a cybersecurity advisory project. The project involves the creation of a Cybersecurity Advisory COE (Center of Excellence) and includes 19 epics. One of the specific tasks mentioned is the "Demand Cyber Review Work," which is intended to capture all the Cyber Advisory work related to intake demands.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: IE - AM - BIBO implementation in Main Campus OR s: AM - BIBO implementation in Main Campus OR s
+Summary:
+ The project tasks involve deploying BIBO (a system or software) to CCF Empl Provider Offices for check-in and check-out purposes. There are two options for implementation: BIBO implementation in the Main Campus, led by the Industrial Engineering (IE) team, or BIBO implementation in the Main Campus, led by the Architecture and Maintenance (AM) team.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Assessment: Defensive Evasion: Conduct purple team testing on the Tier 0/1/2 TTPs for the Privilege Escalation tactic in our environment.
+Summary:
+ The project tasks involve cybersecurity, specifically focused on the Red Team. One of the tasks is conducting a Purple Team Assessment, which includes defensive evasion testing on different TTPs (Tactics, Techniques, and Procedures) related to Privilege Escalation in the environment.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Assessment: Defensive Evasion: Conduct purple team testing on the Tier 0/1/2 TTPs for the Privilege Escalation tactic in our environment.
+Summary:
+ The project tasks involve a cybersecurity project that focuses on a Red Team (offensive) approach. The specific task mentioned is conducting a purple team assessment to test the defensive evasion tactics (specifically Privilege Escalation tactic) in the organization's environment.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - IIQ - AD & admin Movers: IE - ILM - IIQ - AD & admin Movers
+Enable mover logic for AD & admin accounts
+Summary:
+ The project involves Cybersecurity - Identity Engineering, specifically focusing on Identity Lifecycle Management (ILM), IdentityIQ (IIQ), Active Directory (AD), and administrative account movers. The main objective is to enable mover logic for AD and admin accounts.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - ILM - Caregiver Identity Hub Enhancements Q1 2023:  IE - ILM - Caregiver Identity Hub Enhancements Q1 2023
+Summary:
+ The project involves cybersecurity and identity engineering, specifically focusing on enhancing the Caregiver Identity Hub. The project is expected to be completed in Q1 2023.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): C520 - Enable Defender for DevOps: Enable Defender for DevOps - 34 Points
+Complete configuration on Defender for Cloud side
+Complete configuration on Azure DevOps side
+Summary:
+ The project involves cybersecurity tasks related to data and application protection. One of the tasks is to enable Defender for DevOps, which includes completing the configuration on both the Defender for Cloud and Azure DevOps sides.
+Raw Description:
+ Cybersecurity - Advisory COE (19 epics): Advisory - 2024 - (SDM) Demand Cyber Review Work: This epic will be used to capture all the Cyber Advisory work related to the Intake Demands.
+
+Summary:
+ The given list of project tasks and descriptions is focused on a cybersecurity project called "Advisory COE". It includes 19 epics and one of them is "Advisory - 2024 - (SDM) Demand Cyber Review Work" which will involve capturing all the cybersecurity advisory work related to intake demands.
+Raw Description:
+ GRC - Risk Management and Compliance: Standardize controls on an industry standard controls framework(s) e.g., NIST 800-53 and map other necessary frameworks to it as needed for consitency and reportability:
+Summary:
+ The project involves implementing a standard controls framework, such as NIST 800-53, for risk management and compliance. The objective is to standardize controls and map other frameworks to ensure consistency and reportability.
+Raw Description:
+ IP - Network and Device Protection (P1): Create, deploy, and centrally manage baselines and golden images for all feasible systems e.g., workstations, servers, network appliances, medical devices, OT assets, etc:
+Summary:
+ The project task involves creating, deploying, and managing baselines and golden images for various systems such as workstations, servers, network appliances, medical devices, and OT assets. The goal is to provide protection for the IP network and devices.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Perform a threat landscape / adversary evaluation to identify threats that are likely to target the organization's critical assets/operations (both internal and external threat actors):
+Summary:
+ The project involves conducting a threat evaluation to identify potential threats to the organization's critical assets and operations from both internal and external sources. The task is focused on protection, threat triage, and containment. Keywords: threat landscape, adversary evaluation, critical assets, internal and external threat actors.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Identify additional internal information sharing to improve situational awareness and effectiveness and update processes accordingly e.g., feeding incident related forensics to threat intel team:
+Summary:
+ The project task is about TVI - Protection, Threat Triage & Containment (P1) and involves improving internal information sharing for better situational awareness and effectiveness. Specifically, it aims to update processes by providing incident-related forensics to the threat intelligence team.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: FLA Hospitals Phase 2 - BIBO in employed physicians' offices: BIBO in employed physicians' offices
+Summary:
+ The project involves tasks related to deploying BIBO (presumably a software or system) to CCF Empl Provider Offices for check-in and check-out at FLA Hospitals. This is part of Phase 2 of the project and specifically focuses on implementing BIBO in employed physicians' offices.
+Raw Description:
+ AP - Application Security (P1): Ensure external facing COTS applications require authentication and authorization that meet industry standards / leading practices: OKR Activity 241A - Not on OKR Spreadsheet Derived from PRJTASK0068734
+Summary:
+ The project tasks involve enhancing the application security for external facing COTS applications. The goal is to implement authentication and authorization mechanisms that comply with industry standards and leading practices. The specific task mentioned, PRJTASK0068734, is related to OKR Activity 241A, which is not listed on the provided OKR spreadsheet.
+Raw Description:
+ DP - Data Lifecycle (P1): Establish, and document, process to periodically reviews data handling and data classification guidelines: OKR Activity 250
+Establish, and document, process to periodically reviews data handling and data classification guidelines
+
+Summary:
+ The project involves the establishment and documentation of a process to periodically review data handling and data classification guidelines. This is referred to as the Data Lifecycle task and has an OKR Activity identifier of 250.
+Raw Description:
+ Infrastructure Protections: Identify newly discovered assets and document appropriate datapoints in ServiceNow e.g., Owner, OS, location, vendor, model number, serial number, etc: This will be validated for Ordr and Nuvolo
+Summary:
+ The project tasks involve infrastructure protection and include identifying and documenting newly discovered assets in ServiceNow. The task also includes validating the information for Ordr and Nuvolo.
+Raw Description:
+ AP - Application Security (P2): Build and maintain inventory of libraries and third party code used development (via Checkmarx Software Compisition Ananlysis), and track vulnerability disclosures related to relevant third party code:
+Summary:
+ The project tasks involve working on application security, specifically building and maintaining an inventory of libraries and third-party code used in development. This will be done using Checkmarx Software Composition Analysis to track vulnerability disclosures related to the code. The project is focused on ensuring the security and integrity of the application.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): C300- MCAS Deployment: Deploy MCAS as a replacement for CloudSOC.  Need to match 1:1 functionality prior to retirement of CloudSOC contract.
+Summary:
+ The project is focused on cybersecurity and involves setting up a Cybersecurity Advisory Center of Excellence (COE). One of the tasks within the project is the deployment of MCAS (Microsoft Cloud App Security) as a replacement for CloudSOC. The goal is to ensure that MCAS matches the functionality of CloudSOC before retiring the CloudSOC contract.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - ILM - Caregiver Identity Hub Enhancements Q2 2023: IE - ILM - Caregiver Identity Hub Enhancements Q2 2023
+Summary:
+ The project is related to cybersecurity and specifically focuses on identity engineering. The project includes 65 epics with a task titled "IE - ILM - Caregiver Identity Hub Enhancements Q2 2023."
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - ILM - Caregiver Identity Hub Enhancements Q3 2023: IE - ILM - Caregiver Identity Hub Enhancements Q4 2023
+Summary:
+ The project involves cybersecurity and identity engineering. There are 65 epics related to the project tasks. One specific task is "IE - ILM - Caregiver Identity Hub Enhancements" scheduled for Q3 2023, and another task is "IE - ILM - Caregiver Identity Hub Enhancements" scheduled for Q4 2023.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - Caregiver Identity Hub Enhancements Q1 2024: IE - ILM - Caregiver Identity Hub Enhancements Q4 2023
+Summary:
+ The project involves cybersecurity and identity engineering, specifically focused on the Caregiver Identity Hub. It is divided into 40 epics, with one of them being the Caregiver Identity Hub Enhancements. The timeline for this specific enhancement is Q1 2024 for the first quarter, and Q4 2023 for the fourth quarter.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Utilize ServiceNow to automate the assignment of remediation owners and generation of tickets for notification, as well as tracking of remediation and exceptions.:
+Summary:
+ The project involves utilizing ServiceNow to automate the assignment of remediation owners and generation of tickets for notification, tracking remediation progress, and managing exceptions. It is focused on the protection, threat triage, and containment of TVI (Threats, Vulnerabilities, and Incidents).
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: IE - AM - Imprivata CCF OH Regional Hospitals Reg/Sched/FinCounseling Phase:
+Summary:
+ The project involves deploying BIBO (presumably a software application) to CCF Empl Provider Offices for Check-in and Check-out processes. The project also includes a phase called IE - AM - Imprivata CCF OH Regional Hospitals Reg/Sched/FinCounseling.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Assessment: Lateral Movement: Conduct purple team testing on the Tier 0/1/2 TTPs for the Lateral Movement tactic in our environment.
+Summary:
+ The project involves a cybersecurity task known as the "Red Team." Specifically, there are 38 epics or high-level tasks associated with the project. One of the tasks is a Purple Team Assessment, which focuses on conducting testing on the Tier 0/1/2 Tactics, Techniques, and Procedures (TTPs) related to the Lateral Movement tactic within the environment.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Assessment: Command and Control: Conduct purple team testing on the Tier 0/1/2 TTPs for the Command and Control tactic in our environment.
+Summary:
+ The project involves a cybersecurity task called Red Team, which consists of 38 epics. One of the specific tasks within this project is a Purple Team Assessment for Command and Control. This assessment aims to test the Tier 0/1/2 TTPs (Tactics, Techniques, and Procedures) related to Command and Control in the project's environment.
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (7 epics): IE - AM - BIBO - Deployment of  BIBO enterprise: IE - AM - BIBO - Deployment of  BIBO enterprise
+Summary:
+ The project involves cybersecurity and engineering support by Imprivata. It consists of 7 epics, with one of them being the deployment of the BIBO enterprise.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - IIQ - Admin Account Request: IE - ILM - IIQ - Admin Account Request
+1. Web API fix
+2. Create Roles
+Summary:
+ The project involves Cybersecurity - Identity Engineering with 40 epics. One of the tasks is to fix a web API, and another task is to create roles.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - DS - AD - Separate VM farm for Domain controllers: IE - DS - AD - Separate VM farm for Domain controllers
+ (TPM modules vulnerablility)
+Summary:
+ The project is related to cybersecurity and specifically focuses on identity engineering. The project involves 40 epics, with one of the tasks being the implementation of a separate VM farm for domain controllers. This task is related to addressing the vulnerability of TPM modules.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - IIQ - Managed User Access Optimization: IE - ILM - IIQ - Managed User Access Optimization
+Fix the slow Managed User Access Request process
+Summary:
+ The project is focused on cybersecurity and specifically on identity engineering. The main task is to fix the slow Managed User Access Request process. The project involves various epics and tools such as IE, ILM, and IIQ. The goal is to optimize managed user access for improved efficiency.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): A600 - WAF Migration Using Cloudflare (Opticca and CCF):  WAF Migration Using Cloudflare (Opticca and CCF)
+Summary:
+ The given project involves cybersecurity in the area of data and application protection. Specifically, it includes 14 epics related to the task of migrating Web Application Firewall (WAF) using Cloudflare. The migration will be carried out by Opticca and CCF.
+Raw Description:
+ IDP - Access for Critical Apps: Identify key HR attributes for automated provisioning/ de-provisioning of entitlements/ roles for Attribute Based Access Control (ABAC) and Role Based Access Control (RBAC):
+Summary:
+ The project is focused on implementing automated provisioning and de-provisioning of entitlements and roles for Attribute Based Access Control (ABAC) and Role Based Access Control (RBAC) systems. The key HR attributes will be identified to enable this automation.
+Raw Description:
+ IP - Next Generation Firewall: After Implementation Review: Complete assessment of upgrade/replacement project to identify opportunities for improvement of future projects, validate open issues have been fully resolved, and confirm all operational activities are fully executed.:
+Summary:
+ This project is focused on conducting a review of the implementation of a Next Generation Firewall (NGFW) system. The aim is to assess the upgrade or replacement project and identify areas for improvement in future projects. The review will also check if any outstanding issues have been resolved completely and confirm that all operational activities related to the NGFW system have been fully executed.
+Raw Description:
+ TPSRM - Vendor Risk Management Enhancements: Integrate VRM system with Ivalua (or other identified vendor source of truth) to automate the importing and tracking of third parties, including termination of relationships:
+Summary:
+ The project involves enhancing the Vendor Risk Management (VRM) system by integrating it with Ivalua or another identified vendor source of truth. This integration will automate the importing and tracking of third parties, as well as the termination of relationships with them.
+Raw Description:
+ IDP -  Deploy BIBO to CCF Empl Provider Offices/Check-in/Check-o: BIBO Phys Office Pilot Phase: Conduct several pilots in order to verify the approach and comms work.
+Summary:
+ The project involves deploying BIBO (Back In, Back Out) to CCF (Care Comms Framework) Employee Provider Offices for check-in and check-out purposes. The phase of the project is the pilot phase where several pilots will be conducted to test the approach and communication.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Re-evaluate the threat landscape: On a quarterly basis, conduct threat analysis with Threat Intelligence to re-evaluate the threat landscape to potentially re-prioritize our backlog
+Summary:
+ The project involves a Cybersecurity Red Team conducting threat analysis to re-evaluate the threat landscape and potentially re-prioritize the project backlog on a quarterly basis. There are 38 epics associated with this project.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - AM - Ping - Upgrade Ping Federate to 10.2.1: Kerry and Russ will upgrade ping federate to 10.2.1
+Summary:
+ The project involves a cybersecurity task called "Identity Engineering" which includes 65 epics. One specific task within this project is to upgrade Ping Federate to version 10.2.1. This task will be carried out by Kerry and Russ.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Wireless Pentest: CCAC: Conduct our standard wireless pentest checklist at CCAC. Write the report with your findings and deliver to GRC & Infrastructure.
+Summary:
+ The project involves a cybersecurity task known as Red Team, specifically focusing on wireless pentesting. The task requires conducting a standard wireless pentest checklist at CCAC, writing a report with findings, and delivering it to GRC (Governance, Risk, and Compliance) and Infrastructure team.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - IIQ - Google Cloud integration: IE - ILM - IIQ - Google Cloud integration
+Start aggregating GCP data in IIQ
+Summary:
+ The project is related to Cybersecurity and specifically deals with Identity Engineering. There are 40 epics involved in this project. One of the tasks is to integrate Google Cloud with IE, ILM, and IIQ. Additionally, the project includes the task of aggregating GCP (Google Cloud Platform) data in IIQ (IdentityIQ).
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (7 epics): IE - AM - Imprivata - Redesign Imprivata DR: Redesign Imprivata DR - Darryl Branch or Larry Dennis
+
+Summary:
+ The project tasks mentioned are related to cybersecurity and engineering support for Imprivata. The task involves redesigning Imprivata Disaster Recovery, and it can be carried out by either Darryl Branch or Larry Dennis.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - PAM - Pilot proxy to Restrict RDP & SSH to servers: IE - PAM - Pilot proxy to Restrict RDP & SSH to servers
+Summary:
+ The project focuses on cybersecurity and identity engineering. It involves implementing a pilot proxy to restrict Remote Desktop Protocol (RDP) and Secure Shell (SSH) access to servers. The project is categorized into 40 epics/tasks.
+Raw Description:
+ Cybersecurity - Risk (3 epics): Cyber GRC Program Enhancements: Cyber GRC - Risk Management and Compliance Program enhancements including:
+Exception Management
+Issue/Problem Management
+Cyber Risk Registry
+Controls Catalog
+Summary:
+ The project tasks are focused on enhancing the Cyber GRC (Governance, Risk, and Compliance) Program for cybersecurity. This includes improvements in areas such as exception management, issue/problem management, cyber risk registry, and controls catalog. The project aims to strengthen the organization's risk management and compliance capabilities in the cybersecurity domain.
+Raw Description:
+ Cybersecurity - Identity Engineering (40 epics): IE - ILM - Risk Scoring POC and score integration with ServiceNow: IE - ILM - Risk Scoring POC and score integration with ServiceNow
+Summary:
+ The project is related to cybersecurity and specifically focuses on identity engineering. It consists of 40 epics and one of the tasks is to conduct a Proof of Concept for risk scoring and integrate it with ServiceNow.
+Raw Description:
+ IDP - Access for Critical Apps P2: Priortize applications for SSO based on risk, feasibility, and impact on the end user (e.g., user type, user population, etc.):
+Summary:
+ The project tasks involve prioritizing applications for single sign-on (SSO) based on risk, feasibility, and impact on end users. This includes considering factors such as user type and user population.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P2): Ensure vulnerability scans are performed on all applications throughout the environment, with manual WASAs performed against high risk applications on a defined cadence.:
+Summary:
+ The project focuses on TVI - Protection, Threat Triage & Containment (P2). It involves conducting vulnerability scans on all applications in the environment. High-risk applications will also undergo manual Web Application Security Assessments (WASAs) at regular intervals.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P2): Ensure that results of application vulnerability assessments are received by application owners, and that gaps identified during the assessment are remediated according to policy:
+Summary:
+ The project involves implementing measures to protect and contain threats in an organization. The focus is on receiving vulnerability assessment results, remedying identified gaps, and ensuring compliance with policy.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Purple Team Assessment: Credential Access: Conduct purple team testing on the Tier 0/1/2 TTPs for the Credential Access tactic in our environment.
+Summary:
+ The project is focused on cybersecurity and specifically involves the Red Team conducting a Purple Team Assessment. One of the tasks under this assessment is to perform testing on the Credential Access tactic in the environment, specifically targeting Tier 0/1/2 TTPs (Tactics, Techniques, and Procedures).
+Raw Description:
+ Cybersecurity - Imprivata Engineering Support (7 epics): IE - AM - Imprivata - Challenge Questions/SSPR rollout: IE - AM - Imprivata - Challenge Questions/SSPR rollout
+Summary:
+ The project involves providing engineering support for Imprivata in the area of cybersecurity. Specifically, the focus is on the rollout of challenge questions and self-service password reset (SSPR) feature. There are a total of 7 epics related to this project.
+Raw Description:
+ Cybersecurity - Data & Application Protection (14 epics): A000 - Strategic Roadmap 2023 - Application Protection: Strategic Roadmap 2023 - Application Protection
+Temporary Epic for Application related User Stories
+Summary:
+ The project involves cybersecurity and focuses on data and application protection. It includes 14 epics, with one of them being the strategic roadmap for application protection in 2023. There is also a temporary epic specifically for user stories related to applications.
+Raw Description:
+ IP - Network and Device Protection (P1): Identify remote access use cases that utilize non-standard mechanisms (e.g., Third parties, Medical Device, OT, Building Automation and document them and associated controls):
+Summary:
+ The project task is related to IP network and device protection. The goal is to identify various remote access use cases that utilize non-standard mechanisms such as third parties, medical devices, OT (Operational Technology), and building automation. The task also involves documenting these use cases and the controls associated with them.
+Raw Description:
+ TVI - Protection, Threat Triage & Containment (P1): Develop outputs of simulations for appropriate audiences (i.e., Strategic, operational, and tactical) to facilitate remediation or decision making:
+Summary:
+ The project involves developing simulations for different audiences, such as strategic, operational, and tactical, to aid in making decisions or remediation related to protection, threat triage, and containment (P1).
+Raw Description:
+ Cyber Incident Recovery: Update policies, standards, and procedures to align with updated BIAs and data classification standards and ensure that a process to incorporate lessons learned from TTX and actual recoveries is defined:
+Summary:
+ The project involves updating policies, standards, and procedures related to cyber incident recovery. This update aims to align with updated Business Impact Analyses (BIAs) and data classification standards. Additionally, the project seeks to define a process to incorporate lessons learned from Tabletop Exercises (TTX) and actual recoveries.
+Raw Description:
+ AP - Application Security (P1): Update application development and deployment processes to include the centralized documenting of exposed web applications and APIs, and the inclusion of appropriate protections before deployment in production: OKR Activity 240
+Summary:
+ The project involves updating application development and deployment processes to enhance application security. This includes documenting exposed web applications and APIs, and implementing necessary protections before deployment. The project is listed as a P1 priority, and is part of the OKR Activity 240.
+Raw Description:
+ Cybersecurity - Red Team (38 epics): Active Directory Security Assessment: Performa  security assessment on our Active Directory tool, using common tools used by threat actors for exploitation and lateral movement of organizations.
+Summary:
+ The project involves conducting a security assessment on the Active Directory tool of an organization. The aim is to test the system's vulnerability to common methods used by threat actors for exploiting and moving laterally within organizations.
+Raw Description:
+ Cybersecurity - Advisory COE (59 epics): EAP Expert - Minor Cybersecurity Secure Design and Engineering Service: Cyber Review of EAP Expert and the requirements of using Parallels Remote Access application
+Summary:
+ The project involves tasks related to cybersecurity, specifically advisory services, secure design and engineering, and a review of a specific software application's cybersecurity requirements.
+Raw Description:
+ Cybersecurity - Identity Engineering (65 epics): IE - ILM - Roles - Business roles for Epic: IE - ILM - Roles - Business roles for Epic
+Adding BIBO to Epic roles
+Summary:
+ The project is related to cybersecurity and identity engineering. There are 65 epics under this project, with one of them specifically focusing on creating business roles for identity lifecycle management (ILM) within the system. Another task is to add BIBO (Built-in, Built-out) functionality to the roles in the Epic system.

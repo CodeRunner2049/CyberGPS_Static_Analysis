@@ -1,0 +1,24 @@
+1. Project Goals:
+['Critical cloud tenet protected' 'Cloud tenets scanned'
+ 'Cloud vulnerabilities remediated' 'Technical controls tested'
+ 'Technical control gap recommendations implemented'
+ 'Case processing within SLA' 'IR Tabletop exercises'
+ 'Contain and eradicate threats'
+ 'User groups subscribed to Insider Threat program per plan'
+ 'Insider Threat Investigations within SLA'
+ 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
+ 'Planned threat hunts' 'Threat intelligence briefings'
+ 'IOCs processed within SLA' 'Threat simulation exercises'
+ 'Threat simulation gap recommendations implemented' 'Continuity plans'
+ 'Critical systems recovery' 'Network devices protected'
+ 'Production network protected' 'DMZ protected' 'Perimeter protected'
+...]
+
+2. Project Task:
+The project involves establishing a connection between the American Medical Association (AMA) and Forward Health Group with the Epic EMR system to study clinician activities. It includes not directly accessing patient data but observing clinician interactions, potentially requiring access to patient data as well.
+
+3. Project Summary:
+The project aims to facilitate a secure connection between the American Medical Association (AMA) and Forward Health Group's software with the Epic EMR system to study clinician activities. While the primary focus is on clinician interactions, there may be potential access to patient data, necessitating careful consideration of cybersecurity measures.
+
+4. Probability Matching:
+[Detect and analyze threats]

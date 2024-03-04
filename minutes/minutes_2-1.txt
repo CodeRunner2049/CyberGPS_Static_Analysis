@@ -1,0 +1,8 @@
+-Each task needsd to be evaluated against every single goal indepedent of others
+Take task, assess >2000 then summarize, if not - take it as is.
+-In your prompt, ask that I have a project with a project name like task['ProjectName'] activity name
+like task['ActivityName']  and the long description is task['description']
+-Every single question needs to be realized in a seperate session. If the project is the same, keeping the project alive may be preferred - needs to be tested
+-Create a new session for each project, ask the same question, close and start a new session
+-Task to technical services relationship, includes SME feedback. Can have a similiar prompt and instead of goals can have
+correlation to technical services. Have true results.

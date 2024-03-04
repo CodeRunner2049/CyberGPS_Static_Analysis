@@ -1,0 +1,19 @@
+### Step 1: Extracted Project Goals:
+- 'Unstructured data protected'
+- 'Data transactions protected'
+- 'Structured data protected'
+- 'Data Protection - PHI/PII'
+- 'Data Protection - Proprietary & Research'
+
+### Step 2: Extracted Project Task:
+The project involves reviewing a Web Application Firewall (WAF) request related to hosting multiple informational research websites to direct participants to appropriate information and forms securely. The task includes setting up standard port access, SSL support for specific websites, and ensuring data protection compliance for de-identified medical data and proprietary research information.
+
+### Step 3: Project Summary:
+The project focuses on evaluating the security measures for hosting informational research websites through a Web Application Firewall. It includes configuring access parameters, enabling SSL support, and ensuring compliance with data protection standards for de-identified medical data and proprietary research information.
+
+### Step 4: Probability Estimation:
+1:Unstructured data protected [0.30]
+2:Structured data protected [0.70]
+3:Data Protection - Proprietary & Research [0.90]
+4:Data Protection - PHI/PII [0.80]
+5:Data transactions protected [0.50]

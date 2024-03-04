@@ -1,0 +1,22 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Corporate Compensation department switching from Payfactors to Marketpay for external market analysis, focusing on caregiver compensation comparison with different markets.
+
+3. Project Summary:
+The project involves transitioning from Payfactors to Marketpay for external market analysis purposes within the Corporate Compensation department. Data extraction from Workday, focusing on caregiver compensation and job description details, will be conducted weekly and imported into the Marketpay platform for market comparison analysis.
+
+4. Probabilistic Matches:
+- 0.1: 'Detect and analyze threats'

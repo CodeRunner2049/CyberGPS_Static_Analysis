@@ -1,0 +1,7 @@
+1: Cyber research and education
+2: Operational excellence
+3: Data privacy & protection
+4: Technology safety & reliability
+5: Application protection
+6: Infrastructure Protection
+7: Network protection

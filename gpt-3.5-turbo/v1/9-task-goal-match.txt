@@ -1,0 +1,38 @@
+Step 1: 
+Project Goals Summary:
+- The project goals involve protecting data, networks, applications, and infrastructure.
+- There is a focus on cybersecurity measures, compliance with regulations (such as HIPAA and GDPR), and industry maturity based on NIST guidelines.
+- The goals also include mitigating risks, managing policies, ensuring business continuity, and engaging with various business units for cybersecurity.
+- Additionally, there is an emphasis on cybersecurity services, budget efficiency, strategic governance reviews, and customer satisfaction.
+
+Step 2:
+Project Task Summary:
+- The project involves the installation and utility of an Elio server for bioinformatics analysis in the context of PGDx/ctDNA based pan-cancer liquid biopsy.
+- Data processed is de-identified NSG sequencing data hosted on-premise.
+- The project requires the use of a PGDx Elio server and an Ethernet network connection.
+- Contacts include Shadi Swaidani from Cleveland Clinic and Alex Shaw from PGDx.
+
+Step 3:
+The project focuses on implementing a secure design and engineering service for the installation and utility of an Elio server for bioinformatics analysis for PGDx/ctDNA based pan-cancer liquid biopsy. The project involves handling de-identified NSG sequencing data on-premise and ensuring secure data processing through the PGDx Elio server with an Ethernet network connection.
+
+Step 4:
+1:D [0.4]
+2:D [0.2]
+3:D [0.3]
+4:D [0.1]
+5:D [0.2]
+6:D [0.1]
+7:D [0.1]
+8:D [0.2]
+9:D [0.1]
+10:D [0.3]
+11:D [0.4]
+12:D [0.2]
+13:D [0.1]
+14:D [0.1]
+15:D [0.1]
+16:D [0.1]
+17:D [0.1]
+18:D [0.1]
+19:D [0.1]
+20:D [0.1]

@@ -1,0 +1,24 @@
+1. Project Goals:
+['Critical cloud tenet protected' 'Cloud tenets scanned'
+ 'Cloud vulnerabilities remediated' 'Technical controls tested'
+ 'Technical control gap recommendations implemented'
+ 'Case processing within SLA' 'IR Tabletop exercises'
+ 'Contain and eradicate threats'
+ 'User groups subscribed to Insider Threat program per plan'
+ 'Insider Threat Investigations within SLA'
+ 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
+ 'Planned threat hunts' 'Threat intelligence briefings'
+ 'IOCs processed within SLA' 'Threat simulation exercises'
+ 'Threat simulation gap recommendations implemented' 'Continuity plans'
+ 'Critical systems recovery' 'Network devices protected'
+ 'Production network protected' 'DMZ protected' 'Perimeter protected'
+...]
+
+2. Project Task:
+The project involves assessing the cybersecurity implications of the Sound Physician Telemedicine with Lodi Hospital project. This includes ensuring that no PHI is involved, handling the telemedicine device connected to the network securely, and wiping any sensitive information when the system is decommissioned.
+
+3. Project Summary:
+The project focuses on reviewing the cybersecurity aspects of Sound Physician Telemedicine with Lodi Hospital, specifically addressing the network-connected telemedicine device and its data security. The aim is to maintain the confidentiality and integrity of data, especially medical records, while in use and during system decommissioning.
+
+4. Probability Matching:
+[Infrastructure Protection - IoT Devices]

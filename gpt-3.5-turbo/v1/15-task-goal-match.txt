@@ -1,0 +1,23 @@
+1. Project Goal Set 2:
+- 'Critical cloud tenet protected'
+- 'Cloud tenets scanned'
+- 'Cloud vulnerabilities remediated'
+- 'Technical controls tested'
+- 'Technical control gap recommendations implemented'
+- 'Case processing within SLA'
+- 'IR Tabletop exercises'
+- 'Contain and eradicate threats'
+- 'User groups subscribed to Insider Threat program per plan'
+- 'Insider Threat Investigations within SLA'
+- 'Log sources ingested into SIEM per plan'
+- 'Detect and analyze threats'
+
+2. Project Task Description:
+- Protenus Software deployment for Data Life Cycle & Security with actions such as implementing Imperva for database security monitoring, updating deployment processes for onboarding new databases, and configuring Imperva for alerting and centralized logging.
+
+3. Project Summary:
+The project involves enhancing data security and life cycle management by implementing Imperva for database security monitoring, updating deployment processes for database onboarding, configuring alerts to the SIEM, tagging sensitive databases, and enforcing data protection controls based on data classification standards.
+
+4. Probabilistic Matches:
+- 0.3: 'Technical controls tested'
+- 0.1: 'Detect and analyze threats'

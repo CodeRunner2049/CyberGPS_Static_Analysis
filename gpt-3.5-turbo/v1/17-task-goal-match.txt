@@ -1,22 +1,21 @@
-1. Project Goal Set 2:
-- 'Critical cloud tenet protected'
-- 'Cloud tenets scanned'
-- 'Cloud vulnerabilities remediated'
-- 'Technical controls tested'
-- 'Technical control gap recommendations implemented'
-- 'Case processing within SLA'
-- 'IR Tabletop exercises'
-- 'Contain and eradicate threats'
-- 'User groups subscribed to Insider Threat program per plan'
-- 'Insider Threat Investigations within SLA'
-- 'Log sources ingested into SIEM per plan'
-- 'Detect and analyze threats'
+### Step 1: State of the Goal List
+Based on the provided list of project goals, the goals appear to encompass a wide range of cybersecurity objectives and controls. The goals include ensuring the protection and remediation of vulnerabilities in various aspects such as cloud tenets, technical controls, applications, data, infrastructure, and partner sites. Additionally, there are goals related to compliance with industry standards and regulations like PCI, HIPAA, and GDPR, as well as managing risks, engaging business units, and maintaining policy and governance standards. The list also covers aspects of identity protection, incident response, threat intelligence, and security monitoring.
 
-2. Project Task Description:
-- Corporate Compensation department switching from Payfactors to Marketpay for external market analysis, focusing on caregiver compensation comparison with different markets.
+### Step 2: Project Task Analysis
+- **Project Name:** Cybersecurity - Identity Engineering (65 epics)
+- **Activity Name:** Corporate Compensation - Marketpay Pricing System (Cyberse/ARB only)
+- **Description Analysis:**
+  - Utilization of a 3rd party hosted software solution for external market information analysis within the Corporate Compensation department.
+  - Transition from Payfactors to Marketpay for improved fit in information comparison.
+  - Extraction of caregiver compensation and job description data from Workday weekly for market analysis in a third-party SaaS platform.
+  - Requirement to create a data pull from Workday for importing into a third-party analysis platform to support caregiver compensation and job role information comparisons.
+  
+### Step 3: Project Functionality/Purpose
+The project seems focused on enhancing the capabilities of the Corporate Compensation department by transitioning to a new software solution (Marketpay) for improved analysis of external market information. The primary goal is to enable efficient comparison of caregiver compensation and job descriptions with various markets by extracting and importing relevant data from Workday into a third-party analysis platform.
 
-3. Project Summary:
-The project involves transitioning from Payfactors to Marketpay for external market analysis purposes within the Corporate Compensation department. Data extraction from Workday, focusing on caregiver compensation and job description details, will be conducted weekly and imported into the Marketpay platform for market comparison analysis.
-
-4. Probabilistic Matches:
-- 0.1: 'Detect and analyze threats'
+### Step 4: Alignment Estimation
+1. Corporate Compensation - Marketpay Pricing System: Data transactions protected [0.5]
+2. Corporate Compensation - Marketpay Pricing System: Data Protection - PHI/PII [0.4]
+3. Corporate Compensation - Marketpay Pricing System: Detect and analyze threats [0.2]
+4. Corporate Compensation - Marketpay Pricing System: Infrastructure Protection - Operational Technology Devices [0.3]
+5. Corporate Compensation - Marketpay Pricing System: Role-based access for applications [0.4]

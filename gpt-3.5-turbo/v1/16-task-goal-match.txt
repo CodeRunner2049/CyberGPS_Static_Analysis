@@ -1,22 +1,24 @@
-1. Project Goal Set 2:
-- 'Critical cloud tenet protected'
-- 'Cloud tenets scanned'
-- 'Cloud vulnerabilities remediated'
-- 'Technical controls tested'
-- 'Technical control gap recommendations implemented'
-- 'Case processing within SLA'
-- 'IR Tabletop exercises'
-- 'Contain and eradicate threats'
-- 'User groups subscribed to Insider Threat program per plan'
-- 'Insider Threat Investigations within SLA'
-- 'Log sources ingested into SIEM per plan'
-- 'Detect and analyze threats'
+### Step 1: Project Goal Description
 
-2. Project Task Description:
-- Experian OneSource CA-1696 - Final Action Items related to access control, monitoring, and data protection tasks for sensitive data.
+- The project goals include aspects such as cloud tenet protection, technical controls testing, threat detection, infrastructure protection, data protection, application security, compliance, risk management, cybersecurity services completion within SLA, industry maturity levels (based on NIST framework), and various other cybersecurity activities and controls.
 
-3. Project Summary:
-The project focuses on finalizing action items related to access control and monitoring of sensitive data within the Experian OneSource system. Tasks include sending email notifications, capturing work in risk analysis, updating deployment processes, ensuring data encryption, managing access control, and clarifying IP ranges for secure data management.
+### Step 2: Project Task Description
 
-4. Probabilistic Matches:
-- 0.0: No direct match with the given project goals in Set 2.
+The project task involves actions related to the Experian OneSource system, including sending email notifications, capturing work done in Risk Analysis, making changes to the IP ranges, keeping the team up to date via email, reviewing login activity reports, providing access to new reports, working on training with specific individuals, handling Citrix links and communication, completing risk analysis with Finance and Cybersecurity, and clarifying IP ranges with the Firewall Team, among other actions.
+
+### Step 3: Functionality or Purpose of the Project
+
+The project seems to focus on operational tasks and actions related to managing cybersecurity aspects within the Experian OneSource system. It involves communication, monitoring, analysis, training, and coordination to ensure the security and integrity of the system.
+
+### Step 4: Matching Tasks with Goals
+
+1. Action items involving sending email notifications, capturing work done in Risk Analysis, and completing risk analysis align with goals related to 'Detect and analyze threats,' 'Contain and eradicate threats,' and 'Risks reduced to acceptable level.'
+   - 1: 'Detect and analyze threats' [0.85], 3: 'Risks reduced to acceptable level' [0.75]
+   
+2. Tasks related to clarifying IP ranges with the Firewall Team align with goals of 'Infrastructure Protection - Network Devices' and 'Gaps remediated within SLA.'
+   - 6: 'Infrastructure Protection - Network Devices' [0.85], 'Gaps remediated within SLA' [0.7]
+
+3. Actions related to working with specific individuals for training, giving access to reports, and handling communication correspond to the 'Role-based access for applications,' 'Privileged access for applications,' and 'Applications scanned' goals.
+   - 3: 'Role-based access for applications' [0.80], 2: 'Applications scanned' [0.70]
+
+Based on the provided project task and goal descriptions, these are the predicted matches and their associated probabilities.

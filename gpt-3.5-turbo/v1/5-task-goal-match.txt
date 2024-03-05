@@ -1,24 +1,17 @@
-1. Project Goals:
-['Critical cloud tenet protected' 'Cloud tenets scanned'
- 'Cloud vulnerabilities remediated' 'Technical controls tested'
- 'Technical control gap recommendations implemented'
- 'Case processing within SLA' 'IR Tabletop exercises'
- 'Contain and eradicate threats'
- 'User groups subscribed to Insider Threat program per plan'
- 'Insider Threat Investigations within SLA'
- 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
- 'Planned threat hunts' 'Threat intelligence briefings'
- 'IOCs processed within SLA' 'Threat simulation exercises'
- 'Threat simulation gap recommendations implemented' 'Continuity plans'
- 'Critical systems recovery' 'Network devices protected'
- 'Production network protected' 'DMZ protected' 'Perimeter protected'
-...]
+**Goals of the cybersecurity team:**
+- Protecting critical cloud tenets
+- Scanning cloud tenets
+- Remediation of cloud vulnerabilities
+- Testing technical controls
+- Implementing recommendations for technical control gaps
 
-2. Project Task:
-The project involves facilitating the transfer of audio and video files from the Music Therapy department to patients and their families securely, bypassing email constraints. The options considered are utilizing OneDrive or the SFTP request process in Service Now.
+**Project Task:**
+- **Music Therapist - PHI Transfer assistance - Cybersecurity Domain Epic**
+- **Description:** The task involves enabling Music Therapists to securely transfer large audio and video files containing sensitive patient data to patients and their families electronically. Current methods like CD or USB transfers are limited, and alternative solutions like OneDrive or SFTP are being considered. The solution needs to ensure compliance with confidentiality requirements and overcome collaboration restrictions with public email domains like Gmail, Yahoo, and AOL.
 
-3. Project Summary:
-The project aims to find a secure method to share large audio and video files from the Music Therapy department with patients and families. Options under consideration are leveraging OneDrive or the SFTP request process in Service Now to enable efficient and secure file transfers.
+**Functionality/Purpose of the Project:**
+The project aims to address the secure transfer of large audio and video files containing sensitive patient data within the Music Therapy department to patients and their families. It focuses on finding a secure electronic means such as OneDrive or SFTP to deliver these files while meeting confidentiality and compliance requirements.
 
-4. Probability Matching:
-[Unstructured data protected]
+**Probability Matchings:**
+1:Data Protection - PHI/PII [0.8]
+2:Detection and analysis of threats [0.4]

@@ -1,19 +1,16 @@
-### Step 1: Extracted Project Goals:
-- 'Healthcare Cyber Compliance (HIPAA)'
-- 'Healthcare Cyber Compliance (GDPR)'
-- 'Data Protection - Proprietary & Research'
-- 'Technical controls tested'
-- 'Policies kept up to date per plan'
+**Project Goals:**
+- The project aims to protect critical cloud tenets, scan cloud tenets, remediate cloud vulnerabilities, test technical controls, and implement technical control gap recommendations.
+- It also includes activities like case processing within SLA, conducting IR tabletop exercises, containing and eradicating threats, and ensuring user groups subscribe to the Insider Threat program as per plan.
+- Moreover, the goals involve ingesting log sources into SIEM, detecting and analyzing threats, conducting planned threat hunts, providing threat intelligence briefings, and processing IOCs within SLA.
 
-### Step 2: Extracted Project Task:
-The project involves reviewing and implementing a new eVisit software platform for the ESI Virtual Emergency Department program. The goal is to replace the existing platform with eVisit for telehealth calls, ensuring compliance with healthcare cyber regulations like HIPAA and GDPR, protecting proprietary research data, testing technical controls for the new platform, and ensuring adherence to updated policies.
+**Project Task:**
+- The project task involves completing an ARB and cybersecurity review of the eVisit platform for the ESI Virtual ED program. The goal is to replace the AmWell platform with eVisit for telehealth calls and ensure the success criteria for the pilot are met.
+- The task also includes assessing pilot feedback, revenue projections, data analysis, and patient safety ratings related to the eVisit platform. Additionally, it involves justifying revenue calculations and obtaining testimonials/examples from virtual physicians and partners.
 
-### Step 3: Project Summary:
-The project aims to assess and deploy the eVisit software platform for the ESI Virtual Emergency Department program. It focuses on transitioning to eVisit for telehealth operations, ensuring compliance with healthcare data protection regulations (HIPAA, GDPR), testing technical controls, and updating policies in line with the implementation of the new platform.
+**Functionality/Purpose:**
+The project aims to evaluate and implement a new eVisit software platform for telehealth calls, ensuring a smooth transition from the previous platform (AmWell). The focus is on technical cybersecurity reviews, pilot success criteria, revenue projections, and overall user satisfaction.
 
-### Step 4: Probability Estimation:
-1:Healthcare Cyber Compliance (HIPAA) [0.90]
-2:Healthcare Cyber Compliance (GDPR) [0.80]
-3:Data Protection - Proprietary & Research [0.70]
-4:Technical controls tested [0.60]
-5:Policies kept up to date per plan [0.50]
+**Probability Matches:**
+1:Detect and analyze threats [0.65]
+2:Critical cloud tenet protected [0.25]
+3:Data Protection - PHI/PII [0.05]

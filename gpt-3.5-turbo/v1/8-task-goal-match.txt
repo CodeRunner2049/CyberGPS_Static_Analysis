@@ -1,24 +1,17 @@
-1. Project Goals:
-['Critical cloud tenet protected' 'Cloud tenets scanned'
- 'Cloud vulnerabilities remediated' 'Technical controls tested'
- 'Technical control gap recommendations implemented'
- 'Case processing within SLA' 'IR Tabletop exercises'
- 'Contain and eradicate threats'
- 'User groups subscribed to Insider Threat program per plan'
- 'Insider Threat Investigations within SLA'
- 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
- 'Planned threat hunts' 'Threat intelligence briefings'
- 'IOCs processed within SLA' 'Threat simulation exercises'
- 'Threat simulation gap recommendations implemented' 'Continuity plans'
- 'Critical systems recovery' 'Network devices protected'
- 'Production network protected' 'DMZ protected' 'Perimeter protected'
-...]
+### Step 1: Project Goal Descriptions
+- The project goals listed focus on a wide range of cybersecurity objectives such as protecting cloud infrastructure, scanning for vulnerabilities, testing technical controls, conducting incident response tabletop exercises, containing and eradicating threats, implementing insider threat programs, detecting and analyzing threats, processing logs in SIEM, conducting threat hunts and intelligence briefings, managing threat simulations, and maintaining continuity plans.
+- Additionally, goals include protecting critical systems, network devices, production networks, DMZs, and perimeters, remediating gaps in security within SLAs, protecting various types of devices like computers, laptops, tablets, servers, etc., and ensuring infrastructure and data protection for different categories like PHI/PII, PCI, proprietary data, etc.
+- Other goals involve managing risks, complying with industry regulations like PCI, HIPAA, GDPR, HITRUST, addressing audit findings, maintaining policies, engaging business units, ensuring customer satisfaction, managing budgets efficiently, improving industry maturity based on NIST guidelines, and offering cybersecurity services within SLAs.
 
-2. Project Task:
-The project involves assessing the cybersecurity implications of the Sound Physician Telemedicine with Lodi Hospital project. This includes ensuring that no PHI is involved, handling the telemedicine device connected to the network securely, and wiping any sensitive information when the system is decommissioned.
+### Step 2: Project Task Description
+The project task "Lodi hospital/Sound Physician Telemedicine - Post-Purchase - Cybersecurity Domain Epic" involves a cybersecurity engagement related to a telemedicine project between Sound Physician and Lodi Hospital. It includes gathering information for cybersecurity architecture, specifying project details, confirming the use of telemedicine devices, network connectivity, data leaving policies, and contact information for key stakeholders.
 
-3. Project Summary:
-The project focuses on reviewing the cybersecurity aspects of Sound Physician Telemedicine with Lodi Hospital, specifically addressing the network-connected telemedicine device and its data security. The aim is to maintain the confidentiality and integrity of data, especially medical records, while in use and during system decommissioning.
+### Step 3: Functionality or Purpose of the Project
+The purpose of the project is to ensure the cybersecurity architecture for the telemedicine collaboration between Sound Physician and Lodi Hospital meets the required standards and guidelines. It involves gathering necessary information, assessing network connectivity, and securing the environment to protect against potential threats and data breaches in the telemedicine system.
 
-4. Probability Matching:
-[Infrastructure Protection - IoT Devices]
+### Step 4: Estimated Probabilities of Alignment
+1:Detect and analyze threats [0.2]
+2:Infrastructure Protection - Medical Devices [0.8] 
+3:Critical cloud tenet protected [0.1]
+4:Contain and eradicate threats [0.3]
+5:Data Protection - PHI/PII [0.7]

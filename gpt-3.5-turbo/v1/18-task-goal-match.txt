@@ -1,22 +1,23 @@
-1. Project Goal Set 2:
-- 'Critical cloud tenet protected'
-- 'Cloud tenets scanned'
-- 'Cloud vulnerabilities remediated'
-- 'Technical controls tested'
-- 'Technical control gap recommendations implemented'
-- 'Case processing within SLA'
-- 'IR Tabletop exercises'
-- 'Contain and eradicate threats'
-- 'User groups subscribed to Insider Threat program per plan'
-- 'Insider Threat Investigations within SLA'
-- 'Log sources ingested into SIEM per plan'
-- 'Detect and analyze threats'
+### Step 1: Understanding the Project Goals
 
-2. Project Task Description:
-- Integrating ServiceNow with AppviewX for SSL certificate management, renewal, and ticket creation to address certificate expiration issues.
+The project goals list includes various objectives related to cybersecurity, such as protecting critical cloud tenets, remediating vulnerabilities, testing technical controls, containing threats, subscribing user groups to insider threat programs, ingesting log sources into a SIEM, detecting and analyzing threats, implementing threat intelligence, ensuring continuity plans, protecting different types of devices, managing access for applications, protecting data, compliance with regulations (PCI, HIPAA, GDPR, etc.), managing policy exceptions, reducing risks, engaging business units, maintaining customer satisfaction, ensuring budget efficiency, industry maturity as per NIST standards, and offering cybersecurity services within SLAs, among others.
 
-3. Project Summary:
-The project aims to integrate ServiceNow with AppviewX to streamline SSL certificate management by automating certificate request, renewal, and ticket creation processes to address and manage certificate expiration issues efficiently. This integration will facilitate automatic ticket generation for devices with expiring certificates and streamline the workflow for certificate management within the organization.
+### Step 2: Understanding the Project Task
 
-4. Probabilistic Matches:
-- 0.2: 'Detect and analyze threats'
+The project task involves integrating ServiceNow with AppviewX for SSL certificate request, renewal, and ticket creation for certificate expiration. This integration aims to leverage ServiceNow as a front end for AppviewX, using APIs to automatically generate tickets for devices with certificate expiration and assign them to the responsible device team. This integration is essential for addressing the issue of application outages due to SSL certificate expiration by automating ticket generation and escalation processes.
+
+### Step 3: Project Functionality/Purpose
+
+The project aims to streamline the SSL certificate management process by integrating ServiceNow with AppviewX to automate SSL certificate requests, renewals, and ticket creation for certificate expiration. By enabling this integration, the team can improve efficiency in managing certificates, reduce application outages, and ensure timely resolution of certificate-related issues.
+
+### Step 4: Matching Project Task with Goals
+
+1. Detection and Analysis of Threats: The project task aligns with this goal as it involves managing SSL certificates, which are critical for cybersecurity and can be considered as potential threats if not managed properly. [High]
+
+2. Data Protection - PHI/PII: While the project task involves SSL certificate management and not directly data protection, SSL certificates play a significant role in ensuring secure data transactions. Hence, there is an indirect alignment with this goal. [Medium]
+
+3. Industry Maturity (NIST) - Identity Protection: The project task involves integrating systems to enhance identity management for devices with SSL certificates, contributing to improved identity protection. [High]
+
+4. Customer Satisfaction: Improving SSL certificate management can enhance system reliability and security, leading to improved customer satisfaction. [Medium]
+
+5. Policy Exceptions Managed within SLA: The project might indirectly contribute to managing policy exceptions related to SSL certificates within SLAs by automating ticket generation and resolution. [Low]

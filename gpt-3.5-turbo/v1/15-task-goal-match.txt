@@ -1,23 +1,13 @@
-1. Project Goal Set 2:
-- 'Critical cloud tenet protected'
-- 'Cloud tenets scanned'
-- 'Cloud vulnerabilities remediated'
-- 'Technical controls tested'
-- 'Technical control gap recommendations implemented'
-- 'Case processing within SLA'
-- 'IR Tabletop exercises'
-- 'Contain and eradicate threats'
-- 'User groups subscribed to Insider Threat program per plan'
-- 'Insider Threat Investigations within SLA'
-- 'Log sources ingested into SIEM per plan'
-- 'Detect and analyze threats'
+### Step 1: 
+The project goal list includes various goals related to cybersecurity such as cloud protection, technical control testing, threat detection, application protection, data protection, compliance, risk management, infrastructure protection, etc. 
 
-2. Project Task Description:
-- Protenus Software deployment for Data Life Cycle & Security with actions such as implementing Imperva for database security monitoring, updating deployment processes for onboarding new databases, and configuring Imperva for alerting and centralized logging.
+### Step 2: 
+The project task "CyberDNA - DS - Data Life Cycle & Security" involves activities like implementing Imperva for database security monitoring, updating database deployment processes for onboarding new databases into Imperva, prioritizing database onboarding based on risk classification, configuring Imperva to forward alert logs to SIEM, identifying databases with sensitive information, deploying data protection controls based on data classification, updating deployment processes to include database encryption, identifying communication methods for data transmission and encrypting communication lines, enforcing secure file transfer for attachments, recurring scans for unencrypted communications, managing data access roles, assigning data access tags, and enforcing access rights based on data tags.
 
-3. Project Summary:
-The project involves enhancing data security and life cycle management by implementing Imperva for database security monitoring, updating deployment processes for database onboarding, configuring alerts to the SIEM, tagging sensitive databases, and enforcing data protection controls based on data classification standards.
+### Step 3: 
+The project aims to enhance data security and privacy by implementing and enforcing data protection controls throughout the data life cycle. This involves monitoring database activity, ensuring data encryption, protecting data communications, identifying and tagging sensitive databases, managing data access based on roles and tags, and enforcing access rights to sensitive data.
 
-4. Probabilistic Matches:
-- 0.3: 'Technical controls tested'
-- 0.1: 'Detect and analyze threats'
+### Step 4:
+1:Data Protection - PHI/PII [0.8]  
+2:Infrastructure Protection - Network Devices [0.6]  
+3:Data transactions protected [0.5]

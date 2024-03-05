@@ -1,36 +1,20 @@
-Step 1: 
-Project Goals Summary:
-- The project goals encompass a wide range of cybersecurity measures and protections, including cloud security, technical control testing, threat containment, data protection, compliance (such as HIPAA and GDPR), risk management, and industry maturity based on NIST guidelines.
-- Additionally, the goals focus on ensuring the security of various types of infrastructure, applications, data transactions, and devices.
-- There are also objectives related to partner protection, audit compliance, cybersecurity services, strategic governance, customer satisfaction, budget efficiency, and various industry maturity metrics.
+**Goals Description:**
+- The goals list includes objectives related to cloud security, technical controls, incident response, insider threat programs, threat detection and analysis, threat intelligence, continuity plans, network and system protection, data protection, compliance, risk management, partner protection, audit findings remediation, policy management, M&A core protection, cybersecurity services, industry maturity based on NIST framework, and workforce training.
 
-Step 2:
-Project Task Summary:
-- The project involves an IT Cybersecurity review of vendor software related to the Alliance for Paired Kidney Donation (APKD).
-- The goal is to have transplant center personnel refer patients to the alliance for paired kidney donation to increase matches and save more lives.
-- The project utilizes the Kidney Match system developed with PostreSQL, Adobe Lucee, and Python algorithms to facilitate kidney transplant matches efficiently and effectively within the APKD ecosystem.
+**Project Task Description Analysis:**
+- The project involves IT Cybersecurity reviewing vendor software as outlined in a contract for the Alliance for Paired Kidney Donation (APKD). This review includes assessing the software for compatibility, safety, regulatory compliance, and patient data protection. The APKD aims to match incompatible pairs for kidney donation using a specialized algorithm developed by Alvin Roth. The technology used includes an AWS platform, PostreSQL database, Adobe Lucee middleware, JavaScript for data validation, SQL for matching algorithm, and Python for optimization algorithm. The project also focuses on achieving a 50% rise in matches and increasing referrals to the paired kidney donation alliance.
 
-Step 3:
-The project aims to enhance cybersecurity by conducting an IT Cybersecurity review of vendor software utilized in the Alliance for Paired Kidney Donation. The main objective is to increase patient matches and save lives by encouraging transplant center personnel to refer patients to the APKD. The project leverages the Kidney Match system, encompassing sophisticated algorithms to match incompatible kidney pairs efficiently.
+**Functionality/Purpose of Project:**
+The project involves conducting a cybersecurity review of vendor software utilized by the Alliance for Paired Kidney Donation to ensure data security, regulatory compliance, and patient safety. The goal is to leverage advanced algorithms and technology to facilitate matching incompatible kidney donors and recipients, ultimately increasing the number of successful matches and referrals to the donation alliance.
 
-Step 4:
-1:D [0.2]
-2:D [0.1]
-3:D [0.3]
-4:C [0.4]
-5:D [0.1]
-6:D [0.2]
-7:D [0.1]
-8:D [0.1]
-9:D [0.1]
-10:D [0.1]
-11:D [0.1]
-12:D [0.1]
-13:D [0.1]
-14:D [0.1]
-15:D [0.1]
-16:D [0.1]
-17:D [0.1]
-18:D [0.1]
-19:D [0.1]
-20:D [0.1]
+**Probability Estimations for Goal Alignment:**
+1. Cloud vulnerabilities remediated: [Low]
+2. Technical controls tested: [Low]
+3. Insder Threat Investigations within SLA: [Low]
+4. Detect and analyze threats: [Low]
+5. Gaps remediated within SLA: [Low]
+6. Data Protection - PHI/PII: [High]
+7. Role-based access for applications: [Low]
+8. Custom-build application protection: [Low]
+9. Cybersecurity services completed within SLA: [Low]
+10. Cyber research lab built: [Low]

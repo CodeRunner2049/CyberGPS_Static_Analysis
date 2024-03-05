@@ -1,24 +1,21 @@
-1. Project Goals:
-['Critical cloud tenet protected' 'Cloud tenets scanned'
- 'Cloud vulnerabilities remediated' 'Technical controls tested'
- 'Technical control gap recommendations implemented'
- 'Case processing within SLA' 'IR Tabletop exercises'
- 'Contain and eradicate threats'
- 'User groups subscribed to Insider Threat program per plan'
- 'Insider Threat Investigations within SLA'
- 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
- 'Planned threat hunts' 'Threat intelligence briefings'
- 'IOCs processed within SLA' 'Threat simulation exercises'
- 'Threat simulation gap recommendations implemented' 'Continuity plans'
- 'Critical systems recovery' 'Network devices protected'
- 'Production network protected' 'DMZ protected' 'Perimeter protected'
-...]
+### Goals Set:
+- **Key Words**: Cloud, Technical controls, Insider Threat, Log sources, Threat detection, Threat intelligence, Network security, Data protection, Third-party risk management, Cybersecurity maturity, Compliance, Incident response, Risk management, Training, Authentication, Access management, Privileged access, Application protection, Compliance, Infrastructure protection, etc.
 
-2. Project Task:
-The project involves establishing a connection between the American Medical Association (AMA) and Forward Health Group with the Epic EMR system to study clinician activities. It includes not directly accessing patient data but observing clinician interactions, potentially requiring access to patient data as well.
+### Project Task:
+- **Keywords**: American Medical Association (AMA), Forward Health Group Epic Connection, Cybersecurity Domain Epic, study, quality project, IRB approval, Vendor software solution, Epic EMR, Clinician activities, TPRM, information gathering, Cybersecurity Architecture engagement, Staff Affairs Office, contacts, documentation.
 
-3. Project Summary:
-The project aims to facilitate a secure connection between the American Medical Association (AMA) and Forward Health Group's software with the Epic EMR system to study clinician activities. While the primary focus is on clinician interactions, there may be potential access to patient data, necessitating careful consideration of cybersecurity measures.
+### Functionality/Purpose:
+The project involves assessing the cybersecurity aspects related to the connection between American Medical Association (AMA) and Forward Health Group Epic in terms of accessing Clinician activities in Epic EMR for study purposes. It includes evaluating the security implications of using a Vendor's software solution, information gathering for Cybersecurity Architecture engagement, and ensuring compliance with relevant regulations and standards.
 
-4. Probability Matching:
-[Detect and analyze threats]
+### Matching Probabilities:
+1. Critical cloud tenet protected: [0%]
+2. Cloud vulnerabilities remediated: [0%]
+3. Detect and analyze threats: [5%]
+4. Insider Threat Investigations within SLA: [0%]
+5. Technical controls tested: [10%]
+6. User groups subscribed to Insider Threat program per plan: [5%]
+7. Log sources ingested into SIEM per plan: [15%]
+8. Applications scanned: [2%]
+9. Data Protection - PHI/PII: [5%]
+10. Partner Protection - Partners: [1%]
+11. Infrastructure Protection - Network Devices: [10%]

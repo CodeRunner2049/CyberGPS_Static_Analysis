@@ -1,24 +1,24 @@
-1. Project Goals:
-['Critical cloud tenet protected' 'Cloud tenets scanned'
- 'Cloud vulnerabilities remediated' 'Technical controls tested'
- 'Technical control gap recommendations implemented'
- 'Case processing within SLA' 'IR Tabletop exercises'
- 'Contain and eradicate threats'
- 'User groups subscribed to Insider Threat program per plan'
- 'Insider Threat Investigations within SLA'
- 'Log sources ingested into SIEM per plan' 'Detect and analyze threats'
- 'Planned threat hunts' 'Threat intelligence briefings'
- 'IOCs processed within SLA' 'Threat simulation exercises'
- 'Threat simulation gap recommendations implemented' 'Continuity plans'
- 'Critical systems recovery' 'Network devices protected'
- 'Production network protected' 'DMZ protected' 'Perimeter protected'
-...]
+**Set 1: Project Task**
+- **Project Name:** Cybersecurity - Advisory COE (59 epics) 
+- **Activity Name:** Doximity - Amion - Cybersecurity Domain Epic
+- **Description:** 
+  - Review cybersecurity due to study proposals from Doximity Inc. (vendor) & Amion.
+  - Conduct a full cybersecurity review and understand the use case for both vendors.
+  - Support in finding vendor contacts for Doximity post-survey finalization.
+  - Approve software installation on Kinza Tareen's computer and perform necessary TRPA.
+  - Look into TPRA, contact program manager if needed.
+  - Software relates to resident scheduling for residents, internet-connected, browser-accessible.
 
-2. Project Task:
-The project involves reviewing and ensuring cybersecurity measures for software requests related to Doximity Inc. and Amion that will be used for resident scheduling and potentially monitoring clinician activities. A cybersecurity review is deemed necessary due to the nature of the two study proposals.
+**Set 2: Project Goals:**
+- **Goal 1:** Technical controls tested
+- **Goal 2:** Detect and analyze threats
+- **Goal 3:** Infrastructure Protection - Network Devices
+- **Goal 4:** Data Protection - PHI/PII
 
-3. Project Summary:
-The project aims to conduct a comprehensive cybersecurity review for software requests involving Doximity and Amion, where Doximity is intended for clinician activity study and Amion for resident scheduling. The focus is on understanding the use case, vendor contacts, and ensuring secure access and handling of sensitive data.
-
-4. Probability Matching:
-[Detect and analyze threats]
+**Explanation:**
+- **Functionality/Purpose:** The project task involves reviewing cybersecurity aspects related to vendors, conducting cybersecurity reviews, approving software installations, and managing TRPAs.
+- **Probability Matchings:**
+  - 1: Goal 1 [0.8]: The task involves testing technical controls aligning with the goal of testing technical controls.
+  - 2: Goal 2 [0.9]: Understanding and analyzing use cases implies detecting and analyzing threats.
+  - 3: Goal 26 [0.7]: Since the project involves software installation and TRPA for network devices' protection.
+  - 4: Goal 38 [0.8]: Since the software may handle sensitive data like resident schedules.

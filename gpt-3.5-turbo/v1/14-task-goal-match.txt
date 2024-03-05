@@ -1,23 +1,15 @@
-1. Project Goal Set 2:
-- 'Critical cloud tenet protected'
-- 'Cloud tenets scanned'
-- 'Cloud vulnerabilities remediated'
-- 'Technical controls tested'
-- 'Technical control gap recommendations implemented'
-- 'Case processing within SLA'
-- 'IR Tabletop exercises'
-- 'Contain and eradicate threats'
-- 'User groups subscribed to Insider Threat program per plan'
-- 'Insider Threat Investigations within SLA'
-- 'Log sources ingested into SIEM per plan'
-- 'Detect and analyze threats'
+### Step 1: Project Goals Description
+The project goals involve a wide range of activities related to cybersecurity, including cloud protection, vulnerability remediation, technical control testing, threat detection and analysis, insider threat management, data protection, partner protection, compliance management, risk assessment, industry maturity levels based on NIST frameworks, cybersecurity services, budget efficiency, and various other aspects of cybersecurity operations and governance.
 
-2. Project Task Description:
-- Protenus Software deployment involving Healthcare Analytics Platform implementation and data extraction from various sources.
+### Step 2: Project Task Description
+The project task involves the implementation of the Protenus SaaS Healthcare Analytics Platform, including the extraction of data files from Epic, Workday, and Kronos, and the establishment of an SFTP interface to Protenus (AWS) for data transfer and analysis. The project timeline is to go live on or before February 26, 2020. The primary contacts for the project include the CCF Business Owner, Project Manager, Technical Lead, and Vendor Contact.
 
-3. Project Summary:
-This project entails the implementation of the Protenus Healthcare Analytics Platform for data extraction from systems like Epic, Workday, and Kronos, along with setting up secure file transfers via SFTP to Protenus (AWS) platform.
+### Step 3: Project Functionality/Purpose Description
+The project aims to implement a Healthcare Analytics Platform provided by Protenus, enabling the extraction and transfer of data files from various sources like Epic, Workday, and Kronos. The primary objective is to establish a secure SFTP interface to Protenus on AWS for data analysis and insights within the healthcare domain.
 
-4. Probabilistic Matches:
-- 0.3: 'Detect and analyze threats'
-- 0.2: 'Log sources ingested into SIEM per plan'
+### Step 4: Matching Project Task with Project Goals and Probabilities
+1. Task: Cloud vulnerabilities remediated - Goal: Cloud vulnerabilities remediated [0.4]
+2. Task: Data transactions protected - Goal: Structured data protected [0.6]
+3. Task: Infrastructure Protection - Medical Devices - Goal: Infrastructure Protection - Medical Devices [0.8]
+4. Task: Partner Protection - Partners - Goal: Partner Protection - Partners [0.9]
+5. Task: HITRUST for EPIC - Goal: HITRUST for EPIC [1.0]
